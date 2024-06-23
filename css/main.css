@@ -1248,7 +1248,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #82ffff;
+  background: #deffa7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2520,7 +2520,7 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
 }
 body {
-  background: url("/images/background.jpg");
+  background: url("https://i.ibb.co/nbssk22/202406231939959.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -2533,18 +2533,18 @@ body {
   opacity: 0.8;
 }
 .header-inner {
-  background: rgba(255,255,255,0.7);
-  background: url("/images/sidebarbackground.png");
+  background: rgba(255,255,255,0.5);
+  background: url("https://i.ibb.co/1YVRtT7/202406231939125.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 100% 100%;
+  background-position: 50% 100%;
+  background-size: 100% 50%;
 }
 .header-inner p,
 .header-inner span,
 .header-inner a {
-  color: #3083f8;
+  color: #3ff3b8;
 }
 .popup {
   opacity: 0.8;
