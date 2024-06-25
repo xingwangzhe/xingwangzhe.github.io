@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xingwangzhe.github.io/2024/06/23/fishport%20wiki/</loc>
-    
-    <lastmod>2024-06-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xingwangzhe.github.io/2024/06/23/forever/</loc>
+    <loc>https://xingwangzhe.github.io/2024/06/21/the-first-blog/</loc>
     
     <lastmod>2024-06-25</lastmod>
     
@@ -29,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://xingwangzhe.github.io/2024/06/21/the-first-blog/</loc>
+    <loc>https://xingwangzhe.github.io/2024/06/23/forever/</loc>
+    
+    <lastmod>2024-06-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/2024/06/23/fishport%20wiki/</loc>
     
     <lastmod>2024-06-25</lastmod>
     
@@ -578,28 +578,70 @@
 
   
   <url>
-    <loc>https://xingwangzhe.github.io/tags/%E7%AC%AC%E4%B8%80-%E8%AE%B0%E5%BD%95-hexo/</loc>
+    <loc>https://xingwangzhe.github.io/tags/wiki/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xingwangzhe.github.io/tags/wiki-%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8-%E6%87%92%E5%BE%97%E5%8A%A8/</loc>
+    <loc>https://xingwangzhe.github.io/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95-%E6%95%99%E7%A8%8B-hexo-live2d/</loc>
+    <loc>https://xingwangzhe.github.io/tags/%E6%87%92%E5%BE%97%E5%8A%A8/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xingwangzhe.github.io/tags/%E5%93%88%E5%9F%BA%E7%B1%B3-%E7%88%B1%E7%8C%ABtv/</loc>
+    <loc>https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/tags/hexo/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/tags/live2d/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/tags/%E5%93%88%E5%9F%BA%E7%B1%B3/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/tags/%E7%88%B1%E7%8C%ABtv/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/tags/%E7%AC%AC%E4%B8%80/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -608,28 +650,63 @@
 
   
   <url>
-    <loc>https://xingwangzhe.github.io/categories/%E6%97%A5%E8%AE%B0-6%E6%9C%8821%E6%97%A5/</loc>
+    <loc>https://xingwangzhe.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xingwangzhe.github.io/categories/%E6%B8%B8%E6%88%8F-%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>https://xingwangzhe.github.io/categories/%E6%B8%B8%E6%88%8F/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B-%E5%BC%80%E7%AF%87%E8%87%B4%E8%B0%A2/</loc>
+    <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3-%E5%93%88%E5%9F%BA%E7%B1%B3%E7%88%B1%E7%8C%ABtv-%E5%A4%A7%E7%9F%B3%E7%A2%8E%E8%83%B8%E5%8F%A3/</loc>
+    <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%BC%80%E7%AF%87%E8%87%B4%E8%B0%A2/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E5%93%88%E5%9F%BA%E7%B1%B3%E7%88%B1%E7%8C%ABtv/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E5%93%88%E5%9F%BA%E7%B1%B3%E7%88%B1%E7%8C%ABtv/%E5%A4%A7%E7%9F%B3%E7%A2%8E%E8%83%B8%E5%8F%A3/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2024-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/categories/%E6%97%A5%E8%AE%B0/6%E6%9C%8821%E6%97%A5/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
