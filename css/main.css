@@ -1248,7 +1248,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff61ff;
+  background: #e83014;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2620,7 +2620,7 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
 }
 body {
-  background: url("https://i.ibb.co/nbssk22/202406231939959.png");
+  background: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -2633,8 +2633,8 @@ body {
   opacity: 0.8;
 }
 .header-inner {
-  background: rgba(255,255,255,0.5);
-  background: url("https://i.ibb.co/1YVRtT7/202406231939125.png");
+  background: rgba(255,255,255,0.8);
+  background: url("");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
