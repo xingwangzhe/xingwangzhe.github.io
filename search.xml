@@ -1153,7 +1153,7 @@ address {
       </tags>
   </entry>
   <entry>
-    <title>探路:雨课堂的字体加密</title>
+    <title>探路:雨课堂的字体加密。</title>
     <url>/posts/e90bb5b9/</url>
     <content><![CDATA[<p>前两天用电脑网页打开雨课堂，遇到那种简答题，想着复制题干去问AI，但是粘贴出来的却是乱文，这是怎么回事呢，于是我开始了探究</p>
 <span id="more"></span>
@@ -2419,12 +2419,12 @@ body {
       </tags>
   </entry>
   <entry>
-    <title>神人有感:先礼礼礼礼礼后兵</title>
+    <title>神人有感:先礼礼礼礼礼礼后兵</title>
     <url>/posts/6af33c89/</url>
-    <content><![CDATA[<center>ai总是那么幽默</center>
-
+    <content><![CDATA[<p>ai总是那么幽默</p>
 <p><img src="/images/shenren/1.jpg" alt="1"></p>
 <span id="more"></span>
+
 <p>下面的图片是AI的错误分析：（</p>
 <p><img src="/images/shenren/2.jpg" alt="2"></p>
 <h1 id="什么矛盾"><a href="#什么矛盾" class="headerlink" title="什么矛盾"></a>什么矛盾</h1><h2 id="贴吧疯狂刷帖"><a href="#贴吧疯狂刷帖" class="headerlink" title="贴吧疯狂刷帖"></a>贴吧疯狂刷帖</h2><p>我不清楚这位立巾是谁，只是见到他在贴吧控诉校园集市的一些人，我不清楚有什么深仇大怨，能够跨社区到贴吧来申诉，我依照惯例删帖，禁言，并且进行了警告！<br><img src="/images/shenren/11.jpg" alt="11"><br><img src="/images/shenren/22.jpg" alt="22"></p>
@@ -2434,5 +2434,40 @@ body {
 <h2 id="先礼礼礼礼后兵"><a href="#先礼礼礼礼后兵" class="headerlink" title="先礼礼礼礼后兵"></a>先礼礼礼礼后兵</h2><p>于是简短却有力对话开始了<br><img src="/images/shenren/3.jpg" alt="2"></p>
 <p>说实话爆典特别多，虽然最后他把我删了，但是我感觉我还是得记录一下这位神人<br>故作此篇，以来纪念短暂却印象深刻的对话：）</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/posts/50638bf/</url>
+    <content><![CDATA[<span id="more"></span>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>学了点js</title>
+    <url>/posts/fcbe0bf5/</url>
+    <content><![CDATA[<p>语法挺有趣的</p>
+<span id="more"></span>
+
+<p>源码来源于<a href="https://">freecodecamp</a></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> character = <span class="string">&quot;!&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> count = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> rows = [];</span><br><span class="line"><span class="keyword">let</span> inverted = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">padRow</span>(<span class="params">rowNumber, rowCount</span>) &#123;</span><br><span class="line"><span class="keyword">return</span> <span class="string">&quot; &quot;</span>.<span class="title function_">repeat</span>(rowCount - rowNumber) + character.<span class="title function_">repeat</span>(<span class="number">2</span> * rowNumber - <span class="number">1</span>) + <span class="string">&quot; &quot;</span>.<span class="title function_">repeat</span>(rowCount - rowNumber);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">1</span>; i &lt;= count; i++) &#123;</span><br><span class="line"><span class="keyword">if</span> (inverted) &#123;</span><br><span class="line">rows.<span class="title function_">unshift</span>(<span class="title function_">padRow</span>(i, count));</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">rows.<span class="title function_">push</span>(<span class="title function_">padRow</span>(i, count));</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> result = <span class="string">&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">const</span> row <span class="keyword">of</span> rows) &#123;</span><br><span class="line">result = result + <span class="string">&quot;\n&quot;</span> + row;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(result);</span><br></pre></td></tr></table></figure>
+
+<h1 id="逐步分析"><a href="#逐步分析" class="headerlink" title="逐步分析"></a>逐步分析</h1><h2 id="变量定义"><a href="#变量定义" class="headerlink" title="变量定义"></a>变量定义</h2><p>使用<code>let</code>定义变量，而且还不分类型，这说明js变量定义很宽松呀。const，顾名思义，它也是定义固定的变量</p>
+<p>数组定义用了<code>[]</code>，这和<code>java</code>有点像。</p>
+<h2 id="函数声明"><a href="#函数声明" class="headerlink" title="函数声明"></a>函数声明</h2><p>使用<code>function</code>关键字进行声明，同样不分变量类型，内部和c&#x2F;cpp差不多，而且似乎某些类型变量自带方法，就比如第一个函数的<code>.repreat()</code>方法，似乎是字符串自带的，很方便地进行了重复，不用我再写一遍循环。</p>
+<p>还有&#96;.push<code>.unshift</code>.等方法，看来可以实现栈，队列等数据结构。</p>
+<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><p>使用的是<code>console.log()</code>方法进行输出，当然我还不了解其他可能的输出方法，就先这么记了</p>
+<h3 id="示例结果"><a href="#示例结果" class="headerlink" title="示例结果"></a>示例结果</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// running tests</span><br><span class="line">// tests completed</span><br><span class="line">// console output</span><br><span class="line"></span><br><span class="line">         !     </span><br><span class="line">        !!!    </span><br><span class="line">       !!!!!   </span><br><span class="line">      !!!!!!!  </span><br><span class="line">     !!!!!!!!!   </span><br><span class="line">    !!!!!!!!!!!  </span><br><span class="line">   !!!!!!!!!!!!!   </span><br><span class="line">  !!!!!!!!!!!!!!!  </span><br><span class="line"> !!!!!!!!!!!!!!!!! </span><br><span class="line">!!!!!!!!!!!!!!!!!!!</span><br></pre></td></tr></table></figure>
+
+<p>回想起曾经大一自己写的金字塔了：）</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>js</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>前端</tag>
+        <tag>js</tag>
+      </tags>
   </entry>
 </search>
