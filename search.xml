@@ -1242,7 +1242,8 @@ label{
   <entry>
     <title>学了点js</title>
     <url>/posts/fcbe0bf5/</url>
-    <content><![CDATA[<p>语法挺有趣的</p>
+    <content><![CDATA[<center>语法挺有趣的</center>
+
 <span id="more"></span>
 
 <p>源码来源于<a href="https://">freecodecamp</a></p>
@@ -1403,6 +1404,13 @@ h1 {
 <h2 id="先礼礼礼礼后兵"><a href="#先礼礼礼礼后兵" class="headerlink" title="先礼礼礼礼后兵"></a>先礼礼礼礼后兵</h2><p>于是简短却有力对话开始了<br><img src="/images/shenren/3.jpg" alt="2"></p>
 <p>说实话爆典特别多，虽然最后他把我删了，但是我感觉我还是得记录一下这位神人<br>故作此篇，以来纪念短暂却印象深刻的对话：）</p>
 ]]></content>
+      <categories>
+        <category>胡思乱想</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>神人</tag>
+      </tags>
   </entry>
   <entry>
     <title>通过创建咖啡店菜单学习基础CSS</title>
