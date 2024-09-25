@@ -449,10 +449,10 @@ a{
   <div class="popular-posts-header">相关推荐</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\posts\52b92bfc\" rel="bookmark">通过创建猫咪绘画学习中级 CSS</a></div>
+      <div class="popular-posts-title"><a href="\posts\9f32bac9\" rel="bookmark">通过创建小测验学习无障碍</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\posts\d8587a7c\" rel="bookmark">通过创建资产负债表学习 CSS 伪选择器</a></div>
+      <div class="popular-posts-title"><a href="\posts\36b96013\" rel="bookmark">通过创建咖啡店菜单学习基础CSS</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="\posts\f7250b56\" rel="bookmark">独立地写了一个调查表：）</a></div>
@@ -616,7 +616,7 @@ a{
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">35</span>
+          <span class="site-state-item-count">36</span>
           <span class="site-state-item-name">归档</span>
         </a>
       </div>
@@ -708,13 +708,13 @@ time_is_widget.init({China_z43d:{template:"TIME<br>DATE<br>SUN", date_format:"ye
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">102k</span>
+    <span title="站点总字数">105k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1:33</span>
+    <span title="站点阅读时长">1:36</span>
 </div>
 
 
@@ -834,6 +834,22 @@ setInterval("createtime()",250);
     </script>
 
 
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
 <script>
@@ -851,22 +867,6 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
     });
     gitalk.render('gitalk-container');
   }, window.Gitalk);
-});
-</script>
-
-<script>
-NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
-  window.livereOptions = {
-    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
 });
 </script>
 

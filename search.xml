@@ -2739,4 +2739,142 @@ transform:rotate(3deg);
         <tag>freecodecamp</tag>
       </tags>
   </entry>
+  <entry>
+    <title>通过创建钢琴学习响应式网页设计</title>
+    <url>/posts/c0981903/</url>
+    <content><![CDATA[<center>还是比较有趣</center>
+<span id="more"></span>
+
+
+<h1 id="效果如下"><a href="#效果如下" class="headerlink" title="效果如下"></a>效果如下</h1><p>来自于<a href="https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-responsive-web-design-by-building-a-piano">freecodecamp</a></p>
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+#piano {
+  background-color: #00471b;
+  width: 992px;
+  height: 290px;
+  margin: 80px auto;
+  padding: 90px 20px 0 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.keys {
+  background-color: #040404;
+  width: 949px;
+  height: 180px;
+  padding-left: 2px;
+  overflow: hidden;
+}
+
+.key {
+  background-color: #ffffff;
+  position: relative;
+  width: 41px;
+  height: 175px;
+  margin: 2px;
+  float: left;
+  border-radius: 0 0 3px 3px;
+}
+
+.key.black--key::after {
+  background-color: #1d1e22;
+  content: "";
+  position: absolute;
+  left: -18px;
+  width: 32px;
+  height: 100px;
+  border-radius: 0 0 3px 3px;
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  top: 23px;
+}
+
+@media (max-width: 768px) {
+  #piano {
+    width: 358px;
+  }
+
+  .keys {
+    width: 318px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+#piano{
+  width:675px;
+
+}
+.keys{
+width:633px;
+}
+}
+</style>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Piano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+<div id="piano">
+      <img class="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp Logo" />
+      <div class="keys">
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+      </div>
+   </div>
+  </body>
+</html>
+
+<h1 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h1><p>##index.html</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Piano<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./styles.css&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;piano&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;logo&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;freeCodeCamp Logo&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;keys&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;key black--key&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>##styles.css</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">html</span> &#123;</span><br><span class="line">  <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">*, *<span class="selector-pseudo">::before</span>, *<span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">  <span class="attribute">box-sizing</span>: inherit;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#piano</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#00471b</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">992px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">290px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">80px</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">90px</span> <span class="number">20px</span> <span class="number">0</span> <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.keys</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#040404</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">949px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">180px</span>;</span><br><span class="line">  <span class="attribute">padding-left</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.key</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#ffffff</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">41px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">175px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">3px</span> <span class="number">3px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.key</span><span class="selector-class">.black--key</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#1d1e22</span>;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">left</span>: -<span class="number">18px</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">32px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">3px</span> <span class="number">3px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.logo</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">23px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">768px</span>) &#123;</span><br><span class="line">  <span class="selector-id">#piano</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">358px</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.keys</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">318px</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.logo</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">1199px</span>) <span class="keyword">and</span> (<span class="attribute">min-width</span>: <span class="number">769px</span>) &#123;</span><br><span class="line"><span class="selector-id">#piano</span>&#123;</span><br><span class="line">  <span class="attribute">width</span>:<span class="number">675px</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.keys</span>&#123;</span><br><span class="line"><span class="attribute">width</span>:<span class="number">633px</span>;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>CSS</tag>
+        <tag>HTML</tag>
+        <tag>前端</tag>
+        <tag>freecodecamp</tag>
+      </tags>
+  </entry>
 </search>

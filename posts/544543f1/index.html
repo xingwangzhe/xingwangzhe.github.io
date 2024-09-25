@@ -478,13 +478,13 @@ p {
   <div class="popular-posts-header">相关推荐</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\posts\52b92bfc\" rel="bookmark">通过创建猫咪绘画学习中级 CSS</a></div>
+      <div class="popular-posts-title"><a href="\posts\2f3d653d\" rel="bookmark">LeetCode:1. 两数之和</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\posts\fcbe0bf5\" rel="bookmark">学了点js</a></div>
+      <div class="popular-posts-title"><a href="\posts\ca82fca4\" rel="bookmark">工业博物馆游览</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\posts\6af33c89\" rel="bookmark">神人有感:先礼礼礼礼礼礼后兵</a></div>
+      <div class="popular-posts-title"><a href="\posts\f899f771\" rel="bookmark">LeetCode:2. 两数相加</a></div>
     </li>
   </ul>
 
@@ -633,7 +633,7 @@ p {
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">35</span>
+          <span class="site-state-item-count">36</span>
           <span class="site-state-item-name">归档</span>
         </a>
       </div>
@@ -725,13 +725,13 @@ time_is_widget.init({China_z43d:{template:"TIME<br>DATE<br>SUN", date_format:"ye
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">102k</span>
+    <span title="站点总字数">105k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1:33</span>
+    <span title="站点阅读时长">1:36</span>
 </div>
 
 
@@ -851,6 +851,22 @@ setInterval("createtime()",250);
     </script>
 
 
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
 <script>
@@ -868,22 +884,6 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
     });
     gitalk.render('gitalk-container');
   }, window.Gitalk);
-});
-</script>
-
-<script>
-NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
-  window.livereOptions = {
-    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
 });
 </script>
 
