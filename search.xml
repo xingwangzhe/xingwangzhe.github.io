@@ -2877,4 +2877,26 @@ width:633px;
         <tag>freecodecamp</tag>
       </tags>
   </entry>
+  <entry>
+    <title>连不上网了？可能的DNS解决方法</title>
+    <url>/posts/58ad3c48/</url>
+    <content><![CDATA[<center>有许多人在使用代理之后，发现连不上网络了，这是其中一种解决方法<center>
+<span id="more"></span>
+
+<h1 id="取消本地代理"><a href="#取消本地代理" class="headerlink" title="取消本地代理"></a>取消本地代理</h1><p>可能是windows的保护性策略，在上一次代理突然断链但无法重连时，windows自动代理到127</p>
+<p>在设置-&gt;网络和internet-&gt;代理<br>在这个界面把所有选项都关闭即可</p>
+<p><img src="/images/dnswrong.png" alt="dnswrong"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>教程</tag>
+        <tag>DNS</tag>
+        <tag>网络</tag>
+        <tag>问题</tag>
+        <tag>解决</tag>
+      </tags>
+  </entry>
 </search>

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xingwangzhe.fun/posts/58ad3c48/</loc>
+    
+    <lastmod>2024-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xingwangzhe.fun/posts/c0981903/</loc>
     
     <lastmod>2024-09-25</lastmod>
@@ -1503,6 +1512,34 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://xingwangzhe.fun/tags/DNS/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.fun/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.fun/tags/%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.fun/tags/%E8%A7%A3%E5%86%B3/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -1661,6 +1698,13 @@
   
   <url>
     <loc>https://xingwangzhe.fun/categories/CSS/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.fun/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
