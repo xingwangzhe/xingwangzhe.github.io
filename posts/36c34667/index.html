@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"xingwangzhe.fun","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"text":true,"style":"tabs","count":true,"active":"gitalk","storage":true,"lazyload":false,"nav":{"gitalk":{"order":-1}},"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="姓于者发来的，展示一下：）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="learn Markdown">
+<meta property="og:url" content="https://xingwangzhe.fun/posts/36c34667/index.html">
+<meta property="og:site_name" content="姓王者的博客">
+<meta property="og:description" content="姓于者发来的，展示一下：）">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://xingwangzhe.fun/learn.assets/goose-17269084943042.png">
+<meta property="article:published_time" content="2024-09-29T05:13:39.000Z">
+<meta property="article:modified_time" content="2024-09-29T05:13:37.000Z">
+<meta property="article:author" content="姓王者">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="姓于者">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://xingwangzhe.fun/learn.assets/goose-17269084943042.png">
+
+<link rel="canonical" href="https://xingwangzhe.fun/posts/36c34667/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<script async src="/lib/fireworks.js"></script>
+  <title>learn Markdown | 姓王者的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "o32sgd266v");
+</script>
+<link rel="alternate" href="/atom.xml" title="姓王者的博客" type="application/atom+xml">
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+<body>
+<!-- start webpushr code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BHV3kn7WLHGjPMT5Zz8kKEvzbDX44x9Rt3olfj_Q3QnCoQADtAW7h7dvBBmASSAi9xtRbIXoq2xEpmNWHaZb6NM' });</script><!-- end webpushr code -->
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <a href="https://github.com/xingwangzhe/"  target="_blank" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">姓王者的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">记录学习生活的琐事，或者技术文章:)</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-开往">
+
+    <a href="https://www.travellings.cn/go.html" rel="noopener" target="_blank"><i class="fa fa-train fa-fw"></i>开往</a>
+
+  </li>
+        <li class="menu-item menu-item-友情链接">
+
+    <a href="/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/" rel="section"><i class="fa fa-link fa-fw"></i>友情链接</a>
+
+  </li>
+        <li class="menu-item menu-item-推荐网站">
+
+    <a href="/%E6%8E%A8%E8%8D%90%E7%BD%91%E7%AB%99/" rel="section"><i class="fa fa-link fa-fw"></i>推荐网站</a>
+
+  </li>
+        <li class="menu-item menu-item-说说">
+
+    <a href="/essay/" rel="section"><i class="fas fa-pen fa-fw"></i>说说</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xingwangzhe.fun/posts/36c34667/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="姓王者">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="姓王者的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          learn Markdown
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-09-29 13:13:39 / 修改时间：13:13:37" itemprop="dateCreated datePublished" datetime="2024-09-29T13:13:39+08:00">2024-09-29</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>4.2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <center>姓于者发来的，展示一下：）</center>
+<span id="more"></span>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">## 了解</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 1.标题[数个&quot;#&quot; + 空格 前置]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+# 1
+## 2
+### 3
+#### 4
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">标题会在大纲分级显示,可以跳转</span><br><span class="line"></span><br><span class="line">记得打空格</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 2.强调[用&quot;**&quot;或&quot;__&quot;包围]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+**Welcome to NEU!**
+__Welcome to NEU!__
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">或者选中并且使用`Ctrl` + `B`</span><br><span class="line"></span><br><span class="line">**hello world!**</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 3.斜体[用&quot;*&quot;或者&quot;_&quot;包围]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+*hello world!*
+_hello world!_
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">或者选中使用`Ctrl` + `I`</span><br><span class="line"></span><br><span class="line">*hello world!*</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">***斜体＋强调:***[用&quot;***&quot;或者&quot;___&quot;包围]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 4.删除线[用&quot;~~&quot;包围]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+~~LH is addicted to play Genshin impact.~~
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">~~Someone is addicted to play computer games.~~</span><br><span class="line"></span><br><span class="line">#### 5.高亮[用&quot;==&quot;包围]</span><br><span class="line"></span><br><span class="line">**(记得开拓展)**</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+==i like apples and oranges.==
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">==I like apples and oranges.==</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 6.代码[用&quot;`&quot;包围]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+`bool a = true;`
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"> **`bool a = true`**</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 7.代码块[``` + Enter]</span><br><span class="line"></span><br><span class="line">```c++</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt;&quot;hello world!&quot;&lt;&lt; endl;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="8-引用-“-”-space-前置"><a href="#8-引用-“-”-space-前置" class="headerlink" title="8.引用[“&gt;” + space 前置]"></a>8.引用[“&gt;” + space 前置]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; here is a dog.</span><br><span class="line">&gt;&gt; its name is bingo.</span><br></pre></td></tr></table></figure>
+
+<p>引用可以嵌套</p>
+<blockquote>
+<p>here is a dog.</p>
+<blockquote>
+<p>its name is bingo.</p>
+</blockquote>
+</blockquote>
+<h4 id="9-无序列表-“-“-”-’’-space-前置"><a href="#9-无序列表-“-“-”-’’-space-前置" class="headerlink" title="9.无序列表[“-“,”+’’ + space 前置]"></a>9.无序列表[“-“,”+’’ + space 前置]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- a cat</span><br><span class="line">+ an another cat</span><br><span class="line">*(its hard to use, so not be advised)</span><br></pre></td></tr></table></figure>
+
+<p>(三种都可以, Enter后会自动补全, Tab会缩进一级)</p>
+<ul>
+<li>a cat.</li>
+</ul>
+<ul>
+<li>an another cat.<ul>
+<li>they are all cats.</li>
+</ul>
+</li>
+</ul>
+<h4 id="10-有序列表-数字-“-”-space-前置"><a href="#10-有序列表-数字-“-”-space-前置" class="headerlink" title="10.有序列表[数字 + “.” + space 前置]"></a>10.有序列表[数字 + “.” + space 前置]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">i want to do three things.</span><br><span class="line">1. play vscode.</span><br><span class="line">2. play vscode.</span><br><span class="line">3. play vscode, too.</span><br></pre></td></tr></table></figure>
+
+<p>(敲Enter自动补全, 按下Enter后按下Tab, 会缩进一级)</p>
+<p><strong>i want to do three things.</strong></p>
+<ol>
+<li>play code.</li>
+<li>play code.<ol>
+<li>play code, too.</li>
+</ol>
+</li>
+</ol>
+<h4 id="11-上标-用-包围"><a href="#11-上标-用-包围" class="headerlink" title="11.上标[用^包围]"></a>11.上标[用^包围]</h4><p><strong>(记得开拓展)</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">in c, int&#x27;s upper_bound is 2^31^ - 1 = 2147483647</span><br></pre></td></tr></table></figure>
+
+<p><strong>in c, <code>int&#39;s upper_bound</code> is 2^31^ - 1 &#x3D; 2147483647.</strong></p>
+<h4 id="12-下标-用”-”包围"><a href="#12-下标-用”-”包围" class="headerlink" title="12.下标[用”~”包围]"></a>12.下标[用”~”包围]</h4><p><strong>(记得开拓展)</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">H~2~O~2~</span><br><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
+
+<p><strong>H<del>2</del>O<del>2</del></strong></p>
+<p><strong>H<del>2</del>O</strong></p>
+<h4 id="13-注释-“-”后置"><a href="#13-注释-“-”后置" class="headerlink" title="13.注释[“[^]”后置]"></a>13.注释[“[^]”后置]</h4><p><strong>(记得开拓展)</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; i want to learn markdown.</span><br><span class="line">[^1]:written by Stephen Zhang.</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>i want to learn markdown</p>
+</blockquote>
+<p>[^1]: written by Stephen Z</p>
+<h4 id="14-链接-用”-”-“-”-分别包围文本和链接"><a href="#14-链接-用”-”-“-”-分别包围文本和链接" class="headerlink" title="14.链接[用”[]” + “()” 分别包围文本和链接]"></a>14.链接[用”[]” + “()” 分别包围文本和链接]</h4><p><strong>(记得开拓展)</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[工头说你不是我们工地上的人](https://leetcode.cn)</span><br><span class="line">[别吹牛了, 工头叫你搬砖了](https://www.neumathe.cn/#/index)</span><br></pre></td></tr></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://leetcode.cn/">工头说你不是我们工地上的人</a><br><a target="_blank" rel="noopener" href="https://www.neumathe.cn/#/index">别吹牛了, 工头叫你搬砖了</a></p>
+<h4 id="15-任务列表-“-”-space-前置"><a href="#15-任务列表-“-”-space-前置" class="headerlink" title="15.任务列表[“- [ ]” + space 前置]"></a>15.任务列表[“- [ ]” + space 前置]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">TodoList</span><br><span class="line">- [ ] bilibili</span><br><span class="line">- [ ] coding</span><br><span class="line">- [x] sleep</span><br></pre></td></tr></table></figure>
+
+<p>List:</p>
+<ul>
+<li><p><input disabled="" type="checkbox"> 
+B</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+coding</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+sleep</p>
+</li>
+</ul>
+<h4 id="16-表格-用”-”绘制表格边框"><a href="#16-表格-用”-”绘制表格边框" class="headerlink" title="16. 表格[用”|”绘制表格边框]"></a>16. 表格[用”|”绘制表格边框]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| id | name | age |</span><br><span class="line">| :--- | :---: | ---: |(left, mid, right)</span><br><span class="line">|10086|china mobile|1|</span><br><span class="line">|10010|china unicorn|2|</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="left">id</th>
+<th align="center">name</th>
+<th align="right">age</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">10086</td>
+<td align="center">china mobile</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="left">10010</td>
+<td align="center">china unicorn</td>
+<td align="right">2</td>
+</tr>
+</tbody></table>
+<h4 id="17-图片-Ctrl-C-V"><a href="#17-图片-Ctrl-C-V" class="headerlink" title="17.图片[Ctrl + C&#x2F;V]"></a>17.图片[<code>Ctrl</code> + <code>C</code>&#x2F;<code>V</code>]</h4><p><img src="/learn.assets/goose-17269084943042.png" alt="goose"></p>
+<h4 id="18-分割线-“-”-”—“-”-”-Enter"><a href="#18-分割线-“-”-”—“-”-”-Enter" class="headerlink" title="18.分割线[“***”,”—“,”___” + Enter]"></a>18.分割线[“***”,”—“,”___” + Enter]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">***</span><br><span class="line">---</span><br><span class="line">___</span><br><span class="line">//</span><br></pre></td></tr></table></figure>
+
+<p><strong>- 最方便</strong></p>
+<hr>
+<hr>
+<hr>
+<h4 id="19-表情-“-”前置"><a href="#19-表情-“-”前置" class="headerlink" title="19.表情[“:”前置]"></a>19.表情[“:”前置]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">:sweat_smile:</span><br><span class="line">:drooling_face:</span><br><span class="line">:clown_face:</span><br><span class="line">//</span><br></pre></td></tr></table></figure>
+
+<p>:sweat_smile:<br>:drooling_face:<br>:clown_face:</p>
+<h2 id="深入学习"><a href="#深入学习" class="headerlink" title="深入学习"></a>深入学习</h2><h4 id="1-目录-自动生成"><a href="#1-目录-自动生成" class="headerlink" title="1.目录[自动生成]"></a>1.目录[自动生成]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[TOC](Typora特有)</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-内联HTML代码-用””包围"><a href="#2-内联HTML代码-用””包围" class="headerlink" title="2. 内联HTML代码[用”&lt;&gt;&lt;&#x2F;&gt;”包围]"></a>2. 内联HTML代码[用”&lt;&gt;&lt;&#x2F;&gt;”包围]</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div style = &quot;text-align:center&quot;&gt;</span><br><span class="line">	&lt;font style = &quot;color : red&quot;&gt; i couldn&#x27;t use HTML...&lt;/font&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;center&gt;简单的文字居中也可以这样&lt;/center&gt;</span><br><span class="line"></span><br><span class="line">&lt;u&gt;you should code other programs&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+<p>markdown 可以当作HTML写</p>
+<p><code>.md</code>文件可直接导出一个网页</p>
+<p>下划线可以<code>Ctrl</code> + <code>U</code></p>
+<div style = "text-align:center">
+    <font style = "color : red"> i couldn't use HTML...</font>
+</div>
+
+<center>简单的文字居中也可以这样</center>
+
+<center><u>life is short, i need phh.</u></center>
+
+
+
+<h4 id="3-内联-LaTeX-公式-用”-”包围"><a href="#3-内联-LaTeX-公式-用”-”包围" class="headerlink" title="3. 内联$ \LaTeX $公式[用”$”包围]"></a>3. 内联$ \LaTeX $公式[用”$”包围]</h4><p>(部分编译器会不识别部分符号)</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">$\LaTeX$</span><br><span class="line"></span><br><span class="line">$a^n + b^n = c^n$</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">%\usepackage&#123;unicode-math&#125;</span><br><span class="line">\displaystyle \ointctrclockwise\mathcal&#123;D&#125;[x(t)]</span><br><span class="line">\sqrt&#123;\frac&#123;\displaystyle3\uppi^2-\sum_&#123;q=0&#125;^&#123;\infty&#125;(z+\hat L)^&#123;q&#125;</span><br><span class="line">\exp(\symrm&#123;i&#125;q^2 \hbar x)&#125;&#123;\displaystyle (\symsfup&#123;Tr&#125;\symbfcal&#123;A&#125;)</span><br><span class="line">\left(\symbf\Lambda_&#123;j_1j_2&#125;^&#123;i_1i_2&#125;\Gamma_&#123;i_1i_2&#125;^&#123;j_1j_2&#125;</span><br><span class="line">\hookrightarrow\vec D\cdot \symbf P \right)&#125;&#125;</span><br><span class="line">=\underbrace&#123;\widetilde&#123;\left\langle \frac&#123;\notin \emptyset&#125;</span><br><span class="line">&#123;\varpi\alpha_&#123;k\uparrow&#125;&#125;\middle\vert</span><br><span class="line">\frac&#123;\partial_\mu T_&#123;\mu\nu&#125;&#125;&#123;2&#125;\right\rangle&#125;&#125;_&#123;\mathrm&#123;K&#125;_3</span><br><span class="line">\mathrm&#123;Fe&#125;(\mathrm&#123;CN&#125;)_6&#125; ,\forall z \in \mathbb&#123;R&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+<p><strong>1.</strong></p>
+<p>$\LaTeX$</p>
+<p><strong>2.</strong></p>
+<p>$a^n + b^n &#x3D; c^n$</p>
+<p><strong>3.</strong><br>$$<br>%\usepackage{unicode-math}<br>\displaystyle \ointctrclockwise\mathcal{D}[x(t)]<br>\sqrt{\frac{\displaystyle3\uppi^2-\sum_{q&#x3D;0}^{\infty}(z+\hat L)^{q}<br>\exp(\symrm{i}q^2 \hbar x)}{\displaystyle (\symsfup{Tr}\symbfcal{A})<br>\left(\symbf\Lambda_{j_1j_2}^{i_1i_2}\Gamma_{i_1i_2}^{j_1j_2}<br>\hookrightarrow\vec D\cdot \symbf P \right)}}<br>&#x3D;\underbrace{\widetilde{\left\langle \frac{\notin \emptyset}<br>{\varpi\alpha_{k\uparrow}}\middle\vert<br>\frac{\partial_\mu T_{\mu\nu}}{2}\right\rangle}}_{\mathrm{K}_3<br>\mathrm{Fe}(\mathrm{CN})_6} ,\forall z \in \mathbb{R}<br>$$</p>
+<h4 id="4-网络图床"><a href="#4-网络图床" class="headerlink" title="4.网络图床"></a>4.网络图床</h4><h4 id="5-常用快捷键"><a href="#5-常用快捷键" class="headerlink" title="5.常用快捷键"></a>5.常用快捷键</h4><table>
+<thead>
+<tr>
+<th align="center">按键</th>
+<th align="center">效果</th>
+<th>按键</th>
+<th align="center">效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>Ctrl</code> + <code>D</code></td>
+<td align="center">选中当前词</td>
+<td><code>Ctrl</code> + <code>L</code></td>
+<td align="center">选中当前句&#x2F;行</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>E</code></td>
+<td align="center">选中当前区块</td>
+<td><code>Ctrl</code> + <code>F</code></td>
+<td align="center">搜索当前选中</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>B</code></td>
+<td align="center">加粗当前选中</td>
+<td><code>Ctrl</code> + <code>H</code></td>
+<td align="center">替换当前选中</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>I</code></td>
+<td align="center">倾斜当前选中</td>
+<td><code>Ctrl</code> + <code>U</code></td>
+<td align="center">下划当前选中</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>K</code></td>
+<td align="center">将当前选中生成链接</td>
+<td><code>Ctrl</code> + <code>J</code></td>
+<td align="center">滚动屏幕将选中滚动到顶</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>W</code></td>
+<td align="center">关闭当前窗口</td>
+<td><code>Ctrl</code> + <code>N</code></td>
+<td align="center">打开新窗口</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>O</code></td>
+<td align="center">打开文件</td>
+<td><code>Ctrl</code> + <code>P</code></td>
+<td align="center">搜索文件并打开</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>Enter</code></td>
+<td align="center">表格下方插入行</td>
+<td><code>Ctrl</code> + <code>,</code></td>
+<td align="center">打开偏好设置</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>.</code></td>
+<td align="center">切换全角&#x2F;半角标点</td>
+<td><code>Ctrl</code> + <code>/</code></td>
+<td align="center">切换正常&#x2F;源代码视图</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>shift</code> +<code>-</code></td>
+<td align="center">缩小视图</td>
+<td><code>Ctrl</code> + <code>shift</code> + <code>+</code></td>
+<td align="center">增大视图</td>
+</tr>
+</tbody></table>
+<pre><code>
+</code></pre>
+
+    </div>
+
+    
+    
+    
+      
+  <div class="popular-posts-header">相关推荐</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\posts\218fcad3\" rel="bookmark">初识Vue3,有趣</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\posts\f513b372\" rel="bookmark">为hexo-next建立静态说说</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\posts\37f315ff\" rel="bookmark">解决国外人机验证不显示问题</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\posts\b0f770c3\" rel="bookmark">Vue:watch监视</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\posts\ffe80f36\" rel="bookmark">Vue:计算属性</a></div>
+    </li>
+  </ul>
+
+        <div class="reward-container">
+  <div>你的鼓励是我最大的动力.</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.jpg" alt="姓王者 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.jpg" alt="姓王者 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>姓王者
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://xingwangzhe.fun/posts/36c34667/" title="learn Markdown">https://xingwangzhe.fun/posts/36c34667/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+              <a href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag"># 前端</a>
+              <a href="/tags/%E5%A7%93%E4%BA%8E%E8%80%85/" rel="tag"># 姓于者</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/90edeb6d/" rel="prev" title="信息技术基数实训-焊接爱心花灯">
+      <i class="fa fa-chevron-left"></i> 信息技术基数实训-焊接爱心花灯
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/ffe80f36/" rel="next" title="Vue:计算属性">
+      Vue:计算属性 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+      <div class="tabs tabs-comment">
+        <ul class="nav-tabs">
+            <li class="tab"><a href="#comment-gitalk">gitalk</a></li>
+            <li class="tab"><a href="#comment-livere">livere</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane gitalk" id="comment-gitalk">
+              <div class="comments" id="gitalk-container"></div>
+            </div>
+            <div class="tab-pane livere" id="comment-livere">
+              
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81OTkzNi8zNjM5OQ=="></div>
+  </div>
+  
+            </div>
+        </div>
+      </div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#8-%E5%BC%95%E7%94%A8-%E2%80%9C-%E2%80%9D-space-%E5%89%8D%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">8.引用[“&gt;” + space 前置]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#9-%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8-%E2%80%9C-%E2%80%9C-%E2%80%9D-%E2%80%99%E2%80%99-space-%E5%89%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">9.无序列表[“-“,”+’’ + space 前置]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#10-%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8-%E6%95%B0%E5%AD%97-%E2%80%9C-%E2%80%9D-space-%E5%89%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">10.有序列表[数字 + “.” + space 前置]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#11-%E4%B8%8A%E6%A0%87-%E7%94%A8-%E5%8C%85%E5%9B%B4"><span class="nav-number">4.</span> <span class="nav-text">11.上标[用^包围]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#12-%E4%B8%8B%E6%A0%87-%E7%94%A8%E2%80%9D-%E2%80%9D%E5%8C%85%E5%9B%B4"><span class="nav-number">5.</span> <span class="nav-text">12.下标[用”~”包围]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#13-%E6%B3%A8%E9%87%8A-%E2%80%9C-%E2%80%9D%E5%90%8E%E7%BD%AE"><span class="nav-number">6.</span> <span class="nav-text">13.注释[“[^]”后置]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#14-%E9%93%BE%E6%8E%A5-%E7%94%A8%E2%80%9D-%E2%80%9D-%E2%80%9C-%E2%80%9D-%E5%88%86%E5%88%AB%E5%8C%85%E5%9B%B4%E6%96%87%E6%9C%AC%E5%92%8C%E9%93%BE%E6%8E%A5"><span class="nav-number">7.</span> <span class="nav-text">14.链接[用”[]” + “()” 分别包围文本和链接]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#15-%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8-%E2%80%9C-%E2%80%9D-space-%E5%89%8D%E7%BD%AE"><span class="nav-number">8.</span> <span class="nav-text">15.任务列表[“- [ ]” + space 前置]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#16-%E8%A1%A8%E6%A0%BC-%E7%94%A8%E2%80%9D-%E2%80%9D%E7%BB%98%E5%88%B6%E8%A1%A8%E6%A0%BC%E8%BE%B9%E6%A1%86"><span class="nav-number">9.</span> <span class="nav-text">16. 表格[用”|”绘制表格边框]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#17-%E5%9B%BE%E7%89%87-Ctrl-C-V"><span class="nav-number">10.</span> <span class="nav-text">17.图片[Ctrl + C&#x2F;V]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#18-%E5%88%86%E5%89%B2%E7%BA%BF-%E2%80%9C-%E2%80%9D-%E2%80%9D%E2%80%94%E2%80%9C-%E2%80%9D-%E2%80%9D-Enter"><span class="nav-number">11.</span> <span class="nav-text">18.分割线[“***”,”—“,”___” + Enter]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#19-%E8%A1%A8%E6%83%85-%E2%80%9C-%E2%80%9D%E5%89%8D%E7%BD%AE"><span class="nav-number">12.</span> <span class="nav-text">19.表情[“:”前置]</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0"><span class="nav-number"></span> <span class="nav-text">深入学习</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E7%9B%AE%E5%BD%95-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90"><span class="nav-number">1.</span> <span class="nav-text">1.目录[自动生成]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%86%85%E8%81%94HTML%E4%BB%A3%E7%A0%81-%E7%94%A8%E2%80%9D%E2%80%9D%E5%8C%85%E5%9B%B4"><span class="nav-number">2.</span> <span class="nav-text">2. 内联HTML代码[用”&lt;&gt;&lt;&#x2F;&gt;”包围]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%86%85%E8%81%94-LaTeX-%E5%85%AC%E5%BC%8F-%E7%94%A8%E2%80%9D-%E2%80%9D%E5%8C%85%E5%9B%B4"><span class="nav-number">3.</span> <span class="nav-text">3. 内联$ \LaTeX $公式[用”$”包围]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E7%BD%91%E7%BB%9C%E5%9B%BE%E5%BA%8A"><span class="nav-number">4.</span> <span class="nav-text">4.网络图床</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">5.</span> <span class="nav-text">5.常用快捷键</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="姓王者"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">姓王者</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">43</span>
+          <span class="site-state-item-name">归档</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">28</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">46</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/xingwangzhe" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;xingwangzhe" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/xingwangzhe@outlook.com" title="E-Mail → xingwangzhe@outlook.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1987297874" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1987297874" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+<!-- CloudCalendar -->
+<div class="widget-wrap" style="width: 90%;margin-left: auto;margin-right: auto; opacity: 0.97;">
+	<div class="widget" id="CloudCalendar"></div>
+</div>
+      </div>
+
+        <div class="where is your ip">
+    <h3>访客信息</h3>
+    <a target="_blank" rel="noopener" href="https://tool.lu/ip/">
+    <img src="https://tool.lu/netcard/">
+    </a>
+    <a target="_blank" href="https://time.is/China" id="time_is_link" rel="nofollow noopener" style="font-size:20px">北京时间:</a>
+<span id="China_z43d" style="font-size:20px"></span>
+<script src="//widget.time.is/zh.js"></script>
+<script>
+time_is_widget.init({China_z43d:{template:"TIME<br>DATE<br>SUN", date_format:"year-monthnum-daynum dname", sun_format:"日出: srhour:srminute 日落: sshour:ssminute<br>昼长: dlhours时 dlminutes分", coords:"35.0000000,105.0000000"}});
+</script>
+
+  </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">姓王者</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">115k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">1:45</span>
+</div>
+
+
+
+<a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
+    <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
+</a>
+
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("6/21/2024 6:30:00"); //修改为你的网站开始运行的时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒.";
+    }
+setInterval("createtime()",250);
+</script>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+<!-- calendar widget -->
+
+    <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-calendar/calendar.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-calendar/languages.min.js"></script>
+    <script>
+    $(function() {
+        $('#CloudCalendar').aCalendar('zh-CN',
+            $.extend(
+                '', {
+                    single:true,
+                    root:'/calendar/'
+                }
+            )
+        );
+    });
+    </script>
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'Ov23lifXHoq97dbVMtsq',
+      clientSecret: '5b1323c3b64bd4fef3f3a56e2c7ada191b416bf4',
+      repo        : 'xingwangzhe.github.io',
+      owner       : 'xingwangzhe',
+      admin       : ['xingwangzhe'],
+      id          : '5ca4304c8b5079a8b4c27798915f69ed',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
+<!-- hexo injector body_end start --><script data-pjax src="https://unpkg.com/oh-my-live2d"></script><script>const oml2d = OML2D.loadOml2d({libraryUrls:{"complete":"https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/complete.js","cubism2":"https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism2.js","cubism5":"https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism5.js"},mobileDisplay:false,models:[{"path":"/L2DMCVT_steve/L2DMCVT.model3.json","scale":0.11,"position":[-100,0],"mobileScale":0.08,"mobilePosition":[-100,0],"motionPreloadStrategy":"ALL","showHitAreaFrames":true,"mobileStageStyle":{"width":180},"stageStyle":{"width":250}}],parentElement:document.body,primaryColor:"var(--btn-bg)",sayHello:false,dockedPosition:"right",tips:{copyTips: {"message":["你复制了什么内容捏？记得注明出处哦~","ctrl+c复制,ctrl+v粘贴~","我们不生产文字，我们只是搬运工","我可是一直在盯着你:)，我知道你在复制什么~"]},style: {"width":230,"height":120,"left":"calc(50% - 20px)","top":"-100px"},mobileStyle: {"width":180,"height":80,"left":"calc(50% - 30px)","top":"-100px"},idleTips:{interval:15000,message:["你好呀~","欢迎来到我的小站~"],wordTheDay:function(wordTheDayData){
+  return `${wordTheDayData.hitokoto}    by.${wordTheDayData.from}`;
+}
+}},statusBar:{"restMessage":"你现在不能休息，周围有怪物在游荡"}});</script><!-- hexo injector body_end end --><script>(function (w, d, s, id) {
+            if (typeof (w.webpushr) !== 'undefined') return; w.webpushr = w.webpushr || function () { (w.webpushr.q = w.webpushr.q || []).push(arguments) }; var js, fjs = d.getElementsByTagName(s)[0]; js = d.createElement(s); js.id = id; js.async = 1; js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window, document, 'script', 'webpushr-jssdk'));webpushr('setup', { 'key': 'BHV3kn7WLHGjPMT5Zz8kKEvzbDX44x9Rt3olfj_Q3QnCoQADtAW7h7dvBBmASSAi9xtRbIXoq2xEpmNWHaZb6NM' });</script></body>
+</html>

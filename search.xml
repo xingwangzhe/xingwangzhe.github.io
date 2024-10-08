@@ -221,7 +221,9 @@ transform:rotate(-0.2deg);
 <blockquote>
 <p><del>应该是特别高</del></p>
 </blockquote>
-<h2 id="那接下来怎么继续写wiki"><a href="#那接下来怎么继续写wiki" class="headerlink" title="那接下来怎么继续写wiki?"></a>那接下来怎么继续写wiki?</h2><p>这是我搬的一个空壳界面<a href="https://xingwangzhe.github.io/docs/docsify/#/">fishport_wiki</a>,就暂时放这放这放着吧，懒得管了，以后再说。</p>
+<h2 id="那接下来怎么继续写wiki"><a href="#那接下来怎么继续写wiki" class="headerlink" title="那接下来怎么继续写wiki?"></a>那接下来怎么继续写wiki?</h2><p>这是我搬的一个空壳界面[fishport_wiki][sss],就暂时放这放这放着吧，懒得管了，以后再说。</p>
+<p>2024-9<br>已废除</p>
+<p><del>[sss]:<a href="https://xingwangzhe.github.io/docs/docsify/#/">https://xingwangzhe.github.io/docs/docsify/#/</a></del></p>
 <h2 id="为什么不搬wiki了"><a href="#为什么不搬wiki了" class="headerlink" title="为什么不搬wiki了"></a>为什么不搬wiki了</h2><p>首先我不是腐竹。<br>原来是打算迁移到别的现成的的wiki网站，不想搬到国内的wiki站点上</p>
 <blockquote>
 <p><del>我估计不太能够过审</del></p>
@@ -234,12 +236,19 @@ transform:rotate(-0.2deg);
 <center>
              所以就这样吧，
              还是原来的站点
+             >原来的站点已经废除
 
 
 
-<p>点击图片来访问<a href="https://fishportsever.fandom.com/zh/wiki/FishPort_Wiki">fishport wiki</a></p>
+<p>点击图片来访问[fishport wiki][ppp]</p>
+<p>2024-9</p>
+<p><del>[ppp]:<a href="https://fishportsever.fandom.com/zh/wiki/FishPort_Wiki">https://fishportsever.fandom.com/zh/wiki/FishPort_Wiki</a></del></p>
 <p><a href="https://fishportsever.fandom.com/zh/wiki/FishPort_Wiki"><img src="https://i.ibb.co/XpnwWk3/202406222147179.webp" alt="ppp"></a></p>
 <p>有兴趣的话欢迎加入游玩哦</p>
+<h1 id="最新站点"><a href="#最新站点" class="headerlink" title="最新站点"></a>最新站点</h1><blockquote>
+<p>最后编辑于2024-10-1</p>
+</blockquote>
+<p>已由服务器管理员迁移至新站点<br><a href="https://wiki.fishport.net/"><img src="https://wiki.fishport.net/images/thumb/e/ee/Fishport.webp/188px-Fishport.webp.png" alt="fishport"></a></p>
 </center>
 bye bye]]></content>
       <categories>
@@ -250,6 +259,7 @@ bye bye]]></content>
         <tag>wiki</tag>
         <tag>我的世界服务器</tag>
         <tag>懒得动</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -2897,6 +2907,393 @@ width:633px;
         <tag>网络</tag>
         <tag>问题</tag>
         <tag>解决</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue:watch监视</title>
+    <url>/posts/b0f770c3/</url>
+    <content><![CDATA[<center>👁️👁️watching you!👁️👁️</center>
+<span id="more"></span>
+
+<p>#watch监视属性方法</p>
+<h2 id="情况一"><a href="#情况一" class="headerlink" title="情况一"></a>情况一</h2><p>对ref基础类型的监视</p>
+<p>这个很容易理解</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line">&lt;script setup lang=<span class="string">&quot;ts&quot;</span>&gt;  </span><br><span class="line"><span class="keyword">import</span> &#123; ref,watch&#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;  </span><br><span class="line"><span class="keyword">let</span> num2 = <span class="title function_">ref</span>(<span class="string">&#x27;0&#x27;</span>); <span class="comment">// 用于存储二进制字符串  </span></span><br><span class="line"><span class="title function_">watch</span>(num2,<span class="function">(<span class="params">newvalue,oldvalue</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(num2+<span class="string">&#x27;和新数据&#x27;</span>+newvalue+<span class="string">&#x27;和旧数据&#x27;</span>+oldvalue);</span><br><span class="line">&#125;)</span><br><span class="line">&lt;/script&gt;  </span><br></pre></td></tr></table></figure>
+<p>多次改变<code>num2</code>，打印的结果是这样的</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[object Object]和新数据和旧数据0</span><br><span class="line">Change.vue:19 [object Object]和新数据1111011和旧数据</span><br><span class="line">Change.vue:19 [object Object]和新数据11110000101101001和旧数据1111011</span><br><span class="line">Change.vue:19 [object Object]和新数据1和旧数据11110000101101001</span><br></pre></td></tr></table></figure>
+<p>这确实不难理解</p>
+<h2 id="情况二"><a href="#情况二" class="headerlink" title="情况二"></a>情况二</h2><p>对ref对象数据的监视</p>
+<blockquote>
+<p>这不禁让我们思考，对ref对象的监视是对它的什么进行监视呢？它类里面的数据吗？还是说它本身？<br>让我们测试一下</p>
+</blockquote>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> person=<span class="title function_">ref</span>(&#123;</span><br><span class="line">    <span class="attr">name</span>:<span class="string">&#x27;李四&#x27;</span>,</span><br><span class="line">    <span class="attr">age</span>:<span class="number">30</span></span><br><span class="line">&#125;)</span><br><span class="line"><span class="title function_">watch</span>(num2,<span class="function">(<span class="params">newvalue,oldvalue</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(num2+<span class="string">&#x27;和新数据&#x27;</span>+newvalue+<span class="string">&#x27;和旧数据&#x27;</span>+oldvalue);</span><br><span class="line">&#125;)</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">changeAge</span>(<span class="params"></span>)&#123;</span><br><span class="line">    person.<span class="property">value</span>.<span class="property">age</span>++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">changeName</span>(<span class="params"></span>)&#123;</span><br><span class="line">    person.<span class="property">value</span>.<span class="property">name</span>+=<span class="string">&#x27;~&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">changePerson</span>(<span class="params"></span>)&#123;</span><br><span class="line">    person.<span class="property">value</span>=&#123;</span><br><span class="line">        <span class="attr">name</span>:<span class="string">&#x27;王二&#x27;</span>,</span><br><span class="line">        <span class="attr">age</span>:<span class="number">90</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">watch</span>(person,<span class="function">(<span class="params">newvalue,oldvalue</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(newvalue+<span class="string">&#x27;和&#x27;</span>+oldvalue);</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>实际上，只有第三个方法触发了监视，这意味着<br>监视ref定义的对象数据，实际监视的是它的地址值，但是如果我们想要监视它内部的值呢？这时候就需要<code>深度监视</code></p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="title function_">watch</span>(person,<span class="function">(<span class="params">newvalue,oldvalue</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(newvalue+<span class="string">&#x27;和&#x27;</span>+oldvalue);</span><br><span class="line">&#125;,&#123;<span class="attr">deep</span>:<span class="literal">true</span>&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="情况三"><a href="#情况三" class="headerlink" title="情况三"></a>情况三</h2><p><code>reactive</code>定义的对象类型数据，默认是深度监视，<br>这里懒得示例了：）</p>
+<blockquote>
+<p>newvalue和oldvalue打印出来是一样的，这是因为地址没有变</p>
+</blockquote>
+<h2 id="情况四"><a href="#情况四" class="headerlink" title="情况四"></a>情况四</h2><p>监视<code>ref</code>和<code>reactive</code>定义的对象数据类型中的属性:<br>若属性不是对象类型，需要写成函数形式<br>若属性是对象类型，可以直接编，或者写函数，但是建议写函数</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>Vue3</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>前端</tag>
+        <tag>Vue3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>learn Markdown</title>
+    <url>/posts/36c34667/</url>
+    <content><![CDATA[<center>姓于者发来的，展示一下：）</center>
+<span id="more"></span>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line"><span class="section">## 了解</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 1.标题[数个&quot;#&quot; + 空格 前置]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+# 1
+## 2
+### 3
+#### 4
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">标题会在大纲分级显示,可以跳转</span><br><span class="line"></span><br><span class="line">记得打空格</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 2.强调[用&quot;**&quot;或&quot;__&quot;包围]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+**Welcome to NEU!**
+__Welcome to NEU!__
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">或者选中并且使用`Ctrl` + `B`</span><br><span class="line"></span><br><span class="line">**hello world!**</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 3.斜体[用&quot;*&quot;或者&quot;_&quot;包围]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+*hello world!*
+_hello world!_
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">或者选中使用`Ctrl` + `I`</span><br><span class="line"></span><br><span class="line">*hello world!*</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">***斜体＋强调:***[用&quot;***&quot;或者&quot;___&quot;包围]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 4.删除线[用&quot;~~&quot;包围]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+~~LH is addicted to play Genshin impact.~~
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">~~Someone is addicted to play computer games.~~</span><br><span class="line"></span><br><span class="line">#### 5.高亮[用&quot;==&quot;包围]</span><br><span class="line"></span><br><span class="line">**(记得开拓展)**</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+==i like apples and oranges.==
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">==I like apples and oranges.==</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 6.代码[用&quot;`&quot;包围]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+`bool a = true;`
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"> **`bool a = true`**</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 7.代码块[``` + Enter]</span><br><span class="line"></span><br><span class="line">```c++</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt;&quot;hello world!&quot;&lt;&lt; endl;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="8-引用-“-”-space-前置"><a href="#8-引用-“-”-space-前置" class="headerlink" title="8.引用[“&gt;” + space 前置]"></a>8.引用[“&gt;” + space 前置]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; here is a dog.</span><br><span class="line">&gt;&gt; its name is bingo.</span><br></pre></td></tr></table></figure>
+
+<p>引用可以嵌套</p>
+<blockquote>
+<p>here is a dog.</p>
+<blockquote>
+<p>its name is bingo.</p>
+</blockquote>
+</blockquote>
+<h4 id="9-无序列表-“-“-”-’’-space-前置"><a href="#9-无序列表-“-“-”-’’-space-前置" class="headerlink" title="9.无序列表[“-“,”+’’ + space 前置]"></a>9.无序列表[“-“,”+’’ + space 前置]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- a cat</span><br><span class="line">+ an another cat</span><br><span class="line">*(its hard to use, so not be advised)</span><br></pre></td></tr></table></figure>
+
+<p>(三种都可以, Enter后会自动补全, Tab会缩进一级)</p>
+<ul>
+<li>a cat.</li>
+</ul>
+<ul>
+<li>an another cat.<ul>
+<li>they are all cats.</li>
+</ul>
+</li>
+</ul>
+<h4 id="10-有序列表-数字-“-”-space-前置"><a href="#10-有序列表-数字-“-”-space-前置" class="headerlink" title="10.有序列表[数字 + “.” + space 前置]"></a>10.有序列表[数字 + “.” + space 前置]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">i want to do three things.</span><br><span class="line">1. play vscode.</span><br><span class="line">2. play vscode.</span><br><span class="line">3. play vscode, too.</span><br></pre></td></tr></table></figure>
+
+<p>(敲Enter自动补全, 按下Enter后按下Tab, 会缩进一级)</p>
+<p><strong>i want to do three things.</strong></p>
+<ol>
+<li>play code.</li>
+<li>play code.<ol>
+<li>play code, too.</li>
+</ol>
+</li>
+</ol>
+<h4 id="11-上标-用-包围"><a href="#11-上标-用-包围" class="headerlink" title="11.上标[用^包围]"></a>11.上标[用^包围]</h4><p><strong>(记得开拓展)</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">in c, int&#x27;s upper_bound is 2^31^ - 1 = 2147483647</span><br></pre></td></tr></table></figure>
+
+<p><strong>in c, <code>int&#39;s upper_bound</code> is 2^31^ - 1 &#x3D; 2147483647.</strong></p>
+<h4 id="12-下标-用”-”包围"><a href="#12-下标-用”-”包围" class="headerlink" title="12.下标[用”~”包围]"></a>12.下标[用”~”包围]</h4><p><strong>(记得开拓展)</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">H~2~O~2~</span><br><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
+
+<p><strong>H<del>2</del>O<del>2</del></strong></p>
+<p><strong>H<del>2</del>O</strong></p>
+<h4 id="13-注释-“-”后置"><a href="#13-注释-“-”后置" class="headerlink" title="13.注释[“[^]”后置]"></a>13.注释[“[^]”后置]</h4><p><strong>(记得开拓展)</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; i want to learn markdown.</span><br><span class="line">[^1]:written by Stephen Zhang.</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>i want to learn markdown</p>
+</blockquote>
+<p>[^1]: written by Stephen Z</p>
+<h4 id="14-链接-用”-”-“-”-分别包围文本和链接"><a href="#14-链接-用”-”-“-”-分别包围文本和链接" class="headerlink" title="14.链接[用”[]” + “()” 分别包围文本和链接]"></a>14.链接[用”[]” + “()” 分别包围文本和链接]</h4><p><strong>(记得开拓展)</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[工头说你不是我们工地上的人](https://leetcode.cn)</span><br><span class="line">[别吹牛了, 工头叫你搬砖了](https://www.neumathe.cn/#/index)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://leetcode.cn/">工头说你不是我们工地上的人</a><br><a href="https://www.neumathe.cn/#/index">别吹牛了, 工头叫你搬砖了</a></p>
+<h4 id="15-任务列表-“-”-space-前置"><a href="#15-任务列表-“-”-space-前置" class="headerlink" title="15.任务列表[“- [ ]” + space 前置]"></a>15.任务列表[“- [ ]” + space 前置]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">TodoList</span><br><span class="line">- [ ] bilibili</span><br><span class="line">- [ ] coding</span><br><span class="line">- [x] sleep</span><br></pre></td></tr></table></figure>
+
+<p>List:</p>
+<ul>
+<li><p><input disabled="" type="checkbox"> 
+B</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+coding</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+sleep</p>
+</li>
+</ul>
+<h4 id="16-表格-用”-”绘制表格边框"><a href="#16-表格-用”-”绘制表格边框" class="headerlink" title="16. 表格[用”|”绘制表格边框]"></a>16. 表格[用”|”绘制表格边框]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| id | name | age |</span><br><span class="line">| :--- | :---: | ---: |(left, mid, right)</span><br><span class="line">|10086|china mobile|1|</span><br><span class="line">|10010|china unicorn|2|</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="left">id</th>
+<th align="center">name</th>
+<th align="right">age</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">10086</td>
+<td align="center">china mobile</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="left">10010</td>
+<td align="center">china unicorn</td>
+<td align="right">2</td>
+</tr>
+</tbody></table>
+<h4 id="17-图片-Ctrl-C-V"><a href="#17-图片-Ctrl-C-V" class="headerlink" title="17.图片[Ctrl + C&#x2F;V]"></a>17.图片[<code>Ctrl</code> + <code>C</code>&#x2F;<code>V</code>]</h4><p><img src="/learn.assets/goose-17269084943042.png" alt="goose"></p>
+<h4 id="18-分割线-“-”-”—“-”-”-Enter"><a href="#18-分割线-“-”-”—“-”-”-Enter" class="headerlink" title="18.分割线[“***”,”—“,”___” + Enter]"></a>18.分割线[“***”,”—“,”___” + Enter]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">---</span><br><span class="line">___</span><br><span class="line">//</span><br></pre></td></tr></table></figure>
+
+<p><strong>- 最方便</strong></p>
+<hr>
+<hr>
+<hr>
+<h4 id="19-表情-“-”前置"><a href="#19-表情-“-”前置" class="headerlink" title="19.表情[“:”前置]"></a>19.表情[“:”前置]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:sweat_smile:</span><br><span class="line">:drooling_face:</span><br><span class="line">:clown_face:</span><br><span class="line">//</span><br></pre></td></tr></table></figure>
+
+<p>:sweat_smile:<br>:drooling_face:<br>:clown_face:</p>
+<h2 id="深入学习"><a href="#深入学习" class="headerlink" title="深入学习"></a>深入学习</h2><h4 id="1-目录-自动生成"><a href="#1-目录-自动生成" class="headerlink" title="1.目录[自动生成]"></a>1.目录[自动生成]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[TOC](Typora特有)</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-内联HTML代码-用””包围"><a href="#2-内联HTML代码-用””包围" class="headerlink" title="2. 内联HTML代码[用”&lt;&gt;&lt;&#x2F;&gt;”包围]"></a>2. 内联HTML代码[用”&lt;&gt;&lt;&#x2F;&gt;”包围]</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div style = &quot;text-align:center&quot;&gt;</span><br><span class="line">	&lt;font style = &quot;color : red&quot;&gt; i couldn&#x27;t use HTML...&lt;/font&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;center&gt;简单的文字居中也可以这样&lt;/center&gt;</span><br><span class="line"></span><br><span class="line">&lt;u&gt;you should code other programs&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+<p>markdown 可以当作HTML写</p>
+<p><code>.md</code>文件可直接导出一个网页</p>
+<p>下划线可以<code>Ctrl</code> + <code>U</code></p>
+<div style = "text-align:center">
+    <font style = "color : red"> i couldn't use HTML...</font>
+</div>
+
+<center>简单的文字居中也可以这样</center>
+
+<center><u>life is short, i need phh.</u></center>
+
+
+
+<h4 id="3-内联-LaTeX-公式-用”-”包围"><a href="#3-内联-LaTeX-公式-用”-”包围" class="headerlink" title="3. 内联$ \LaTeX $公式[用”$”包围]"></a>3. 内联$ \LaTeX $公式[用”$”包围]</h4><p>(部分编译器会不识别部分符号)</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$\LaTeX$</span><br><span class="line"></span><br><span class="line">$a^n + b^n = c^n$</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">%\usepackage&#123;unicode-math&#125;</span><br><span class="line">\displaystyle \ointctrclockwise\mathcal&#123;D&#125;[x(t)]</span><br><span class="line">\sqrt&#123;\frac&#123;\displaystyle3\uppi^2-\sum_&#123;q=0&#125;^&#123;\infty&#125;(z+\hat L)^&#123;q&#125;</span><br><span class="line">\exp(\symrm&#123;i&#125;q^2 \hbar x)&#125;&#123;\displaystyle (\symsfup&#123;Tr&#125;\symbfcal&#123;A&#125;)</span><br><span class="line">\left(\symbf\Lambda_&#123;j_1j_2&#125;^&#123;i_1i_2&#125;\Gamma_&#123;i_1i_2&#125;^&#123;j_1j_2&#125;</span><br><span class="line">\hookrightarrow\vec D\cdot \symbf P \right)&#125;&#125;</span><br><span class="line">=\underbrace&#123;\widetilde&#123;\left\langle \frac&#123;\notin \emptyset&#125;</span><br><span class="line">&#123;\varpi\alpha_&#123;k\uparrow&#125;&#125;\middle\vert</span><br><span class="line">\frac&#123;\partial_\mu T_&#123;\mu\nu&#125;&#125;&#123;2&#125;\right\rangle&#125;&#125;_&#123;\mathrm&#123;K&#125;_3</span><br><span class="line">\mathrm&#123;Fe&#125;(\mathrm&#123;CN&#125;)_6&#125; ,\forall z \in \mathbb&#123;R&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+<p><strong>1.</strong></p>
+<p>$\LaTeX$</p>
+<p><strong>2.</strong></p>
+<p>$a^n + b^n &#x3D; c^n$</p>
+<p><strong>3.</strong><br>$$<br>%\usepackage{unicode-math}<br>\displaystyle \ointctrclockwise\mathcal{D}[x(t)]<br>\sqrt{\frac{\displaystyle3\uppi^2-\sum_{q&#x3D;0}^{\infty}(z+\hat L)^{q}<br>\exp(\symrm{i}q^2 \hbar x)}{\displaystyle (\symsfup{Tr}\symbfcal{A})<br>\left(\symbf\Lambda_{j_1j_2}^{i_1i_2}\Gamma_{i_1i_2}^{j_1j_2}<br>\hookrightarrow\vec D\cdot \symbf P \right)}}<br>&#x3D;\underbrace{\widetilde{\left\langle \frac{\notin \emptyset}<br>{\varpi\alpha_{k\uparrow}}\middle\vert<br>\frac{\partial_\mu T_{\mu\nu}}{2}\right\rangle}}_{\mathrm{K}_3<br>\mathrm{Fe}(\mathrm{CN})_6} ,\forall z \in \mathbb{R}<br>$$</p>
+<h4 id="4-网络图床"><a href="#4-网络图床" class="headerlink" title="4.网络图床"></a>4.网络图床</h4><h4 id="5-常用快捷键"><a href="#5-常用快捷键" class="headerlink" title="5.常用快捷键"></a>5.常用快捷键</h4><table>
+<thead>
+<tr>
+<th align="center">按键</th>
+<th align="center">效果</th>
+<th>按键</th>
+<th align="center">效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>Ctrl</code> + <code>D</code></td>
+<td align="center">选中当前词</td>
+<td><code>Ctrl</code> + <code>L</code></td>
+<td align="center">选中当前句&#x2F;行</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>E</code></td>
+<td align="center">选中当前区块</td>
+<td><code>Ctrl</code> + <code>F</code></td>
+<td align="center">搜索当前选中</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>B</code></td>
+<td align="center">加粗当前选中</td>
+<td><code>Ctrl</code> + <code>H</code></td>
+<td align="center">替换当前选中</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>I</code></td>
+<td align="center">倾斜当前选中</td>
+<td><code>Ctrl</code> + <code>U</code></td>
+<td align="center">下划当前选中</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>K</code></td>
+<td align="center">将当前选中生成链接</td>
+<td><code>Ctrl</code> + <code>J</code></td>
+<td align="center">滚动屏幕将选中滚动到顶</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>W</code></td>
+<td align="center">关闭当前窗口</td>
+<td><code>Ctrl</code> + <code>N</code></td>
+<td align="center">打开新窗口</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>O</code></td>
+<td align="center">打开文件</td>
+<td><code>Ctrl</code> + <code>P</code></td>
+<td align="center">搜索文件并打开</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>Enter</code></td>
+<td align="center">表格下方插入行</td>
+<td><code>Ctrl</code> + <code>,</code></td>
+<td align="center">打开偏好设置</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>.</code></td>
+<td align="center">切换全角&#x2F;半角标点</td>
+<td><code>Ctrl</code> + <code>/</code></td>
+<td align="center">切换正常&#x2F;源代码视图</td>
+</tr>
+<tr>
+<td align="center"><code>Ctrl</code> + <code>shift</code> +<code>-</code></td>
+<td align="center">缩小视图</td>
+<td><code>Ctrl</code> + <code>shift</code> + <code>+</code></td>
+<td align="center">增大视图</td>
+</tr>
+</tbody></table>
+<pre><code>
+</code></pre>
+]]></content>
+      <tags>
+        <tag>教程</tag>
+        <tag>前端</tag>
+        <tag>姓于者</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue:计算属性</title>
+    <url>/posts/ffe80f36/</url>
+    <content><![CDATA[<center>默认只读<center>
+<span id="more"></span>
+
+<h2 id="我们为什么需要计算属性"><a href="#我们为什么需要计算属性" class="headerlink" title="我们为什么需要计算属性"></a>我们为什么需要计算属性</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">全名：<span class="tag">&lt;<span class="name">span</span>&gt;</span>&#123;&#123;firstName + &#x27;-&#x27; + lastName&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>vue官方不建议我们在模板这么写，这看起来过于 <strong>复杂</strong></p>
+<h2 id="示例代码"><a href="#示例代码" class="headerlink" title="示例代码"></a>示例代码</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;person&quot;</span>&gt;</span></span><br><span class="line">        姓：<span class="tag">&lt;<span class="name">input</span>  <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;firstName&quot;</span>&gt;</span> <span class="tag">&lt;<span class="name">br</span>&gt;</span>   </span><br><span class="line">        名：<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">v-model</span>=<span class="string">&quot;lastName&quot;</span>&gt;</span> <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">        全名：<span class="tag">&lt;<span class="name">span</span>&gt;</span>&#123;&#123;fullName&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">&quot;changeName&quot;</span>&gt;</span>修改姓名<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 全名 &lt;span&gt;&#123;&#123;firstName&#125;&#125;-&#123;&#123;lastName&#125;&#125;&lt;/span&gt; &lt;br&gt; --&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>   <span class="attr">lang</span>=<span class="string">&quot;ts&quot;</span> <span class="attr">name</span>=<span class="string">&quot;Personsss&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123;computed, ref&#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">let</span> firstName= <span class="title function_">ref</span>(<span class="string">&#x27;章&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">let</span> lastName = <span class="title function_">ref</span>(<span class="string">&#x27;礼&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">let</span> fullName =<span class="title function_">computed</span>(</span></span><br><span class="line"><span class="language-javascript"><span class="function">()=&gt;</span>firstName.<span class="property">value</span>.<span class="title function_">slice</span>(<span class="number">0</span>,<span class="number">1</span>).<span class="title function_">toUpperCase</span>()+firstName.<span class="property">value</span>.<span class="title function_">slice</span>(<span class="number">1</span>)+lastName.<span class="property">value</span></span></span><br><span class="line"><span class="language-javascript">);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>首先我们需要导入<code>computed</code><br>然后使用这个计算属性定义<code>fullName</code><br>通过这个方法，使得模板变得简易，可读性变高</p>
+<h2 id="计算属性默认只可读"><a href="#计算属性默认只可读" class="headerlink" title="计算属性默认只可读"></a>计算属性默认只可读</h2><p>事实上如果我在里面定义一个函数</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">changeName</span>(<span class="params"></span>)&#123;</span><br><span class="line">fullName.<span class="property">value</span>=<span class="string">&#x27;李四&#x27;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这个<code>changeName</code>函数会报错<br><code>无法为“value”赋值，因为它是只读属性。</code><br>这是计算属性的只读特性</p>
+<h2 id="如何修改？"><a href="#如何修改？" class="headerlink" title="如何修改？"></a>如何修改？</h2><p>如果想要修改计算属性的值，我们需要<code>get</code>和<code>set</code>方法</p>
+<p>例如<br>来自于<a href="https://cn.vuejs.org/guide/essentials/computed.html">vue官方文档</a></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; ref, computed &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> firstName = <span class="title function_">ref</span>(<span class="string">&#x27;John&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> lastName = <span class="title function_">ref</span>(<span class="string">&#x27;Doe&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> fullName = <span class="title function_">computed</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">  <span class="comment">// getter</span></span></span><br><span class="line"><span class="language-javascript">  <span class="title function_">get</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">return</span> firstName.<span class="property">value</span> + <span class="string">&#x27; &#x27;</span> + lastName.<span class="property">value</span></span></span><br><span class="line"><span class="language-javascript">  &#125;,</span></span><br><span class="line"><span class="language-javascript">  <span class="comment">// setter</span></span></span><br><span class="line"><span class="language-javascript">  <span class="title function_">set</span>(<span class="params">newValue</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="comment">// 注意：我们这里使用的是解构赋值语法</span></span></span><br><span class="line"><span class="language-javascript">    [firstName.<span class="property">value</span>, lastName.<span class="property">value</span>] = newValue.<span class="title function_">split</span>(<span class="string">&#x27; &#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">  &#125;</span></span><br><span class="line"><span class="language-javascript">&#125;)</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>你发现了吗，这种修改本质上还是修改了<code>firstName</code>和<code>lastName</code>,那我们不禁想到，为什么我们不直接修改这两个的值，来实现通过计算属性更新<code>fullName</code>的值呢？</p>
+<h3 id="官方推荐"><a href="#官方推荐" class="headerlink" title="官方推荐"></a>官方推荐</h3><p>正如官方文档所言<br><em><strong>避免直接修改计算属性值​</strong></em><br>从计算属性返回的值是派生状态。可以把它看作是一个“临时快照”，每当源状态发生变化时，就会创建一个新的快照。更改快照是没有意义的，因此计算属性的返回值应该被视为只读的，并且永远不应该被更改——应该更新它所依赖的源状态以触发新的计算。</p>
+<p>所以，这种只读属性是必然的，我们完全可以通过修改那两个值实现计算属性的值的更新！</p>
+]]></content>
+      <categories>
+        <category>Vue3</category>
+        <category>基础</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Vue3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>信息技术基数实训-焊接爱心花灯</title>
+    <url>/posts/90edeb6d/</url>
+    <content><![CDATA[<center>两个灯没亮，扣了两分:(</center>
+
+<p><img src="/images/pratccc/1.jpg" alt="花灯"></p>
+<span id="more"></span>
+
+<h2 id="没必要的程序"><a href="#没必要的程序" class="headerlink" title="没必要的程序"></a><del>没必要的程序</del></h2><p>本来以为要写入程序什么的，发现带了电脑没用。</p>
+<h2 id="焊-烙铁！"><a href="#焊-烙铁！" class="headerlink" title="焊-烙铁！"></a>焊-烙铁！</h2><p>真得小心一点，我对面的人不知道被烫了多少次🤣(虽然我右手中指也烫了一下😢)，这个玩意看不敢乱戳，听老师说，之前的学长把连接线，甚至是电脑显示屏都烫坏了！</p>
+<h2 id="正负极呢？"><a href="#正负极呢？" class="headerlink" title="正负极呢？"></a>正负极呢？</h2><p>还好老师讲了一下，不然我还真不记得长脚是+，短脚是-</p>
+<p><del>有时间再补充</del></p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>教程</tag>
+        <tag>信息技术基础实训</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初识Vue3,有趣</title>
+    <url>/posts/218fcad3/</url>
+    <content><![CDATA[<center>初识前端工程</center>
+
+<p><img src="https://cn.vuejs.org/logo.svg" alt="Vue3"></p>
+<span id="more"></span>
+
+<h2 id="基础扎实"><a href="#基础扎实" class="headerlink" title="基础扎实"></a>基础扎实</h2><p>老三件：<code>html</code> <code>css</code> <code>javascript</code>虽然不敢说熟练吧，但也算是基本掌握，但是我想如果构建前端页面的话，写这些似乎有点太过冗杂，看来前端工程化是必要的！</p>
+<h1 id="Vue3是什么"><a href="#Vue3是什么" class="headerlink" title="Vue3是什么"></a>Vue3是什么</h1><p>正如它官网介绍的：</p>
+<blockquote>
+<p>易学易用，性能出色，适用场景丰富的 Web 前端框架。</p>
+</blockquote>
+<p>Vue 3是一个重构的Vue.js版本，它带来了更快的性能、更小的体积、更好的TypeScript支持以及全新的Composition API，这些改进让Vue开发更加高效、灵活和可维护。Vue 3通过Proxy实现了更强大的响应式系统，支持更全面的数据监测，并引入了Fragment、Teleport和Suspense等新组件，以及Tree-shaking等优化手段，进一步提升了用户体验和开发效率。同时，Vue 3的生态系统也在不断发展壮大，为开发者提供了更多选择和可能性。</p>
+<h2 id="相比于传统开发"><a href="#相比于传统开发" class="headerlink" title="相比于传统开发"></a>相比于传统开发</h2><h3 id="性能提升"><a href="#性能提升" class="headerlink" title="性能提升"></a>性能提升</h3><p>更快的渲染速度：Vue 3通过优化虚拟DOM算法、响应式系统以及编译器，实现了更快的渲染速度。其中，Vue 3使用了基于Proxy的响应式系统，相比Vue 2的Object.defineProperty，Proxy的代理模式无需深度遍历整个对象，因此性能更高。此外，Vue 3还引入了静态提升（Static Tree Hoisting）和基于Proxy的观察者（Proxy-based Observer），进一步提升了渲染性能。<br>更小的体积：Vue 3通过Tree-shaking技术和优化打包方式，使得包体积更小，加载速度更快。这有助于减少前端页面的加载时间，提升用户体验。</p>
+<h3 id="全新的Composition-API"><a href="#全新的Composition-API" class="headerlink" title="全新的Composition API"></a>全新的Composition API</h3><p>更灵活的代码组织方式：Vue 3引入了Composition API，允许开发者通过函数的方式组织代码，而不是像Vue 2那样通过选项式API来组织。这种方式使得代码更加模块化、可重用和可维护。<br>更清晰的逻辑复用：Composition API中的setup函数允许开发者将组件的逻辑组织在一起，并通过ref、reactive等函数创建响应式数据，通过computed、watch等函数实现计算属性和侦听器，从而实现了更清晰的逻辑复用。</p>
+<h3 id="更好的TypeScript支持"><a href="#更好的TypeScript支持" class="headerlink" title="更好的TypeScript支持"></a>更好的TypeScript支持</h3><p>原生支持TypeScript：Vue 3原生支持TypeScript，这使得开发者可以更方便地编写类型安全的代码，减少运行时错误，并提高开发效率。同时，Vue 3也提供了更丰富的TypeScript类型定义和类型推断功能，进一步提升了TypeScript的使用体验。</p>
+<h3 id="生态系统的发展"><a href="#生态系统的发展" class="headerlink" title="生态系统的发展"></a>生态系统的发展</h3><p>丰富的第三方库和工具：随着Vue 3的发布和普及，其生态系统也在不断发展壮大。现在已经有大量的第三方库和工具支持Vue 3，这为开发者提供了更多的选择和可能性。</p>
+<h3 id="改进的开发体验"><a href="#改进的开发体验" class="headerlink" title="改进的开发体验"></a>改进的开发体验</h3><p>更简洁的语法：Vue 3的语法相比Vue 2更加简洁明了，去除了一些不常用的功能，使得代码更加易于阅读和维护。<br>更好的错误处理和调试：Vue 3提供了更强大的错误处理和调试功能，使得开发者可以更快地定位和解决问题。<br>综上所述，Vue3开发相较于传统前端开发在性能、API设计、TypeScript支持、生态系统以及开发体验等方面都展现出了显著的区别和优势。这些改进使得Vue 3成为构建高性能、高效、可维护的Web应用的强大工具。</p>
+<h3 id="我自己的小实现"><a href="#我自己的小实现" class="headerlink" title="我自己的小实现"></a>我自己的小实现</h3><p>看b站<a href="https://www.bilibili.com/video/BV1Za4y1r7KE?p=1">尚硅谷Vue3入门到实战，最新版vue3+TypeScript前端开发教程</a>动手实现了一下简单的示例，感觉很有趣，等我再熟悉熟悉，看看能不能做个小项目：）</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>Vue3</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>教程</tag>
+        <tag>CSS</tag>
+        <tag>HTML</tag>
+        <tag>第一次</tag>
+        <tag>前端</tag>
+        <tag>Vue3</tag>
+        <tag>Typescript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决国外人机验证不显示问题</title>
+    <url>/posts/37f315ff/</url>
+    <content><![CDATA[<p><img src="/images/foriiii/reCAPTCHA.png" alt="yan"></p>
+<p>由于<a href="https://baike.baidu.com/item/%E8%B0%B7%E6%AD%8C%E4%BA%8B%E4%BB%B6/6971355#:~:text=%E5%BD%93%E5%A4%A9%E4%B8%8B%E5%8D%88%EF%BC%8C%E4%B8%96%E7%95%8C%E4%BA%92%E8%81%94%E7%BD%91">众所周知的原因</a>,google的人机身份验证无法在中国大陆正常使用，但当我们访问一些国外网站时，它们又使用谷歌验证服务，为了解决这个问题，写下了这个文章。</p>
+<span id="more"></span>
+
+<h2 id="下载Gooreplacer插件"><a href="#下载Gooreplacer插件" class="headerlink" title="下载Gooreplacer插件"></a>下载<a href="https://microsoftedge.microsoft.com/addons/detail/gooreplacer/cidbonnpjopamnhfjdgfcmjmlmehjnej">Gooreplacer</a>插件</h2><h3 id="此处以edge为例"><a href="#此处以edge为例" class="headerlink" title="此处以edge为例"></a>此处以edge为例</h3><p><img src="/images/foriiii/2.png" alt="gooreplacer"></p>
+<h3 id="配置内容"><a href="#配置内容" class="headerlink" title="配置内容"></a>配置内容</h3><p>打开右上部分的 扩展，选择<a href="https://microsoftedge.microsoft.com/addons/detail/gooreplacer/cidbonnpjopamnhfjdgfcmjmlmehjnej">Gooreplacer</a>，配置规则</p>
+<p>如图，配置<strong>重定向</strong>规则</p>
+<p><img src="/images/foriiii/3.png" alt="3"><br>详细信息如下</p>
+<p>匹配模式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://www.google.com/recaptcha</span><br></pre></td></tr></table></figure>
+<p>目标地址：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://recaptcha.net/recaptcha</span><br></pre></td></tr></table></figure>
+<p>匹配类型:<br>通配符</p>
+<p>就此，问题解决</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://zhuanlan.zhihu.com/p/594792397#:~:text=%E8%BF%99%E6%96%AD%E6%97%B6%E9%97%B4%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%83%B3%E5%8A%9E%E6%B3%95">国外网站刷不出验证码？下载安装Gooreplacer（附详细步骤）</a></p>
+]]></content>
+      <categories>
+        <category>浏览器</category>
+      </categories>
+      <tags>
+        <tag>网络</tag>
+        <tag>问题</tag>
+        <tag>解决</tag>
+        <tag>recaptcha</tag>
+        <tag>验证码</tag>
+        <tag>谷歌</tag>
+        <tag>google</tag>
+        <tag>浏览器</tag>
+        <tag>插件</tag>
       </tags>
   </entry>
 </search>
