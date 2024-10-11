@@ -723,11 +723,19 @@ time_is_widget.init({China_z43d:{template:"TIME<br>DATE<br>SUN", date_format:"ye
 
 
 
+<div style="display: flex; align-items: center; justify-content: center;">
 <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
     <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
-<div>
-<a href="https://icp.dns163.cn/beian/ICP-2024100103.html" title="易AIA盟2024100103号" target="_blank"><img style="width:20px;height:20px;" src="https://icp.dns163.cn/static/picture/icplogoi.png">易AIA盟2024100103号</a>
+  <a href="https://icp.dns163.cn/beian/ICP-2024100103.html" title="易AIA盟2024100103号" target="_blank" style="display: inline-flex; align-items: center; margin-right: 10px;">
+    <img src="https://icp.dns163.cn/static/picture/icplogoi.png" style="width: 20px; height: 20px; margin-right: 5px;">
+    易AIA盟2024100103号
+  </a>
+  <a target="_blank" href="https://beian.miit.cn.com/gov/search.php?query=xingwangzhe.fun" title="MIIT备20241054号" style="display: inline-flex; align-items: center;">
+    <img src="https://beian.miit.cn.com/logo.svg" alt="MIIT" width="20" style="margin-right: 5px;">
+    MIIT备20241054号
+  </a>
+  <a href="https://www.gyfzlm.com/fanzha/NO-20240105.html" target="_blank"><img style="width:130px;height:45px;" src="https://www.gyfzlm.com/istatic/image/gyfzlogo.png" alt="公益反诈联盟成员单位"></a>
 </div>
 
 <span id="timeDate">载入天数...</span>
@@ -841,6 +849,22 @@ setInterval("createtime()",250);
     </script>
 
 
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
 <script>
@@ -858,22 +882,6 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
     });
     gitalk.render('gitalk-container');
   }, window.Gitalk);
-});
-</script>
-
-<script>
-NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
-  window.livereOptions = {
-    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
 });
 </script>
 
