@@ -425,7 +425,7 @@ time_is_widget.init({China_z43d:{template:"TIME<br>DATE<br>SUN", date_format:"ye
 
 
 
-<div style="display: flex; align-items: center; justify-content: center;">
+    <div style="display: flex; align-items: center; justify-content: center;">
 <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
     <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
@@ -438,7 +438,7 @@ time_is_widget.init({China_z43d:{template:"TIME<br>DATE<br>SUN", date_format:"ye
     MIIT备20241054号
   </a>
   <a href="https://www.gyfzlm.com/fanzha/NO-20240105.html" target="_blank"><img style="width:130px;height:45px;" src="https://www.gyfzlm.com/istatic/image/gyfzlogo.png" alt="公益反诈联盟成员单位"></a>
-
+  
 </div>
 
 <span id="timeDate">载入天数...</span>
@@ -454,7 +454,7 @@ time_is_widget.init({China_z43d:{template:"TIME<br>DATE<br>SUN", date_format:"ye
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("timeDate").innerHTML = "本站正常运行 "+dnum+" 天 ";
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒.";
     }
 setInterval("createtime()",250);
