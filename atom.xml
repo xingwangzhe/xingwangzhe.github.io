@@ -24,7 +24,8 @@
     <updated>2024-10-11T10:09:23.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;让传统友链“活跃”，让网页相互接力，让流量相互流动，让网络开放起来&lt;br&gt;&lt;img src=&quot;https://i.ibb.co/frxbgpB/202410111714865.png&quot;&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;让传统友链“活跃”，让网页相互接力，让流量相互流动，让网络开放起来&lt;br&gt;
+&lt;img src=&quot;https://i.ibb.co/frxbgpB/202410111714865.png&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -47,7 +48,7 @@
     <updated>2024-10-08T07:21:11.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/foriiii/reCAPTCHA.png&quot; alt=&quot;yan&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;images/foriiii/reCAPTCHA.png&quot; alt=&quot;yan&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
 &lt;p&gt;由于&lt;a href=&quot;https://baike.baidu.com/item/%E8%B0%B7%E6%AD%8C%E4%BA%8B%E4%BB%B6/6971355#:~:text=%E5%BD%93%E5%A4%A9%E4%B8%8B%E5%8D%88%EF%BC%8C%E4%B8%96%E7%95%8C%E4%BA%92%E8%81%94%E7%BD%91&quot;&gt;众所周知的原因&lt;/a&gt;,google的人机身份验证无法在中国大陆正常使用，但当我们访问一些国外网站时，它们又使用谷歌验证服务，为了解决这个问题，写下了这个文章。&lt;/p&gt;</summary>
     
     
@@ -92,11 +93,11 @@
     <category term="Vue3" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/Vue3/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="Vue3" scheme="https://xingwangzhe.fun/tags/Vue3/"/>
     
     <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="Vue3" scheme="https://xingwangzhe.fun/tags/Vue3/"/>
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
@@ -117,9 +118,9 @@
     <category term="基础" scheme="https://xingwangzhe.fun/categories/Vue3/%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="Vue3" scheme="https://xingwangzhe.fun/tags/Vue3/"/>
+    
+    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -136,9 +137,9 @@
     
     
     
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="姓于者" scheme="https://xingwangzhe.fun/tags/%E5%A7%93%E4%BA%8E%E8%80%85/"/>
     
@@ -153,8 +154,7 @@
     
     
     <summary type="html">&lt;center&gt;两个灯没亮，扣了两分:(&lt;/center&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/pratccc/1.jpg&quot; alt=&quot;花灯&quot;&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;img src=&quot;images/pratccc/1.jpg&quot; alt=&quot;花灯&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -178,8 +178,7 @@
     
     
     <summary type="html">&lt;center&gt;初识前端工程&lt;/center&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cn.vuejs.org/logo.svg&quot; alt=&quot;Vue3&quot;&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;img src=&quot;https://cn.vuejs.org/logo.svg&quot; alt=&quot;Vue3&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -187,6 +186,10 @@
     
     <category term="Vue3" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/Vue3/"/>
     
+    
+    <category term="Vue3" scheme="https://xingwangzhe.fun/tags/Vue3/"/>
+    
+    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
     
@@ -198,11 +201,150 @@
     
     <category term="第一次" scheme="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
     
+    <category term="Typescript" scheme="https://xingwangzhe.fun/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过创建资产负债表学习 CSS 伪选择器</title>
+    <link href="https://xingwangzhe.fun/posts/d8587a7c/"/>
+    <id>https://xingwangzhe.fun/posts/d8587a7c/</id>
+    <published>2024-09-27T14:05:24.900Z</published>
+    <updated>2024-09-22T05:51:11.702Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;你可以使用 CSS 伪选择器来更改特定的 HTML 元素。&lt;br&gt;
+在本课程中，你将使用伪选择器创建资产负债表。你将学习如何在将鼠标悬停在元素上时更改其样式，并触发网页上的其他事件。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="HTML" scheme="https://xingwangzhe.fun/categories/HTML/"/>
+    
+    <category term="CSS" scheme="https://xingwangzhe.fun/categories/HTML/CSS/"/>
+    
+    
     <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="Vue3" scheme="https://xingwangzhe.fun/tags/Vue3/"/>
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="Typescript" scheme="https://xingwangzhe.fun/tags/Typescript/"/>
+    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
+    
+    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
+    
+    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过创建营养标签学习排版</title>
+    <link href="https://xingwangzhe.fun/posts/544543f1/"/>
+    <id>https://xingwangzhe.fun/posts/544543f1/</id>
+    <published>2024-09-27T14:05:24.896Z</published>
+    <updated>2024-09-17T12:26:08.018Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;营养均衡&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>学了点js</title>
+    <link href="https://xingwangzhe.fun/posts/fcbe0bf5/"/>
+    <id>https://xingwangzhe.fun/posts/fcbe0bf5/</id>
+    <published>2024-09-27T14:05:24.859Z</published>
+    <updated>2024-09-25T07:01:18.032Z</updated>
+    
+    
+    <summary type="html">&lt;center&gt;语法挺有趣的&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="前端" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="js" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/js/"/>
+    
+    
+    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="js" scheme="https://xingwangzhe.fun/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>玩文明六玩爽了</title>
+    <link href="https://xingwangzhe.fun/posts/b6e6b630/"/>
+    <id>https://xingwangzhe.fun/posts/b6e6b630/</id>
+    <published>2024-09-27T14:05:24.843Z</published>
+    <updated>2024-09-15T10:23:36.262Z</updated>
+    
+    
+    <summary type="html">&lt;h1&gt;简单又难，文明6&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="日记" scheme="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="游戏" scheme="https://xingwangzhe.fun/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一个博客</title>
+    <link href="https://xingwangzhe.fun/posts/38c422a2/"/>
+    <id>https://xingwangzhe.fun/posts/38c422a2/</id>
+    <published>2024-09-27T14:05:24.841Z</published>
+    <updated>2024-09-15T10:23:36.263Z</updated>
+    
+    
+    <summary type="html">&lt;center&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/vLC0cft/202406212107148.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
+&lt;h1&gt;我的第一个博客&lt;/h1&gt;
+&lt;p&gt;&lt;s&gt;应该不是最后一个&lt;/s&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日记" scheme="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="hexo" scheme="https://xingwangzhe.fun/tags/hexo/"/>
+    
+    <category term="第一次" scheme="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
+    
+    <category term="第一" scheme="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo创建公益404界面</title>
+    <link href="https://xingwangzhe.fun/posts/6ec2376e/"/>
+    <id>https://xingwangzhe.fun/posts/6ec2376e/</id>
+    <published>2024-09-27T14:05:24.831Z</published>
+    <updated>2024-09-20T10:57:27.765Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;images/404/4044.png&quot; alt=&quot;404&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
+&lt;center&gt;让世界更美好&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="公益" scheme="https://xingwangzhe.fun/tags/%E5%85%AC%E7%9B%8A/"/>
+    
+    <category term="404" scheme="https://xingwangzhe.fun/tags/404/"/>
     
   </entry>
   
@@ -215,9 +357,9 @@
     
     
     <summary type="html">&lt;center&gt;
-
-&lt;h1 id=&quot;本来想搬fishport-server-wiki来着&quot;&gt;&lt;a href=&quot;#本来想搬fishport-server-wiki来着&quot; class=&quot;headerlink&quot; title=&quot;本来想搬fishport_server_wiki来着&quot;&gt;&lt;/a&gt;本来想搬fishport_server_wiki来着&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt; 一个我的世界服务器wiki&lt;/p&gt;
+&lt;h1&gt;本来想搬fishport_server_wiki来着&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个我的世界服务器wiki&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
     
     
@@ -234,6 +376,55 @@
     <category term="懒得动" scheme="https://xingwangzhe.fun/tags/%E6%87%92%E5%BE%97%E5%8A%A8/"/>
     
     <category term="游戏" scheme="https://xingwangzhe.fun/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工业博物馆游览</title>
+    <link href="https://xingwangzhe.fun/posts/ca82fca4/"/>
+    <id>https://xingwangzhe.fun/posts/ca82fca4/</id>
+    <published>2024-09-27T14:05:24.805Z</published>
+    <updated>2024-09-15T10:23:36.228Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;早上出发&quot;&gt;早上出发&lt;/h2&gt;
+&lt;p&gt;骑哈喽单车刚出校门，我以为校园车是专属的，不能停校外，但还是试着锁了一下，嗯…果然是我想错了，但我还是选择走着去了地铁口，作为起点站，又是早上，人很少，打开高德地图，这里换乘，那里倒线，有点迷糊…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日记" scheme="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="游览" scheme="https://xingwangzhe.fun/tags/%E6%B8%B8%E8%A7%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LeetCode:2. 两数相加</title>
+    <link href="https://xingwangzhe.fun/posts/f899f771/"/>
+    <id>https://xingwangzhe.fun/posts/f899f771/</id>
+    <published>2024-09-27T14:05:24.799Z</published>
+    <updated>2024-09-22T06:43:47.707Z</updated>
+    
+    
+    <summary type="html">&lt;center&gt;两数相加&lt;center&gt;</summary>
+    
+    
+    
+    <category term="算法题" scheme="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
+    
+    <category term="LeetCode" scheme="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="LeetCode" scheme="https://xingwangzhe.fun/tags/LeetCode/"/>
+    
+    <category term="算法题" scheme="https://xingwangzhe.fun/tags/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
+    
+    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -281,13 +472,13 @@
     <category term="CSS" scheme="https://xingwangzhe.fun/categories/CSS/"/>
     
     
+    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
     
     <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
     
     <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
-    
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
     
@@ -308,40 +499,15 @@
     <category term="CSS" scheme="https://xingwangzhe.fun/categories/CSS/"/>
     
     
+    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
     
     <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
     
     <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学了点js</title>
-    <link href="https://xingwangzhe.fun/posts/fcbe0bf5/"/>
-    <id>https://xingwangzhe.fun/posts/fcbe0bf5/</id>
-    <published>2024-09-24T13:39:28.420Z</published>
-    <updated>2024-09-25T07:01:18.032Z</updated>
-    
-    
-    <summary type="html">&lt;center&gt;语法挺有趣的&lt;/center&gt;</summary>
-    
-    
-    
-    <category term="前端" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="js" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/js/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="js" scheme="https://xingwangzhe.fun/tags/js/"/>
     
   </entry>
   
@@ -354,7 +520,7 @@
     
     
     <summary type="html">&lt;p&gt;ai总是那么幽默&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/shenren/1.jpg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;img src=&quot;images/shenren/1.jpg&quot; alt=&quot;1&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -364,196 +530,6 @@
     <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
     
     <category term="神人" scheme="https://xingwangzhe.fun/tags/%E7%A5%9E%E4%BA%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LeetCode:2. 两数相加</title>
-    <link href="https://xingwangzhe.fun/posts/f899f771/"/>
-    <id>https://xingwangzhe.fun/posts/f899f771/</id>
-    <published>2024-09-22T06:22:35.894Z</published>
-    <updated>2024-09-22T06:43:47.707Z</updated>
-    
-    
-    <summary type="html">&lt;center&gt;两数相加&lt;center&gt;</summary>
-    
-    
-    
-    <category term="算法题" scheme="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
-    
-    <category term="LeetCode" scheme="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/"/>
-    
-    
-    <category term="LeetCode" scheme="https://xingwangzhe.fun/tags/LeetCode/"/>
-    
-    <category term="算法题" scheme="https://xingwangzhe.fun/tags/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过创建资产负债表学习 CSS 伪选择器</title>
-    <link href="https://xingwangzhe.fun/posts/d8587a7c/"/>
-    <id>https://xingwangzhe.fun/posts/d8587a7c/</id>
-    <published>2024-09-22T05:40:55.255Z</published>
-    <updated>2024-09-22T05:51:11.702Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;你可以使用 CSS 伪选择器来更改特定的 HTML 元素。&lt;br&gt;在本课程中，你将使用伪选择器创建资产负债表。你将学习如何在将鼠标悬停在元素上时更改其样式，并触发网页上的其他事件。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="HTML" scheme="https://xingwangzhe.fun/categories/HTML/"/>
-    
-    <category term="CSS" scheme="https://xingwangzhe.fun/categories/HTML/CSS/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
-    
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
-    
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过创建小测验学习无障碍</title>
-    <link href="https://xingwangzhe.fun/posts/9f32bac9/"/>
-    <id>https://xingwangzhe.fun/posts/9f32bac9/</id>
-    <published>2024-09-21T13:01:13.000Z</published>
-    <updated>2024-09-21T13:01:16.000Z</updated>
-    
-    
-    <summary type="html">&lt;center&gt;无障碍环境正在使你的网页便于所有人使用——甚至是残疾人。
-
-&lt;p&gt;在这个课程中，你将建立一个测验网页。你将学习诸如键盘快捷键、ARIA 属性和设计最佳实践等无障碍工具。&lt;/p&gt;
-&lt;/center&gt;</summary>
-    
-    
-    
-    <category term="HTML" scheme="https://xingwangzhe.fun/categories/HTML/"/>
-    
-    <category term="CSS" scheme="https://xingwangzhe.fun/categories/HTML/CSS/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
-    
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
-    
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo压缩资源，优化访问</title>
-    <link href="https://xingwangzhe.fun/posts/42cabe35/"/>
-    <id>https://xingwangzhe.fun/posts/42cabe35/</id>
-    <published>2024-09-21T09:38:24.000Z</published>
-    <updated>2024-09-21T09:38:28.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/chenzhutian/hexo-all-minifier&quot;&gt;Hexo-all-minifier&lt;/a&gt;压缩资源，优化访问&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/hexo/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在hexo-next配置gitalk</title>
-    <link href="https://xingwangzhe.fun/posts/8403dd78/"/>
-    <id>https://xingwangzhe.fun/posts/8403dd78/</id>
-    <published>2024-09-20T10:58:27.000Z</published>
-    <updated>2024-09-20T10:58:30.000Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;如何在hexo-next配置gitalk评论&quot;&gt;&lt;a href=&quot;#如何在hexo-next配置gitalk评论&quot; class=&quot;headerlink&quot; title=&quot;如何在hexo-next配置gitalk评论&quot;&gt;&lt;/a&gt;&lt;center&gt;如何在hexo-next配置gitalk评论&lt;/center&gt;&lt;/h1&gt;&lt;p&gt;你是否也想在你的博客里面添加这样的评论区？&lt;br&gt;&lt;img src=&quot;/images/set_blog/gitalk.png&quot;&gt;&lt;br&gt;那就快来看以下教程吧：）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="gitalk" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/gitalk/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="hexo" scheme="https://xingwangzhe.fun/tags/hexo/"/>
-    
-    <category term="gitalk" scheme="https://xingwangzhe.fun/tags/gitalk/"/>
-    
-    <category term="第一次" scheme="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo创建公益404界面</title>
-    <link href="https://xingwangzhe.fun/posts/6ec2376e/"/>
-    <id>https://xingwangzhe.fun/posts/6ec2376e/</id>
-    <published>2024-09-20T10:17:48.687Z</published>
-    <updated>2024-09-20T10:57:27.765Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/404/4044.png&quot; alt=&quot;404&quot;&gt;&lt;/p&gt;
-&lt;center&gt;让世界更美好&lt;/center&gt;</summary>
-    
-    
-    
-    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="公益" scheme="https://xingwangzhe.fun/tags/%E5%85%AC%E7%9B%8A/"/>
-    
-    <category term="404" scheme="https://xingwangzhe.fun/tags/404/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为hexo-next建立静态说说</title>
-    <link href="https://xingwangzhe.fun/posts/f513b372/"/>
-    <id>https://xingwangzhe.fun/posts/f513b372/</id>
-    <published>2024-09-20T09:22:58.000Z</published>
-    <updated>2024-09-20T09:23:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;曾经考虑使用Artitalk,但由于网络原因以及github无法备案等原因，暂时放弃，转而使用静态方法写说说&lt;br&gt;&lt;img src=&quot;/images/shuoshuo/123.png&quot; alt=&quot;nihao&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
