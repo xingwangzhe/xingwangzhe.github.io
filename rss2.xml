@@ -15,8 +15,66 @@
     <atom:link href="https://xingwangzhe.fun/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 11 Oct 2024 10:09:23 GMT</pubDate>
+    <pubDate>Sun, 13 Oct 2024 09:14:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>计算理论-有限自动机(FA)</title>
+      <link>https://xingwangzhe.fun/posts/c94b8fa9/</link>
+      <guid>https://xingwangzhe.fun/posts/c94b8fa9/</guid>
+      <pubDate>Sun, 13 Oct 2024 06:54:54 GMT</pubDate>
+      
+      <description>&lt;center&gt;有限自动机是一种数学模型，用于表示和分析有限状态的计算过程。它包括确定性有限自动机（DFA）和非确定性有限自动机（NFA），广泛应用于语言识别和编译技术等领域。&lt;/center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/c94b8fa9/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>计算理论-形式语言</title>
+      <link>https://xingwangzhe.fun/posts/bccbe7bc/</link>
+      <guid>https://xingwangzhe.fun/posts/bccbe7bc/</guid>
+      <pubDate>Sun, 13 Oct 2024 05:22:45 GMT</pubDate>
+      
+      <description>&lt;center&gt;计算机的各种程序设计语言、数理逻辑中的谓词演算语言等都属于形式语言。&lt;/center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/bccbe7bc/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>开往 友链接力!</title>
@@ -518,59 +576,6 @@
       
       
       <comments>https://xingwangzhe.fun/posts/c0981903/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>通过创建猫咪绘画学习中级 CSS</title>
-      <link>https://xingwangzhe.fun/posts/52b92bfc/</link>
-      <guid>https://xingwangzhe.fun/posts/52b92bfc/</guid>
-      <pubDate>Wed, 25 Sep 2024 09:49:56 GMT</pubDate>
-      
-      <description>&lt;center&gt;哈基米还挺可爱的&lt;/center&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/CSS/">CSS</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/freecodecamp/">freecodecamp</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/52b92bfc/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>神人有感:先礼礼礼礼礼礼后兵</title>
-      <link>https://xingwangzhe.fun/posts/6af33c89/</link>
-      <guid>https://xingwangzhe.fun/posts/6af33c89/</guid>
-      <pubDate>Mon, 23 Sep 2024 07:01:26 GMT</pubDate>
-      
-      <description>&lt;p&gt;ai总是那么幽默&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/shenren/1.jpg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/">胡思乱想</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E7%A5%9E%E4%BA%BA/">神人</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/6af33c89/#disqus_thread</comments>
       
     </item>
     

@@ -6,7 +6,7 @@
   <link href="https://xingwangzhe.fun/atom.xml" rel="self"/>
   
   <link href="https://xingwangzhe.fun/"/>
-  <updated>2024-10-11T10:09:23.000Z</updated>
+  <updated>2024-10-13T09:14:47.211Z</updated>
   <id>https://xingwangzhe.fun/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算理论-有限自动机(FA)</title>
+    <link href="https://xingwangzhe.fun/posts/c94b8fa9/"/>
+    <id>https://xingwangzhe.fun/posts/c94b8fa9/</id>
+    <published>2024-10-13T06:54:54.829Z</published>
+    <updated>2024-10-13T09:14:47.211Z</updated>
+    
+    
+    <summary type="html">&lt;center&gt;有限自动机是一种数学模型，用于表示和分析有限状态的计算过程。它包括确定性有限自动机（DFA）和非确定性有限自动机（NFA），广泛应用于语言识别和编译技术等领域。&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="课程" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/"/>
+    
+    <category term="计算理论" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="计算理论" scheme="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    
+    <category term="学习" scheme="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="课程" scheme="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算理论-形式语言</title>
+    <link href="https://xingwangzhe.fun/posts/bccbe7bc/"/>
+    <id>https://xingwangzhe.fun/posts/bccbe7bc/</id>
+    <published>2024-10-13T05:22:45.000Z</published>
+    <updated>2024-10-13T05:22:44.000Z</updated>
+    
+    
+    <summary type="html">&lt;center&gt;计算机的各种程序设计语言、数理逻辑中的谓词演算语言等都属于形式语言。&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="课程" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/"/>
+    
+    <category term="计算理论" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="计算理论" scheme="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    
+    <category term="学习" scheme="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="课程" scheme="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>开往 友链接力!</title>
@@ -480,55 +534,6 @@
     <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
     
     <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过创建猫咪绘画学习中级 CSS</title>
-    <link href="https://xingwangzhe.fun/posts/52b92bfc/"/>
-    <id>https://xingwangzhe.fun/posts/52b92bfc/</id>
-    <published>2024-09-25T09:49:56.000Z</published>
-    <updated>2024-09-25T09:49:51.000Z</updated>
-    
-    
-    <summary type="html">&lt;center&gt;哈基米还挺可爱的&lt;/center&gt;</summary>
-    
-    
-    
-    <category term="CSS" scheme="https://xingwangzhe.fun/categories/CSS/"/>
-    
-    
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
-    
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
-    
-    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>神人有感:先礼礼礼礼礼礼后兵</title>
-    <link href="https://xingwangzhe.fun/posts/6af33c89/"/>
-    <id>https://xingwangzhe.fun/posts/6af33c89/</id>
-    <published>2024-09-23T07:01:26.000Z</published>
-    <updated>2024-09-25T07:01:52.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;ai总是那么幽默&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/shenren/1.jpg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="胡思乱想" scheme="https://xingwangzhe.fun/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="神人" scheme="https://xingwangzhe.fun/tags/%E7%A5%9E%E4%BA%BA/"/>
     
   </entry>
   

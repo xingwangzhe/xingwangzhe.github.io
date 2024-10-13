@@ -3338,4 +3338,320 @@ tr.data td:last-of-type{
         <tag>freecodecamp</tag>
       </tags>
   </entry>
+  <entry>
+    <title>计算理论-形式语言</title>
+    <url>/posts/bccbe7bc/</url>
+    <content><![CDATA[<center>计算机的各种程序设计语言、数理逻辑中的谓词演算语言等都属于形式语言。</center>
+<span id="more"></span>
+<h2 id="计算机形式语言的历史">计算机形式语言的历史</h2>
+<p>形式语言是由一组有限的符号和一组规则（通常称为文法）组成的严格数学系统，这些规则定义了如何将这些符号组合成有效的语句。形式语言的研究始于20世纪初，而将形式语言用于模拟自然语言是在20世纪50年代中期。形式语言理论在计算机科学中扮演着重要的角色，尤其是在编译器设计、编程语言的设计、自然语言处理以及数据库查询语言等领域</p>
+<h2 id="文法">文法</h2>
+<p>形式语言的定义通常包括以下几个部分：</p>
+<p>字母表（Σ）：这是形成语言的一组基本符号。字（Word）：由字母表中的符号组成的字符串，包括空字符串。语言（Language）：字母表的所有可能字符串的集合中的一部分，这部分由语言的文法规则定义。形式语言理论中的文法被严格地定义为四元组G=(V, T, P, S)，其中：</p>
+<p>V和T分别是变元（非终结符）和终结符（终结符）的有穷集合，且V和T没有公共元素。<br>
+S是一个特殊的变元，称为开始符号或起始符号。<br>
+P是生成式的有穷集合，生成式的基本形式是：A→β，其中A和β都是由变元和终结符组成的符号串，但A至少含有一个非终结符。形式语言可以根据生成规则和特性进行分类，常见的分类包括：</p>
+<p>正则语言（Regular Language）：由正则文法生成的语言，可以被有限状态自动机识别。上下文无关语言（Context-Free Language）：由上下文无关文法生成的语言，可以被下推自动机识别。上下文有关语言（Context-Sensitive Language）：由上下文有关文法生成的语言，可以被线性有界自动机识别。无限制文法（Unrestricted Grammar）：没有对生成规则做限制的文法，可以生成所有可被图灵机识别的语言。</p>
+<p>G=(V, T, P, S)，其中V是变元（非终结符）的集合，T是终结符（终结符）的集合，P是产生式（规则）的集合，S是起始符号</p>
+<h2 id="形式语言的基本概念">形式语言的基本概念</h2>
+<p>G=(V, T, P, S)</p>
+<h3 id="字母表">字母表</h3>
+<p><strong>形式语言必须规定所用基本符号集合，即字母表</strong><br>
+通常用V或Σ表示,例如<code>V=&#123;x, y, z&#125;</code><br>
+显而易见，构造句子不可能用集合之外的元素来构造(当然你可以写空串)</p>
+<h3 id="符号串">符号串</h3>
+<h4 id="定义">定义</h4>
+<p><code>符号串由字母表中的符号组成的序列</code><br>
+例如abc就是上述字母表V上的一个符号串，它的<code>长度</code>为3，例如ɑ=abc，那么用|ɑ|=3表示该符号串的长度。<code>空符号串</code>，口语表述经常为空串：不含任何符号的字符串通常用ɛ表示，显然|ɛ|=0。</p>
+<h4 id="“连接-运算-∘”">“连接&quot;运算&quot;∘”</h4>
+<p>当然，这只是一种连接表达，你用别的符号表达也行，这里先这么写。表达式简单易懂，例如<code>x=bca</code>,<code>y=cab</code>,那么<code>z=x∘y=bca∘cab=bcacab</code>，是不是很简单？</p>
+<h3 id="性质">性质</h3>
+<h4 id="幺元">幺元</h4>
+<p>ɛ∘x=x∘ɛ=x</p>
+<blockquote>
+<p>这个是离散数学学的，不过神奇的是，这学期离散数学，计算理论，数据结构一起上，倒是把原来承前启后的学习路径变成交错纵横了</p>
+</blockquote>
+<h4 id="可结合性">可结合性</h4>
+<p>(x∘y)∘z=x(y∘z)</p>
+<h4 id="幂形式">幂形式</h4>
+<p>符号串连接可以写成幂形式例如<br>
+<strong>x∘x∘x=x<sup>3</sup></strong></p>
+<h3 id="乘法运算">乘法运算</h3>
+<p>满足一般的运算律<br>
+AB={x∘y|x∈A^y∈B}<br>
+A={a,b},b={0,1}<br>
+AB={a0,a1,b0,b1}<br>
+也可以写成乘幂的形式<br>
+A<sup>m</sup>A<sup>n</sup>=A<sup>m+n</sup></p>
+<h4 id="闭包v-与v">闭包v<sup>+</sup>与v<sup>*</sup></h4>
+<p>v<sup>0</sup>-由空符号串的集合。v<sup>0</sup>={ɛ}。<br>
+v-由v中长度为1的符号串的集合。<br>
+v<sup>2</sup>-由v中长度为2的符号串的集合。<br>
+v<sup>+</sup>=v∪v<sup>2</sup>∪v<sup>3</sup>∪…<br>
+v<sup>*</sup>=ɛ∪v∪v<sup>2</sup>∪v<sup>3</sup>∪…</p>
+<h3 id="语言">语言</h3>
+<h4 id="定义-v2">定义</h4>
+<p>设V是个字母表，L属于V<sup>*</sup><br>
+v={0,1}<br>
+L1 = ∅<br>
+L2 = {0,00,000,……}<br>
+L3 = {1,11,111,1111,……}<br>
+上述L1,L2,L3都是V上的语言</p>
+<h3 id="句子">句子</h3>
+<h4 id="定义-v3">定义</h4>
+<p>语言中的元素就是句子<br>
+v={0,1}<br>
+L2={0,00,000,……}<br>
+例如，00就是L2中的一个句子</p>
+<h3 id="文法-v2">文法</h3>
+<h4 id="定义-v4">定义</h4>
+<p>G=(V<sub>n</sub>, V<sub>t</sub>, P, S)</p>
+<ul class="lvl-0">
+<li class="lvl-3">
+<p>V<sub>n</sub>是非终极符（变元）的集合，一般用大写字母表示</p>
+</li>
+<li class="lvl-3">
+<p>V<sub>t</sub>是终极符的集合(V<sub>N</sub> ∩ V<sub>T</sub> = ∅, V<sub>T</sub> ∪ V<sub>N</sub> = V)</p>
+</li>
+<li class="lvl-3">
+<p>P是产生式的集合.</p>
+<ul class="lvl-2">
+<li class="lvl-5">P中的产生式的形式为A→α，其中A是非终极符，α是终极符或非终极符的串。</li>
+</ul>
+</li>
+<li class="lvl-3">
+<p>S是开始变元(s ∈ V<sub>N</sub>)</p>
+</li>
+</ul>
+<h4 id="约定">约定</h4>
+<ul class="lvl-0">
+<li class="lvl-3">
+<p>用大写英文字母表示变元</p>
+<ul class="lvl-2">
+<li class="lvl-5">S通常表示开始变元</li>
+</ul>
+</li>
+<li class="lvl-3">
+<p>用小写a,b,c,…表示终极符</p>
+</li>
+<li class="lvl-3">
+<p>用x,y,z,…表示终极符串</p>
+</li>
+<li class="lvl-3">
+<p>用希腊字母表示既含有终极符又含有非终极符的符号串</p>
+</li>
+</ul>
+<h4 id="句型">句型</h4>
+<ul class="lvl-0">
+<li class="lvl-3">
+<p>句型是由终极符串和非终极符串组成的符号串</p>
+</li>
+</ul>
+<h4 id="推导">推导</h4>
+<ul class="lvl-0">
+<li class="lvl-3">
+<p>推导是从开始符号开始，按照产生式进行推导，直到产生终极符串为止。</p>
+</li>
+<li class="lvl-3">
+<p>推导的结果是句子。</p>
+</li>
+</ul>
+<h5 id="文法产生的语言">文法产生的语言</h5>
+<ul class="lvl-0">
+<li class="lvl-3">
+<p>文法G产生的语言是由G中所有句型推导出的语言。令集合L(G)={w|w是G中所有句型的推导出的句子}<br>
+其中每个w∈L(G)都是一个句子。</p>
+</li>
+</ul>
+<h3 id="文法分类">文法分类</h3>
+<p>0，1，2，3型文法</p>
+<ul class="lvl-0">
+<li class="lvl-5">
+<p>0型文法：G中所有产生式的右部都是终极符串。</p>
+</li>
+<li class="lvl-5">
+<p>1型文法：G中所有产生式的右部都是非终极符串。</p>
+</li>
+<li class="lvl-5">
+<p>2型文法：G中所有产生式的右部都是终极符串或非终极符串。</p>
+</li>
+<li class="lvl-5">
+<p>3型文法：G中所有产生式的右部都是终极符串或非终极符串，且右部的非终极符串均不相同。也可以这么说</p>
+</li>
+<li class="lvl-6">
+<p>短语结构文法</p>
+</li>
+<li class="lvl-6">
+<p>上下文有关文法(CSG)</p>
+</li>
+<li class="lvl-6">
+<p>上下文唔该文法(CFG)</p>
+</li>
+<li class="lvl-6">
+<p>正规文法|右线行文法，左线性文法</p>
+</li>
+</ul>
+<p>识别这些语言的自动机分别是<br>
+0型语言-图灵机<br>
+1型语言-线性界限自动机<br>
+2型语言-下推自动机<br>
+3型语言-有限自动机</p>
+<h1 id="参考">参考</h1>
+<p><a href="https://www.xn--xhq44jb2fzpc.com/resources/cs/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BAppt/">《计算理论ppt》</a></p>
+]]></content>
+      <categories>
+        <category>课程</category>
+        <category>计算理论</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>计算理论</tag>
+        <tag>学习</tag>
+        <tag>课程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算理论-有限自动机(FA)</title>
+    <url>/posts/c94b8fa9/</url>
+    <content><![CDATA[<center>有限自动机是一种数学模型，用于表示和分析有限状态的计算过程。它包括确定性有限自动机（DFA）和非确定性有限自动机（NFA），广泛应用于语言识别和编译技术等领域。</center>
+<span id="more"></span>
+<h2 id="有限自动机结构">有限自动机结构</h2>
+<p>有限自动机（FA）由五部分组成：</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>状态集合：<strong>Q</strong>，表示有限个状态，用大写字母表示。</p>
+</li>
+<li class="lvl-2">
+<p>输入字母表：<strong>Σ</strong>，表示输入的符号集合，用小写字母表示。</p>
+</li>
+<li class="lvl-2">
+<p>转移函数：<strong>δ</strong>，表示从状态<strong>q_i</strong>到状态<strong>q_j</strong>的转换条件，用<strong>δ(q_i,a)=q_j</strong>表示。</p>
+</li>
+<li class="lvl-2">
+<p>初始状态：<strong>q_0</strong>，表示初始状态。</p>
+</li>
+<li class="lvl-2">
+<p>接受状态集合：<strong>F</strong>，表示接受的状态集合。</p>
+</li>
+</ul>
+<h2 id="确定的有限自动机（DFA）">确定的有限自动机（DFA）</h2>
+<h3 id="定义">定义</h3>
+<p>DFA是一种确定性的有限自动机，即从初始状态到任意一个接受状态的转换路径都有唯一确定的方向。</p>
+<p>记作M=(K, Σ, δ, q_0, F):其中</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><strong>K</strong>是状态集合，**q<sub>0</sub>**是初始状态，<strong>F</strong>是接受状态集合。</p>
+</li>
+<li class="lvl-2">
+<p><strong>Σ</strong>是输入字母表，<strong>δ</strong>是转移函数，<strong>δ(q<sub>i</sub>,a)=q<sub>j</sub><strong>表示从状态</strong>q<sub>i</sub><strong>通过输入符号</strong>a</strong>转移到状态<strong>q<sub>j</sub></strong>。</p>
+</li>
+<li class="lvl-2">
+<p><strong>δ(q<sub>i</sub>,a)<strong>表示从状态</strong>q<sub>i</sub><strong>通过输入符号</strong>a</strong>转移到状态<strong>q<sub>j</sub></strong>。</p>
+</li>
+<li class="lvl-2">
+<p>F是终止状态集合，<strong>q<sub>i</sub>∈F</strong>表示状态**q<sub>i</sub>**是终止状态。</p>
+</li>
+</ul>
+<center>
+<p><strong>K={q<sub>0</sub>,q<sub>1</sub>,…,q<sub>n</sub>}</strong> ， <strong>Σ={0,1}</strong><br>
+<strong>δ(q<sub>0</sub>,0)=q<sub>2</sub></strong>  <strong>δ(q<sub>0</sub>,1)=q<sub>1</sub></strong><br>
+<strong>δ(q<sub>1</sub>,0)=q<sub>2</sub></strong>  <strong>δ(q<sub>1</sub>,1)=q<sub>0</sub></strong><br>
+<strong>δ(q<sub>2</sub>,0)=q<sub>2</sub></strong>  <strong>δ(q<sub>2</sub>,1)=q<sub>0</sub></strong><br>
+<strong>F={q<sub>0</sub>}</strong></p>
+</center>
+<center>
+<p>写成表格就是这样</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>q<sub>0</sub></td>
+<td style="text-align:center">q<sub>2</sub></td>
+<td style="text-align:center">q<sub>1</sub></td>
+</tr>
+<tr>
+<td>q<sub>1</sub></td>
+<td style="text-align:center">q<sub>2</sub></td>
+<td style="text-align:center">q<sub>0</sub></td>
+</tr>
+<tr>
+<td>q<sub>2</sub></td>
+<td style="text-align:center">q<sub>2</sub></td>
+<td style="text-align:center">q<sub>0</sub></td>
+</tr>
+</tbody>
+</table>
+</center>
+<h2 id="不确定的有限自动机（NFA）">不确定的有限自动机（NFA）</h2>
+<h3 id="定义-v2">定义</h3>
+<p>NFA是一种不确定的有限自动机，即从初始状态到任意一个接受状态的转换路径可能有多条。</p>
+<p>记作M=(K, Σ, δ, q<sub>0</sub>, F)<br>
+与DFA的定义类似，只是δ(q<sub>i</sub>,a)可能有多条路径，表示从状态<strong>q<sub>i</sub><strong>通过输入符号</strong>a</strong>可以转移到状态**q<sub>j</sub>**的集合。</p>
+<h3 id="多映射">多映射</h3>
+<p>例如<br>
+<strong>δ(q<sub>0</sub>,0)={q<sub>2</sub>，q<sub>3</sub>}</strong></p>
+<center>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>0</th>
+<th>1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>q₀</td>
+<td>{q₁, q₂}</td>
+<td>{q₁}</td>
+</tr>
+<tr>
+<td>q₁</td>
+<td>{q₁, q₂}</td>
+<td>{q₀}</td>
+</tr>
+<tr>
+<td>q₂</td>
+<td>{q₂}</td>
+<td>{q₀}</td>
+</tr>
+</tbody>
+</table>
+</center>
+<h2 id="NFA转换成DFA">NFA转换成DFA</h2>
+<h3 id="定理">定理</h3>
+<p>如果语言L可由一个NFA M所接收，则必然存在一个DFA M’，使得T(M’)=L。</p>
+<p>例如<br>
+<img src="https://i.ibb.co/1fZH4m3/2024-10-13-160346.png" alt="2024-10-13-160346" border="0"><br>
+<img src="https://i.ibb.co/5nkxqPL/2024-10-13-155624.png" alt="2024-10-13-155624" border="0"></p>
+<p>K<sup>`</sup>状态集合就是左侧那一列。</p>
+<p>那F<sup>`</sup>怎么定义的呢？</p>
+<p>别忘了新生成的F<sup>`</sup>与原来的F交集不为空，那么显然，找到含有F中元素的新[q,q,q,]就行了</p>
+<h2 id="具有ε转移的NFA（ε-NFA）">具有ε转移的NFA（ε-NFA）</h2>
+<h3 id="定义-v3">定义</h3>
+<p>具有空转移的NFA是指，对于任意状态q，δ(q,ε)∈F。</p>
+<h3 id="delta函数的扩充">delta函数的扩充</h3>
+<p><strong>δ^(q<sub>0</sub>,0)={q<sub>0</sub>，q<sub>1</sub>,q<sub>2</sub>}!=δ(q<sub>0</sub>,0)={q<sub>0</sub>}</strong><br>
+<img src="https://i.ibb.co/NWgqTVB/2024-10-13-163151.png" alt="2024-10-13-163151" border="0"><br>
+<img src="https://i.ibb.co/KX8gWwP/2024-10-13-163435.png" alt="2024-10-13-163435" border="0"></p>
+<h2 id="参考">参考</h2>
+<p><a href="https://www.xn--xhq44jb2fzpc.com/resources/cs/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BAppt/">《计算理论ppt》</a></p>
+]]></content>
+      <categories>
+        <category>课程</category>
+        <category>计算理论</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>计算理论</tag>
+        <tag>学习</tag>
+        <tag>课程</tag>
+      </tags>
+  </entry>
 </search>
