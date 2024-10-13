@@ -319,34 +319,26 @@
       
         <center>👁️👁️watching you!👁️👁️</center>
 <span id="more"></span>
+
 <p>#watch监视属性方法</p>
-<h2 id="情况一">情况一</h2>
-<p>对ref基础类型的监视</p>
+<h2 id="情况一"><a href="#情况一" class="headerlink" title="情况一"></a>情况一</h2><p>对ref基础类型的监视</p>
 <p>这个很容易理解</p>
 <figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup lang=<span class="string">&quot;ts&quot;</span>&gt;  </span><br><span class="line"><span class="keyword">import</span> &#123; ref,watch&#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;  </span><br><span class="line"><span class="keyword">let</span> num2 = <span class="title function_">ref</span>(<span class="string">&#x27;0&#x27;</span>); <span class="comment">// 用于存储二进制字符串  </span></span><br><span class="line"><span class="title function_">watch</span>(num2,<span class="function">(<span class="params">newvalue,oldvalue</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(num2+<span class="string">&#x27;和新数据&#x27;</span>+newvalue+<span class="string">&#x27;和旧数据&#x27;</span>+oldvalue);</span><br><span class="line">&#125;)</span><br><span class="line">&lt;/script&gt;  </span><br></pre></td></tr></table></figure>
 <p>多次改变<code>num2</code>，打印的结果是这样的</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[object Object]和新数据和旧数据0</span><br><span class="line">Change.vue:19 [object Object]和新数据1111011和旧数据</span><br><span class="line">Change.vue:19 [object Object]和新数据11110000101101001和旧数据1111011</span><br><span class="line">Change.vue:19 [object Object]和新数据1和旧数据11110000101101001</span><br></pre></td></tr></table></figure>
 <p>这确实不难理解</p>
-<h2 id="情况二">情况二</h2>
-<p>对ref对象数据的监视</p>
+<h2 id="情况二"><a href="#情况二" class="headerlink" title="情况二"></a>情况二</h2><p>对ref对象数据的监视</p>
 <blockquote>
-<p>这不禁让我们思考，对ref对象的监视是对它的什么进行监视呢？它类里面的数据吗？还是说它本身？<br>
-让我们测试一下</p>
+<p>这不禁让我们思考，对ref对象的监视是对它的什么进行监视呢？它类里面的数据吗？还是说它本身？<br>让我们测试一下</p>
 </blockquote>
 <figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> person=<span class="title function_">ref</span>(&#123;</span><br><span class="line">    <span class="attr">name</span>:<span class="string">&#x27;李四&#x27;</span>,</span><br><span class="line">    <span class="attr">age</span>:<span class="number">30</span></span><br><span class="line">&#125;)</span><br><span class="line"><span class="title function_">watch</span>(num2,<span class="function">(<span class="params">newvalue,oldvalue</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(num2+<span class="string">&#x27;和新数据&#x27;</span>+newvalue+<span class="string">&#x27;和旧数据&#x27;</span>+oldvalue);</span><br><span class="line">&#125;)</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">changeAge</span>(<span class="params"></span>)&#123;</span><br><span class="line">    person.<span class="property">value</span>.<span class="property">age</span>++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">changeName</span>(<span class="params"></span>)&#123;</span><br><span class="line">    person.<span class="property">value</span>.<span class="property">name</span>+=<span class="string">&#x27;~&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">changePerson</span>(<span class="params"></span>)&#123;</span><br><span class="line">    person.<span class="property">value</span>=&#123;</span><br><span class="line">        <span class="attr">name</span>:<span class="string">&#x27;王二&#x27;</span>,</span><br><span class="line">        <span class="attr">age</span>:<span class="number">90</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">watch</span>(person,<span class="function">(<span class="params">newvalue,oldvalue</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(newvalue+<span class="string">&#x27;和&#x27;</span>+oldvalue);</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>实际上，只有第三个方法触发了监视，这意味着<br>
-监视ref定义的对象数据，实际监视的是它的地址值，但是如果我们想要监视它内部的值呢？这时候就需要<code>深度监视</code></p>
+<p>实际上，只有第三个方法触发了监视，这意味着<br>监视ref定义的对象数据，实际监视的是它的地址值，但是如果我们想要监视它内部的值呢？这时候就需要<code>深度监视</code></p>
 <figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">watch</span>(person,<span class="function">(<span class="params">newvalue,oldvalue</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(newvalue+<span class="string">&#x27;和&#x27;</span>+oldvalue);</span><br><span class="line">&#125;,&#123;<span class="attr">deep</span>:<span class="literal">true</span>&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="情况三">情况三</h2>
-<p><code>reactive</code>定义的对象类型数据，默认是深度监视，<br>
-这里懒得示例了：）</p>
+<h2 id="情况三"><a href="#情况三" class="headerlink" title="情况三"></a>情况三</h2><p><code>reactive</code>定义的对象类型数据，默认是深度监视，<br>这里懒得示例了：）</p>
 <blockquote>
 <p>newvalue和oldvalue打印出来是一样的，这是因为地址没有变</p>
 </blockquote>
-<h2 id="情况四">情况四</h2>
-<p>监视<code>ref</code>和<code>reactive</code>定义的对象数据类型中的属性:<br>
-若属性不是对象类型，需要写成函数形式<br>
-若属性是对象类型，可以直接编，或者写函数，但是建议写函数</p>
+<h2 id="情况四"><a href="#情况四" class="headerlink" title="情况四"></a>情况四</h2><p>监视<code>ref</code>和<code>reactive</code>定义的对象数据类型中的属性:<br>若属性不是对象类型，需要写成函数形式<br>若属性是对象类型，可以直接编，或者写函数，但是建议写函数</p>
 
     </div>
 
