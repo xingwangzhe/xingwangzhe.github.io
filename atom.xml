@@ -6,7 +6,7 @@
   <link href="https://xingwangzhe.fun/atom.xml" rel="self"/>
   
   <link href="https://xingwangzhe.fun/"/>
-  <updated>2024-10-13T09:14:47.211Z</updated>
+  <updated>2024-10-14T06:56:51.426Z</updated>
   <id>https://xingwangzhe.fun/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算理论-上下文无关文法</title>
+    <link href="https://xingwangzhe.fun/posts/bbbc9ff7/"/>
+    <id>https://xingwangzhe.fun/posts/bbbc9ff7/</id>
+    <published>2024-10-14T06:50:12.285Z</published>
+    <updated>2024-10-14T06:56:51.426Z</updated>
+    
+    
+    <summary type="html">&lt;center&gt;上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="课程" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/"/>
+    
+    <category term="计算理论" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="计算理论" scheme="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    
+    <category term="学习" scheme="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="课程" scheme="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>计算理论-有限自动机(FA)</title>
@@ -345,34 +372,6 @@
     
     
     <category term="游戏" scheme="https://xingwangzhe.fun/tags/%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一个博客</title>
-    <link href="https://xingwangzhe.fun/posts/38c422a2/"/>
-    <id>https://xingwangzhe.fun/posts/38c422a2/</id>
-    <published>2024-09-27T14:05:24.841Z</published>
-    <updated>2024-09-15T10:23:36.263Z</updated>
-    
-    
-    <summary type="html">&lt;center&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/vLC0cft/202406212107148.jpg&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;我的第一个博客&quot;&gt;&lt;a href=&quot;#我的第一个博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一个博客&quot;&gt;&lt;/a&gt;我的第一个博客&lt;/h1&gt;&lt;p&gt;&lt;del&gt;应该不是最后一个&lt;/del&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日记" scheme="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="hexo" scheme="https://xingwangzhe.fun/tags/hexo/"/>
-    
-    <category term="第一次" scheme="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
-    
-    <category term="第一" scheme="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80/"/>
     
   </entry>
   

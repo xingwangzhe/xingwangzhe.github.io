@@ -1273,30 +1273,37 @@ address {
     <title>我的第一个博客</title>
     <url>/posts/38c422a2/</url>
     <content><![CDATA[<center>
-
-<p><img src="https://i.ibb.co/vLC0cft/202406212107148.jpg"></p>
-<h1 id="我的第一个博客"><a href="#我的第一个博客" class="headerlink" title="我的第一个博客"></a>我的第一个博客</h1><p><del>应该不是最后一个</del></p>
+<p><img src="https://i.ibb.co/vLC0cft/202406212107148.jpg" alt=""></p>
+<h1 id="我的第一个博客">我的第一个博客</h1>
+<p><s>应该不是最后一个</s></p>
 <span id="more"></span>
-
-
 </center>
-
-<h2 id="为什么我想写一个博客"><a href="#为什么我想写一个博客" class="headerlink" title="为什么我想写一个博客"></a>为什么我想写一个博客</h2><blockquote>
+<h2 id="为什么我想写一个博客">为什么我想写一个博客</h2>
+<blockquote>
 <p><em>最佳回答</em>:我不知道</p>
 </blockquote>
-<p>显而易见的是，纯粹是我闲着没事干，又或者算是心血来潮，就像某些人明明没有什么需求缺偏要弄ipv6或者免流什么的<br><del>至少我干过</del></p>
-<h2 id="第一篇博客应该写什么"><a href="#第一篇博客应该写什么" class="headerlink" title="第一篇博客应该写什么"></a>第一篇博客应该写什么</h2><blockquote>
+<p>显而易见的是，纯粹是我闲着没事干，又或者算是心血来潮，就像某些人明明没有什么需求缺偏要弄ipv6或者免流什么的<s>至少我干过</s></p>
+<h2 id="第一篇博客应该写什么">第一篇博客应该写什么</h2>
+<blockquote>
 <p>写一些技术类文章？</p>
 </blockquote>
 <p>我不知道，也许可以当日记来写</p>
-<h2 id="我有一个问题"><a href="#我有一个问题" class="headerlink" title="我有一个问题"></a>我有一个问题</h2><p>你是从何得知此博客？</p>
-<p><del>你没得选！</del></p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> 我不知道</li>
-<li><input disabled="" type="checkbox"> 博主亲自分享的</li>
-<li><input disabled="" type="checkbox"> 别人分享的</li>
+<h2 id="我有一个问题">我有一个问题</h2>
+<p>你是从何得知此博客？</p>
+<p><s>你没得选！</s></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><input type="checkbox" id="checkbox0" checked="true"><label for="checkbox0">我不知道</label></p>
+</li>
+<li class="lvl-2">
+<p><input type="checkbox" id="checkbox1"><label for="checkbox1">博主亲自分享的</label></p>
+</li>
+<li class="lvl-2">
+<p><input type="checkbox" id="checkbox2"><label for="checkbox2">别人分享的</label></p>
+</li>
 </ul>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>我尝试做个有意思的:)</p>
+<h2 id="结语">结语</h2>
+<p>我尝试做个有意思的:)</p>
 ]]></content>
       <categories>
         <category>日记</category>
@@ -3642,6 +3649,24 @@ L2={0,00,000,……}<br>
 <img src="https://i.ibb.co/KX8gWwP/2024-10-13-163435.png" alt="2024-10-13-163435" border="0"></p>
 <h2 id="参考">参考</h2>
 <p><a href="https://www.xn--xhq44jb2fzpc.com/resources/cs/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BAppt/">《计算理论ppt》</a></p>
+]]></content>
+      <categories>
+        <category>课程</category>
+        <category>计算理论</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>计算理论</tag>
+        <tag>学习</tag>
+        <tag>课程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算理论-上下文无关文法</title>
+    <url>/posts/bbbc9ff7/</url>
+    <content><![CDATA[<center>上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。</center>
+<span id="more"></span>
+<h2 id="定义">定义</h2>
 ]]></content>
       <categories>
         <category>课程</category>

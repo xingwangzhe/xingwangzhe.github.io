@@ -38,16 +38,23 @@
     var CONFIG = {"hostname":"xingwangzhe.fun","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"text":true,"style":"tabs","count":true,"active":"gitalk","storage":true,"lazyload":false,"nav":{"gitalk":{"order":-1}},"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="姓王者的博客">
-<meta property="og:url" content="https://xingwangzhe.fun/tags/%E5%BC%80%E5%BE%80/index.html">
+  <meta name="description" content="上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算理论-上下文无关文法">
+<meta property="og:url" content="https://xingwangzhe.fun/posts/bbbc9ff7/index.html">
 <meta property="og:site_name" content="姓王者的博客">
+<meta property="og:description" content="上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-10-14T06:50:12.285Z">
+<meta property="article:modified_time" content="2024-10-14T06:56:51.426Z">
 <meta property="article:author" content="姓王者">
-<meta property="article:tag" content="xingwangzhe,姓王者的博客,姓王者,姓王者的blog,姓王者无敌,王兴家,hexo,前端,web,js,html,css,vue,react,angular,node,python,java,go,rust,swift,php,mysql,mongodb,redis,linux,docker,kubernetes,git,github,markdown,seo,webpush,web-push,web-push-notification,web-push-api,web-push-protocol,web-push-service-worker,web-push-api-service-worker,web-push-api-service-worker-protocol,web-push-api-service-worker-specification,web-push-api-service-worker-specification-draft,web-push-api-service-worker-specification-draft-01,web-push-api-service-worker-specification-draft-02,web-push-api-service-worker-specification-draft-03,web-push-api-service-worker-specification-draft-04,web-push-api-service-worker-specification-draft">
+<meta property="article:tag" content="记录">
+<meta property="article:tag" content="计算理论">
+<meta property="article:tag" content="学习">
+<meta property="article:tag" content="课程">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://xingwangzhe.fun/tags/%E5%BC%80%E5%BE%80/">
+<link rel="canonical" href="https://xingwangzhe.fun/posts/bbbc9ff7/">
 
 
 <script id="page-configurations">
@@ -55,12 +62,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 <script async src="/lib/fireworks.js"></script>
-  <title>标签: 开往 | 姓王者的博客</title>
+  <title>计算理论-上下文无关文法 | 姓王者的博客</title>
   
 
 
@@ -251,57 +258,191 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">开往
-          <small>标签</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xingwangzhe.fun/posts/bbbc9ff7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="姓王者">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="姓王者的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          计算理论-上下文无关文法
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-10-14 14:50:12 / 修改时间：14:56:51" itemprop="dateCreated datePublished" datetime="2024-10-14T14:50:12+08:00">2024-10-14</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BE%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">课程</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/" itemprop="url" rel="index"><span itemprop="name">计算理论</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>86</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2024</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-10-11T18:09:21+08:00"
-              content="2024-10-11">
-          10-11
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/posts/93f836cb/" itemprop="url">
-            <span itemprop="name">开往 友链接力!</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+        <center>上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。</center>
+<span id="more"></span>
+<h2 id="定义">定义</h2>
 
     </div>
+
+    
+    
+    
+      
+  <div class="popular-posts-header">相关推荐</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\posts\c94b8fa9\" rel="bookmark">计算理论-有限自动机(FA)</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\posts\bccbe7bc\" rel="bookmark">计算理论-形式语言</a></div>
+    </li>
+  </ul>
+
+        <div class="reward-container">
+  <div>你的鼓励是我最大的动力.</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.jpg" alt="姓王者 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.jpg" alt="姓王者 支付宝">
+        <p>支付宝</p>
+      </div>
+
   </div>
-  
-  
-  
+</div>
 
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>姓王者
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://xingwangzhe.fun/posts/bbbc9ff7/" title="计算理论-上下文无关文法">https://xingwangzhe.fun/posts/bbbc9ff7/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener external nofollow noreferrer" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%AE%B0%E5%BD%95/" rel="tag"># 记录</a>
+              <a href="/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/" rel="tag"># 计算理论</a>
+              <a href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag"># 学习</a>
+              <a href="/tags/%E8%AF%BE%E7%A8%8B/" rel="tag"># 课程</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/c94b8fa9/" rel="prev" title="计算理论-有限自动机(FA)">
+      <i class="fa fa-chevron-left"></i> 计算理论-有限自动机(FA)
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
 
           </div>
           
+      <div class="tabs tabs-comment">
+        <ul class="nav-tabs">
+            <li class="tab"><a href="#comment-gitalk">gitalk</a></li>
+            <li class="tab"><a href="#comment-livere">livere</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane gitalk" id="comment-gitalk">
+              <div class="comments" id="gitalk-container"></div>
+            </div>
+            <div class="tab-pane livere" id="comment-livere">
+              
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81OTkzNi8zNjM5OQ=="></div>
+  </div>
+  
+            </div>
+        </div>
+      </div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -348,6 +489,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89"><span class="nav-number">1.</span> <span class="nav-text">定义</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -580,7 +722,41 @@ setInterval("createtime()",250);
     </script>
 
 
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'Ov23lifXHoq97dbVMtsq',
+      clientSecret: '5b1323c3b64bd4fef3f3a56e2c7ada191b416bf4',
+      repo        : 'xingwangzhe.github.io',
+      owner       : 'xingwangzhe',
+      admin       : ['xingwangzhe'],
+      id          : '27491293156c16f55b5ad95b42dc9737',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 <!-- hexo injector body_end start --><script data-pjax src="https://unpkg.com/oh-my-live2d"></script><script>const oml2d = OML2D.loadOml2d({libraryUrls:{"complete":"https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/complete.js","cubism2":"https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism2.js","cubism5":"https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism5.js"},mobileDisplay:false,models:[{"path":"/L2DMCVT_steve/L2DMCVT.model3.json","scale":0.11,"position":[-100,0],"mobileScale":0.08,"mobilePosition":[-100,0],"motionPreloadStrategy":"ALL","showHitAreaFrames":true,"mobileStageStyle":{"width":180},"stageStyle":{"width":250}}],parentElement:document.body,primaryColor:"var(--btn-bg)",sayHello:false,dockedPosition:"right",tips:{copyTips: {"message":["你复制了什么内容捏？记得注明出处哦~","ctrl+c复制,ctrl+v粘贴~","我们不生产文字，我们只是搬运工","我可是一直在盯着你:)，我知道你在复制什么~"]},style: {"width":230,"height":120,"left":"calc(50% - 20px)","top":"-100px"},mobileStyle: {"width":180,"height":80,"left":"calc(50% - 30px)","top":"-100px"},idleTips:{interval:15000,message:["你好呀~","欢迎来到我的小站~"],wordTheDay:function(wordTheDayData){
   return `${wordTheDayData.hitokoto}    by.${wordTheDayData.from}`;
