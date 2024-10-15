@@ -1,1 +1,1 @@
-{"title":"计算理论-上下文无关文法","id":"posts/bbbc9ff7/","date_published":"10/14/2024","summary":"上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。","url":"https://xingwangzhe.fun/posts/bbbc9ff7/","tags":["记录","计算理论","学习","课程"],"categories":["课程","计算理论"]}
+{"title":"计算理论-上下文无关文法","id":"posts/bbbc9ff7/","date_published":"10/14/2024","summary":"上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。","url":"https://xingwangzhe.fun/posts/bbbc9ff7/","tags":["记录","计算理论","课程","学习"],"categories":["课程","计算理论"]}
