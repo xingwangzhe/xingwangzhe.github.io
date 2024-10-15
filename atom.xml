@@ -40,11 +40,11 @@
     
     <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
     
-    <category term="404" scheme="https://xingwangzhe.fun/tags/404/"/>
-    
     <category term="博客" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="js" scheme="https://xingwangzhe.fun/tags/js/"/>
+    
+    <category term="404" scheme="https://xingwangzhe.fun/tags/404/"/>
     
   </entry>
   
@@ -147,9 +147,9 @@
     
     <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
-    <category term="开往" scheme="https://xingwangzhe.fun/tags/%E5%BC%80%E5%BE%80/"/>
-    
     <category term="博客" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="开往" scheme="https://xingwangzhe.fun/tags/%E5%BC%80%E5%BE%80/"/>
     
   </entry>
   
@@ -306,11 +306,11 @@
     
     <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
     
+    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
     
     <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
-    
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="第一次" scheme="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
     
@@ -426,9 +426,9 @@
     
     <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
-    <category term="公益" scheme="https://xingwangzhe.fun/tags/%E5%85%AC%E7%9B%8A/"/>
-    
     <category term="404" scheme="https://xingwangzhe.fun/tags/404/"/>
+    
+    <category term="公益" scheme="https://xingwangzhe.fun/tags/%E5%85%AC%E7%9B%8A/"/>
     
   </entry>
   
