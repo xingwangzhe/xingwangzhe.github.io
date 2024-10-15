@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xingwangzhe.fun/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/index.html</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xingwangzhe.fun/posts/bbbc9ff7/</loc>
     
     <lastmod>2024-10-15</lastmod>
@@ -104,15 +113,6 @@
     <loc>https://xingwangzhe.fun/posts/9f6ebe30/</loc>
     
     <lastmod>2024-10-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xingwangzhe.fun/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/index.html</loc>
-    
-    <lastmod>2024-10-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
