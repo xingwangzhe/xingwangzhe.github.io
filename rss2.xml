@@ -15,54 +15,8 @@
     <atom:link href="https://xingwangzhe.fun/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 17 Sep 2024 12:26:08 GMT</pubDate>
+    <pubDate>Tue, 15 Oct 2024 06:36:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>通过创建营养标签学习排版</title>
-      <link>https://xingwangzhe.fun/posts/544543f1/</link>
-      <guid>https://xingwangzhe.fun/posts/544543f1/</guid>
-      <pubDate>Tue, 15 Oct 2024 11:21:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;营养均衡&lt;/p&gt;</description>
-      
-      
-      
-      
-      
-      
-      <comments>https://xingwangzhe.fun/posts/544543f1/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>计算理论-上下文无关文法</title>
-      <link>https://xingwangzhe.fun/posts/bbbc9ff7/</link>
-      <guid>https://xingwangzhe.fun/posts/bbbc9ff7/</guid>
-      <pubDate>Tue, 15 Oct 2024 11:21:00 GMT</pubDate>
-      
-      <description>&lt;center&gt;上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。&lt;/center&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/bbbc9ff7/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>hexo优化网站性能记录-持续更新</title>
@@ -95,6 +49,35 @@
       
       
       <comments>https://xingwangzhe.fun/posts/9f6ebe30/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>计算理论-上下文无关文法</title>
+      <link>https://xingwangzhe.fun/posts/bbbc9ff7/</link>
+      <guid>https://xingwangzhe.fun/posts/bbbc9ff7/</guid>
+      <pubDate>Mon, 14 Oct 2024 13:19:00 GMT</pubDate>
+      
+      <description>&lt;center&gt;上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。&lt;/center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/bbbc9ff7/#disqus_thread</comments>
       
     </item>
     
@@ -589,6 +572,30 @@
       
       
       <comments>https://xingwangzhe.fun/posts/9f32bac9/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo压缩资源，优化访问</title>
+      <link>https://xingwangzhe.fun/posts/42cabe35/</link>
+      <guid>https://xingwangzhe.fun/posts/42cabe35/</guid>
+      <pubDate>Sat, 21 Sep 2024 09:38:24 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;a href=&quot;https://github.com/chenzhutian/hexo-all-minifier&quot;&gt;Hexo-all-minifier&lt;/a&gt;压缩资源，优化访问&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;images/hexo/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">基于hexo的博客搭建教程</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">博客教程</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/42cabe35/#disqus_thread</comments>
       
     </item>
     

@@ -6,7 +6,7 @@
   <link href="https://xingwangzhe.fun/atom.xml" rel="self"/>
   
   <link href="https://xingwangzhe.fun/"/>
-  <updated>2024-09-17T12:26:08.018Z</updated>
+  <updated>2024-10-15T06:36:08.000Z</updated>
   <id>https://xingwangzhe.fun/</id>
   
   <author>
@@ -15,48 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>通过创建营养标签学习排版</title>
-    <link href="https://xingwangzhe.fun/posts/544543f1/"/>
-    <id>https://xingwangzhe.fun/posts/544543f1/</id>
-    <published>2024-10-15T11:21:00.113Z</published>
-    <updated>2024-09-17T12:26:08.018Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;营养均衡&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>计算理论-上下文无关文法</title>
-    <link href="https://xingwangzhe.fun/posts/bbbc9ff7/"/>
-    <id>https://xingwangzhe.fun/posts/bbbc9ff7/</id>
-    <published>2024-10-15T11:21:00.075Z</published>
-    <updated>2024-10-14T07:26:29.572Z</updated>
-    
-    
-    <summary type="html">&lt;center&gt;上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。&lt;/center&gt;</summary>
-    
-    
-    
-    <category term="课程" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/"/>
-    
-    <category term="计算理论" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="计算理论" scheme="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
-    
-    <category term="课程" scheme="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/"/>
-    
-    <category term="学习" scheme="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
   
   <entry>
     <title>hexo优化网站性能记录-持续更新</title>
@@ -87,6 +45,33 @@
     <category term="js" scheme="https://xingwangzhe.fun/tags/js/"/>
     
     <category term="404" scheme="https://xingwangzhe.fun/tags/404/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算理论-上下文无关文法</title>
+    <link href="https://xingwangzhe.fun/posts/bbbc9ff7/"/>
+    <id>https://xingwangzhe.fun/posts/bbbc9ff7/</id>
+    <published>2024-10-14T13:19:00.000Z</published>
+    <updated>2024-10-15T13:19:14.000Z</updated>
+    
+    
+    <summary type="html">&lt;center&gt;上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="课程" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/"/>
+    
+    <category term="计算理论" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="计算理论" scheme="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    
+    <category term="课程" scheme="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/"/>
+    
+    <category term="学习" scheme="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -547,6 +532,28 @@
     <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
     
     <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo压缩资源，优化访问</title>
+    <link href="https://xingwangzhe.fun/posts/42cabe35/"/>
+    <id>https://xingwangzhe.fun/posts/42cabe35/</id>
+    <published>2024-09-21T09:38:24.000Z</published>
+    <updated>2024-09-21T09:38:28.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/chenzhutian/hexo-all-minifier&quot;&gt;Hexo-all-minifier&lt;/a&gt;压缩资源，优化访问&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;images/hexo/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
