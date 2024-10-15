@@ -15,8 +15,42 @@
     <atom:link href="https://xingwangzhe.fun/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 14 Oct 2024 07:26:29 GMT</pubDate>
+    <pubDate>Tue, 15 Oct 2024 06:36:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>hexo优化网站性能记录-持续更新</title>
+      <link>https://xingwangzhe.fun/posts/9f6ebe30/</link>
+      <guid>https://xingwangzhe.fun/posts/9f6ebe30/</guid>
+      <pubDate>Tue, 15 Oct 2024 06:36:06 GMT</pubDate>
+      
+      <description>&lt;img src=&quot;https://i.ibb.co/sQqSRzh/2024-10-15-135544.png&quot; alt=&quot;2024-10-15-135544&quot; border=&quot;0&quot;&gt;
+&lt;center&gt;优化前的效果:(&lt;/center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">基于hexo的博客搭建教程</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%9F%BA%E7%A1%80/">基础</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/404/">404</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/js/">js</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/9f6ebe30/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>计算理论-上下文无关文法</title>
@@ -546,35 +580,6 @@
       
       
       <comments>https://xingwangzhe.fun/posts/58ad3c48/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>通过创建钢琴学习响应式网页设计</title>
-      <link>https://xingwangzhe.fun/posts/c0981903/</link>
-      <guid>https://xingwangzhe.fun/posts/c0981903/</guid>
-      <pubDate>Wed, 25 Sep 2024 10:02:21 GMT</pubDate>
-      
-      <description>&lt;center&gt;还是比较有趣&lt;/center&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/CSS/">CSS</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/freecodecamp/">freecodecamp</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/c0981903/#disqus_thread</comments>
       
     </item>
     

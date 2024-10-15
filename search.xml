@@ -611,7 +611,7 @@ bye bye]]></content>
 <p><img src="images/hexo/1.png" alt="1"></p>
 <span id="more"></span>
 <blockquote>
-<p>对hexon不友好，如果你使用hexon或其他类似编辑，我不建议你使用这个</p>
+<p>对hexon不友好，如果你使用hexon或其他类似的本地编辑器，我建议你静默日志</p>
 </blockquote>
 <h1 id="安装">安装</h1>
 <h2 id="执行安装命令">执行安装命令</h2>
@@ -3870,6 +3870,35 @@ width:633px;
         <tag>CSS</tag>
         <tag>HTML</tag>
         <tag>freecodecamp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo优化网站性能记录-持续更新</title>
+    <url>/posts/9f6ebe30/</url>
+    <content><![CDATA[<img src="https://i.ibb.co/sQqSRzh/2024-10-15-135544.png" alt="2024-10-15-135544" border="0">
+<center>优化前的效果:(</center>
+<span id="more"></span>
+<h2 id="使用插件hexo-all-minifier">使用插件<a href="https://github.com/chenzhutian/hexo-all-minifier.git">hexo-all-minifier</a></h2>
+<p>如果你访问github有困难，可以访问此镜像库<a href="https://gitcode.com/gh_mirrors/he/hexo-all-minifier/overview">hexo-all-minifier</a></p>
+<blockquote>
+<p>这里我选择静默的原因是因为这些插件的输出日志影响hexon的加载</p>
+</blockquote>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">all_minifier:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="attr">js_concator:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">bundle_path:</span> <span class="string">&#x27;/js/bundle.js&#x27;</span></span><br><span class="line">  <span class="attr">front:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">silent:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="attr">html_minifier:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">ignore_error:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">silent:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">css_minifier:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">silent:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span> </span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;*.min.css&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">js_minifier:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">mangle:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">silent:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">output:</span></span><br><span class="line">  <span class="attr">compress:</span></span><br><span class="line">  <span class="attr">exclude:</span> </span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;*.min.js&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">image_minifier:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">interlaced:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">multipass:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">optimizationLevel:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">pngquant:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">progressive:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">silent:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>这个是优化后的效果<br>
+<a href="https://ibb.co/JtD2JHb"><img src="https://i.ibb.co/sR8QYqD/2024-10-15-143007.png" alt="2024-10-15-143007" border="0"></a></p>
+<p>爆赞！</p>
+]]></content>
+      <categories>
+        <category>基于hexo的博客搭建教程</category>
+        <category>基础</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>CSS</tag>
+        <tag>HTML</tag>
+        <tag>404</tag>
+        <tag>博客</tag>
+        <tag>js</tag>
       </tags>
   </entry>
 </search>

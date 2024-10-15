@@ -6,7 +6,7 @@
   <link href="https://xingwangzhe.fun/atom.xml" rel="self"/>
   
   <link href="https://xingwangzhe.fun/"/>
-  <updated>2024-10-14T07:26:29.572Z</updated>
+  <updated>2024-10-15T06:36:08.000Z</updated>
   <id>https://xingwangzhe.fun/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo优化网站性能记录-持续更新</title>
+    <link href="https://xingwangzhe.fun/posts/9f6ebe30/"/>
+    <id>https://xingwangzhe.fun/posts/9f6ebe30/</id>
+    <published>2024-10-15T06:36:06.000Z</published>
+    <updated>2024-10-15T06:36:08.000Z</updated>
+    
+    
+    <summary type="html">&lt;img src=&quot;https://i.ibb.co/sQqSRzh/2024-10-15-135544.png&quot; alt=&quot;2024-10-15-135544&quot; border=&quot;0&quot;&gt;
+&lt;center&gt;优化前的效果:(&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="基础" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
+    
+    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
+    
+    <category term="404" scheme="https://xingwangzhe.fun/tags/404/"/>
+    
+    <category term="博客" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="js" scheme="https://xingwangzhe.fun/tags/js/"/>
+    
+  </entry>
   
   <entry>
     <title>计算理论-上下文无关文法</title>
@@ -506,33 +538,6 @@
     <category term="网络" scheme="https://xingwangzhe.fun/tags/%E7%BD%91%E7%BB%9C/"/>
     
     <category term="DNS" scheme="https://xingwangzhe.fun/tags/DNS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过创建钢琴学习响应式网页设计</title>
-    <link href="https://xingwangzhe.fun/posts/c0981903/"/>
-    <id>https://xingwangzhe.fun/posts/c0981903/</id>
-    <published>2024-09-25T10:02:21.000Z</published>
-    <updated>2024-09-25T10:02:36.077Z</updated>
-    
-    
-    <summary type="html">&lt;center&gt;还是比较有趣&lt;/center&gt;</summary>
-    
-    
-    
-    <category term="CSS" scheme="https://xingwangzhe.fun/categories/CSS/"/>
-    
-    
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
-    
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
-    
-    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
     
   </entry>
   
