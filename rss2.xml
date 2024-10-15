@@ -15,8 +15,276 @@
     <atom:link href="https://xingwangzhe.fun/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 15 Oct 2024 06:36:08 GMT</pubDate>
+    <pubDate>Sun, 22 Sep 2024 05:51:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>通过创建资产负债表学习 CSS 伪选择器</title>
+      <link>https://xingwangzhe.fun/posts/d8587a7c/</link>
+      <guid>https://xingwangzhe.fun/posts/d8587a7c/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:21:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;你可以使用 CSS 伪选择器来更改特定的 HTML 元素。在本课程中，你将使用伪选择器创建资产负债表。你将学习如何在将鼠标悬停在元素上时更改其样式，并触发网页上的其他事件。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/HTML/">HTML</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/HTML/CSS/">CSS</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/freecodecamp/">freecodecamp</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/d8587a7c/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>通过创建营养标签学习排版</title>
+      <link>https://xingwangzhe.fun/posts/544543f1/</link>
+      <guid>https://xingwangzhe.fun/posts/544543f1/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:21:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;营养均衡&lt;/p&gt;</description>
+      
+      
+      
+      
+      
+      
+      <comments>https://xingwangzhe.fun/posts/544543f1/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>计算理论-有限自动机(FA)</title>
+      <link>https://xingwangzhe.fun/posts/c94b8fa9/</link>
+      <guid>https://xingwangzhe.fun/posts/c94b8fa9/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:21:00 GMT</pubDate>
+      
+      <description>&lt;center&gt;有限自动机是一种数学模型，用于表示和分析有限状态的计算过程。它包括确定性有限自动机（DFA）和非确定性有限自动机（NFA），广泛应用于语言识别和编译技术等领域。&lt;/center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/c94b8fa9/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>计算理论-上下文无关文法</title>
+      <link>https://xingwangzhe.fun/posts/bbbc9ff7/</link>
+      <guid>https://xingwangzhe.fun/posts/bbbc9ff7/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:21:00 GMT</pubDate>
+      
+      <description>&lt;center&gt;上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。&lt;/center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/bbbc9ff7/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>学了点js</title>
+      <link>https://xingwangzhe.fun/posts/fcbe0bf5/</link>
+      <guid>https://xingwangzhe.fun/posts/fcbe0bf5/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:21:00 GMT</pubDate>
+      
+      <description>&lt;center&gt;语法挺有趣的&lt;/center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/js/">js</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/js/">js</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/fcbe0bf5/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>玩文明六玩爽了</title>
+      <link>https://xingwangzhe.fun/posts/b6e6b630/</link>
+      <guid>https://xingwangzhe.fun/posts/b6e6b630/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:21:00 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;简单又难，文明6&quot;&gt;简单又难，文明6&lt;/h1&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/">日记</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E6%B8%B8%E6%88%8F/">游戏</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/b6e6b630/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo创建公益404界面</title>
+      <link>https://xingwangzhe.fun/posts/6ec2376e/</link>
+      <guid>https://xingwangzhe.fun/posts/6ec2376e/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:20:59 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;img src=&quot;images/404/4044.png&quot; alt=&quot;404&quot;&gt;&lt;/p&gt;
+&lt;center&gt;让世界更美好&lt;/center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">基于hexo的博客搭建教程</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">博客教程</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/404/">404</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%85%AC%E7%9B%8A/">公益</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/6ec2376e/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>工业博物馆游览</title>
+      <link>https://xingwangzhe.fun/posts/ca82fca4/</link>
+      <guid>https://xingwangzhe.fun/posts/ca82fca4/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:20:59 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;早上出发&quot;&gt;早上出发&lt;/h2&gt;
+&lt;p&gt;骑哈喽单车刚出校门，我以为校园车是专属的，不能停校外，但还是试着锁了一下，嗯…果然是我想错了，但我还是选择走着去了地铁口，作为起点站，又是早上，人很少，打开高德地图，这里换乘，那里倒线，有点迷糊…&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/">日记</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E6%B8%B8%E8%A7%88/">游览</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/ca82fca4/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>本来想搬fishport_serverwiki来着</title>
+      <link>https://xingwangzhe.fun/posts/2283d3b7/</link>
+      <guid>https://xingwangzhe.fun/posts/2283d3b7/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:20:59 GMT</pubDate>
+      
+      <description>&lt;center&gt;
+&lt;h1 id=&quot;本来想搬fishport-server-wiki来着&quot;&gt;本来想搬fishport_server_wiki来着&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个我的世界服务器wiki&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E6%B8%B8%E6%88%8F/">游戏</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E6%B8%B8%E6%88%8F/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/">我的世界服务器</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/wiki/">wiki</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/">我的世界服务器</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E6%87%92%E5%BE%97%E5%8A%A8/">懒得动</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E6%B8%B8%E6%88%8F/">游戏</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/2283d3b7/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LeetCode:2. 两数相加</title>
+      <link>https://xingwangzhe.fun/posts/f899f771/</link>
+      <guid>https://xingwangzhe.fun/posts/f899f771/</guid>
+      <pubDate>Tue, 15 Oct 2024 11:20:59 GMT</pubDate>
+      
+      <description>&lt;center&gt;两数相加&lt;center&gt;</description>
+      
+      
+      
+      
+      <category domain="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
+      
+      <category domain="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/">LeetCode</category>
+      
+      
+      <category domain="https://xingwangzhe.fun/tags/LeetCode/">LeetCode</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://xingwangzhe.fun/posts/f899f771/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>hexo优化网站性能记录-持续更新</title>
@@ -49,64 +317,6 @@
       
       
       <comments>https://xingwangzhe.fun/posts/9f6ebe30/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>计算理论-上下文无关文法</title>
-      <link>https://xingwangzhe.fun/posts/bbbc9ff7/</link>
-      <guid>https://xingwangzhe.fun/posts/bbbc9ff7/</guid>
-      <pubDate>Mon, 14 Oct 2024 06:50:12 GMT</pubDate>
-      
-      <description>&lt;center&gt;上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。&lt;/center&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/bbbc9ff7/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>计算理论-有限自动机(FA)</title>
-      <link>https://xingwangzhe.fun/posts/c94b8fa9/</link>
-      <guid>https://xingwangzhe.fun/posts/c94b8fa9/</guid>
-      <pubDate>Sun, 13 Oct 2024 06:54:54 GMT</pubDate>
-      
-      <description>&lt;center&gt;有限自动机是一种数学模型，用于表示和分析有限状态的计算过程。它包括确定性有限自动机（DFA）和非确定性有限自动机（NFA），广泛应用于语言识别和编译技术等领域。&lt;/center&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/c94b8fa9/#disqus_thread</comments>
       
     </item>
     
@@ -219,11 +429,11 @@
       <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/Vue3/">Vue3</category>
       
       
+      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
       <category domain="https://xingwangzhe.fun/tags/Vue3/">Vue3</category>
       
       <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
       
       
       <comments>https://xingwangzhe.fun/posts/b0f770c3/#disqus_thread</comments>
@@ -267,9 +477,9 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
       <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
       
       <category domain="https://xingwangzhe.fun/tags/%E5%A7%93%E4%BA%8E%E8%80%85/">姓于者</category>
       
@@ -321,13 +531,13 @@
       <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/Vue3/">Vue3</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/Vue3/">Vue3</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
       <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
       
       <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/Vue3/">Vue3</category>
+      
+      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
       
       <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
       
@@ -339,216 +549,6 @@
       
       
       <comments>https://xingwangzhe.fun/posts/218fcad3/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>通过创建资产负债表学习 CSS 伪选择器</title>
-      <link>https://xingwangzhe.fun/posts/d8587a7c/</link>
-      <guid>https://xingwangzhe.fun/posts/d8587a7c/</guid>
-      <pubDate>Fri, 27 Sep 2024 14:05:24 GMT</pubDate>
-      
-      <description>&lt;p&gt;你可以使用 CSS 伪选择器来更改特定的 HTML 元素。在本课程中，你将使用伪选择器创建资产负债表。你将学习如何在将鼠标悬停在元素上时更改其样式，并触发网页上的其他事件。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/HTML/">HTML</category>
-      
-      <category domain="https://xingwangzhe.fun/categories/HTML/CSS/">CSS</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/freecodecamp/">freecodecamp</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/d8587a7c/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>通过创建营养标签学习排版</title>
-      <link>https://xingwangzhe.fun/posts/544543f1/</link>
-      <guid>https://xingwangzhe.fun/posts/544543f1/</guid>
-      <pubDate>Fri, 27 Sep 2024 14:05:24 GMT</pubDate>
-      
-      <description>&lt;p&gt;营养均衡&lt;/p&gt;</description>
-      
-      
-      
-      
-      
-      
-      <comments>https://xingwangzhe.fun/posts/544543f1/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>学了点js</title>
-      <link>https://xingwangzhe.fun/posts/fcbe0bf5/</link>
-      <guid>https://xingwangzhe.fun/posts/fcbe0bf5/</guid>
-      <pubDate>Fri, 27 Sep 2024 14:05:24 GMT</pubDate>
-      
-      <description>&lt;center&gt;语法挺有趣的&lt;/center&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/js/">js</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/js/">js</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/fcbe0bf5/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>玩文明六玩爽了</title>
-      <link>https://xingwangzhe.fun/posts/b6e6b630/</link>
-      <guid>https://xingwangzhe.fun/posts/b6e6b630/</guid>
-      <pubDate>Fri, 27 Sep 2024 14:05:24 GMT</pubDate>
-      
-      <description>&lt;h1 id=&quot;简单又难，文明6&quot;&gt;简单又难，文明6&lt;/h1&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/">日记</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E6%B8%B8%E6%88%8F/">游戏</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/b6e6b630/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo创建公益404界面</title>
-      <link>https://xingwangzhe.fun/posts/6ec2376e/</link>
-      <guid>https://xingwangzhe.fun/posts/6ec2376e/</guid>
-      <pubDate>Fri, 27 Sep 2024 14:05:24 GMT</pubDate>
-      
-      <description>&lt;p&gt;&lt;img src=&quot;images/404/4044.png&quot; alt=&quot;404&quot;&gt;&lt;/p&gt;
-&lt;center&gt;让世界更美好&lt;/center&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">基于hexo的博客搭建教程</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">博客教程</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/404/">404</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%85%AC%E7%9B%8A/">公益</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/6ec2376e/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>本来想搬fishport_serverwiki来着</title>
-      <link>https://xingwangzhe.fun/posts/2283d3b7/</link>
-      <guid>https://xingwangzhe.fun/posts/2283d3b7/</guid>
-      <pubDate>Fri, 27 Sep 2024 14:05:24 GMT</pubDate>
-      
-      <description>&lt;center&gt;
-&lt;h1 id=&quot;本来想搬fishport-server-wiki来着&quot;&gt;本来想搬fishport_server_wiki来着&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一个我的世界服务器wiki&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E6%B8%B8%E6%88%8F/">游戏</category>
-      
-      <category domain="https://xingwangzhe.fun/categories/%E6%B8%B8%E6%88%8F/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/">我的世界服务器</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/wiki/">wiki</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/">我的世界服务器</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E6%87%92%E5%BE%97%E5%8A%A8/">懒得动</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E6%B8%B8%E6%88%8F/">游戏</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/2283d3b7/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>工业博物馆游览</title>
-      <link>https://xingwangzhe.fun/posts/ca82fca4/</link>
-      <guid>https://xingwangzhe.fun/posts/ca82fca4/</guid>
-      <pubDate>Fri, 27 Sep 2024 14:05:24 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;早上出发&quot;&gt;早上出发&lt;/h2&gt;
-&lt;p&gt;骑哈喽单车刚出校门，我以为校园车是专属的，不能停校外，但还是试着锁了一下，嗯…果然是我想错了，但我还是选择走着去了地铁口，作为起点站，又是早上，人很少，打开高德地图，这里换乘，那里倒线，有点迷糊…&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/">日记</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E6%B8%B8%E8%A7%88/">游览</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/ca82fca4/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>LeetCode:2. 两数相加</title>
-      <link>https://xingwangzhe.fun/posts/f899f771/</link>
-      <guid>https://xingwangzhe.fun/posts/f899f771/</guid>
-      <pubDate>Fri, 27 Sep 2024 14:05:24 GMT</pubDate>
-      
-      <description>&lt;center&gt;两数相加&lt;center&gt;</description>
-      
-      
-      
-      
-      <category domain="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
-      
-      <category domain="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/">LeetCode</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/LeetCode/">LeetCode</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <comments>https://xingwangzhe.fun/posts/f899f771/#disqus_thread</comments>
       
     </item>
     
