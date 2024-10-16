@@ -4,15 +4,15 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>姓王者的博客</title>
-    <link>https://xingwangzhe.fun/</link>
+    <link>https://xingwangzhe.github.io/</link>
     
     <image>
-      <url>https://xingwangzhe.fun/icon.png</url>
+      <url>https://xingwangzhe.github.io/icon.png</url>
       <title>姓王者的博客</title>
-      <link>https://xingwangzhe.fun/</link>
+      <link>https://xingwangzhe.github.io/</link>
     </image>
     
-    <atom:link href="https://xingwangzhe.fun/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://xingwangzhe.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
     <pubDate>Tue, 15 Oct 2024 06:36:08 GMT</pubDate>
@@ -20,8 +20,8 @@
     
     <item>
       <title>hexo优化网站性能记录-持续更新</title>
-      <link>https://xingwangzhe.fun/posts/9f6ebe30/</link>
-      <guid>https://xingwangzhe.fun/posts/9f6ebe30/</guid>
+      <link>https://xingwangzhe.github.io/posts/9f6ebe30/</link>
+      <guid>https://xingwangzhe.github.io/posts/9f6ebe30/</guid>
       <pubDate>Tue, 15 Oct 2024 06:36:06 GMT</pubDate>
       
       <description>&lt;img src=&quot;https://i.ibb.co/sQqSRzh/2024-10-15-135544.png&quot; alt=&quot;2024-10-15-135544&quot; border=&quot;0&quot;&gt;
@@ -30,32 +30,32 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">基于hexo的博客搭建教程</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">基于hexo的博客搭建教程</category>
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%9F%BA%E7%A1%80/">基础</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/js/">js</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/404/">404</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%9F%BA%E7%A1%80/">基础</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/9f6ebe30/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/CSS/">CSS</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/HTML/">HTML</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/js/">js</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/404/">404</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/9f6ebe30/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>计算理论-上下文无关文法</title>
-      <link>https://xingwangzhe.fun/posts/bbbc9ff7/</link>
-      <guid>https://xingwangzhe.fun/posts/bbbc9ff7/</guid>
+      <link>https://xingwangzhe.github.io/posts/bbbc9ff7/</link>
+      <guid>https://xingwangzhe.github.io/posts/bbbc9ff7/</guid>
       <pubDate>Mon, 14 Oct 2024 13:19:00 GMT</pubDate>
       
       <description>&lt;center&gt;上下文无关文法（CFG）是一种形式文法，其中每条产生式的左侧只有单个非终结符，右侧可以是终结符和非终结符的任意组合。它广泛应用于计算机科学中的编程语言解析和编译器设计。&lt;/center&gt;</description>
@@ -63,28 +63,28 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
       
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/bbbc9ff7/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/bbbc9ff7/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>计算理论-有限自动机(FA)</title>
-      <link>https://xingwangzhe.fun/posts/c94b8fa9/</link>
-      <guid>https://xingwangzhe.fun/posts/c94b8fa9/</guid>
+      <link>https://xingwangzhe.github.io/posts/c94b8fa9/</link>
+      <guid>https://xingwangzhe.github.io/posts/c94b8fa9/</guid>
       <pubDate>Sun, 13 Oct 2024 13:05:08 GMT</pubDate>
       
       <description>&lt;center&gt;有限自动机是一种数学模型，用于表示和分析有限状态的计算过程。它包括确定性有限自动机（DFA）和非确定性有限自动机（NFA），广泛应用于语言识别和编译技术等领域。&lt;/center&gt;</description>
@@ -92,28 +92,28 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
       
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/c94b8fa9/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/c94b8fa9/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>计算理论-形式语言</title>
-      <link>https://xingwangzhe.fun/posts/bccbe7bc/</link>
-      <guid>https://xingwangzhe.fun/posts/bccbe7bc/</guid>
+      <link>https://xingwangzhe.github.io/posts/bccbe7bc/</link>
+      <guid>https://xingwangzhe.github.io/posts/bccbe7bc/</guid>
       <pubDate>Sun, 13 Oct 2024 05:22:45 GMT</pubDate>
       
       <description>&lt;center&gt;计算机的各种程序设计语言、数理逻辑中的谓词演算语言等都属于形式语言。&lt;/center&gt;</description>
@@ -121,28 +121,28 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/">课程</category>
       
-      <category domain="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/bccbe7bc/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/">计算理论</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AF%BE%E7%A8%8B/">课程</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/bccbe7bc/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>开往 友链接力!</title>
-      <link>https://xingwangzhe.fun/posts/93f836cb/</link>
-      <guid>https://xingwangzhe.fun/posts/93f836cb/</guid>
+      <link>https://xingwangzhe.github.io/posts/93f836cb/</link>
+      <guid>https://xingwangzhe.github.io/posts/93f836cb/</guid>
       <pubDate>Fri, 11 Oct 2024 10:09:21 GMT</pubDate>
       
       <description>&lt;p&gt;让传统友链“活跃”，让网页相互接力，让流量相互流动，让网络开放起来&lt;br&gt;
@@ -151,24 +151,24 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E7%A1%80/">基础</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%9F%BA%E7%A1%80/">基础</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">博客教程</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">博客教程</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%BC%80%E5%BE%80/">开往</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E5%BC%80%E5%BE%80/">开往</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/93f836cb/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/93f836cb/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>解决国外人机验证不显示问题</title>
-      <link>https://xingwangzhe.fun/posts/37f315ff/</link>
-      <guid>https://xingwangzhe.fun/posts/37f315ff/</guid>
+      <link>https://xingwangzhe.github.io/posts/37f315ff/</link>
+      <guid>https://xingwangzhe.github.io/posts/37f315ff/</guid>
       <pubDate>Tue, 08 Oct 2024 07:21:09 GMT</pubDate>
       
       <description>&lt;p&gt;&lt;img src=&quot;images/foriiii/reCAPTCHA.png&quot; alt=&quot;yan&quot;&gt;&lt;/p&gt;
@@ -177,36 +177,36 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/">浏览器</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/">浏览器</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/recaptcha/">recaptcha</category>
+      <category domain="https://xingwangzhe.github.io/tags/recaptcha/">recaptcha</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E9%AA%8C%E8%AF%81%E7%A0%81/">验证码</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E9%AA%8C%E8%AF%81%E7%A0%81/">验证码</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%B0%B7%E6%AD%8C/">谷歌</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%B0%B7%E6%AD%8C/">谷歌</category>
       
-      <category domain="https://xingwangzhe.fun/tags/google/">google</category>
+      <category domain="https://xingwangzhe.github.io/tags/google/">google</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E9%97%AE%E9%A2%98/">问题</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E9%97%AE%E9%A2%98/">问题</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%A7%A3%E5%86%B3/">解决</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%A7%A3%E5%86%B3/">解决</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E7%BD%91%E7%BB%9C/">网络</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/">浏览器</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/">浏览器</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E6%8F%92%E4%BB%B6/">插件</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E6%8F%92%E4%BB%B6/">插件</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/37f315ff/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/37f315ff/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Vue:watch监视</title>
-      <link>https://xingwangzhe.fun/posts/b0f770c3/</link>
-      <guid>https://xingwangzhe.fun/posts/b0f770c3/</guid>
+      <link>https://xingwangzhe.github.io/posts/b0f770c3/</link>
+      <guid>https://xingwangzhe.github.io/posts/b0f770c3/</guid>
       <pubDate>Mon, 30 Sep 2024 13:19:04 GMT</pubDate>
       
       <description>&lt;center&gt;👁️👁️watching you!👁️👁️&lt;/center&gt;</description>
@@ -214,26 +214,26 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/">前端</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/">前端</category>
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/Vue3/">Vue3</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/Vue3/">Vue3</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/Vue3/">Vue3</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/b0f770c3/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/Vue3/">Vue3</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/b0f770c3/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Vue:计算属性</title>
-      <link>https://xingwangzhe.fun/posts/ffe80f36/</link>
-      <guid>https://xingwangzhe.fun/posts/ffe80f36/</guid>
+      <link>https://xingwangzhe.github.io/posts/ffe80f36/</link>
+      <guid>https://xingwangzhe.github.io/posts/ffe80f36/</guid>
       <pubDate>Sun, 29 Sep 2024 10:19:17 GMT</pubDate>
       
       <description>&lt;center&gt;默认只读&lt;center&gt;</description>
@@ -241,24 +241,24 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/Vue3/">Vue3</category>
+      <category domain="https://xingwangzhe.github.io/categories/Vue3/">Vue3</category>
       
-      <category domain="https://xingwangzhe.fun/categories/Vue3/%E5%9F%BA%E7%A1%80/">基础</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/Vue3/">Vue3</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      <category domain="https://xingwangzhe.github.io/categories/Vue3/%E5%9F%BA%E7%A1%80/">基础</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/ffe80f36/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/Vue3/">Vue3</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/ffe80f36/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>learn Markdown</title>
-      <link>https://xingwangzhe.fun/posts/36c34667/</link>
-      <guid>https://xingwangzhe.fun/posts/36c34667/</guid>
+      <link>https://xingwangzhe.github.io/posts/36c34667/</link>
+      <guid>https://xingwangzhe.github.io/posts/36c34667/</guid>
       <pubDate>Sun, 29 Sep 2024 05:13:39 GMT</pubDate>
       
       <description>&lt;center&gt;姓于者发来的，展示一下：）&lt;/center&gt;</description>
@@ -267,21 +267,21 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%A7%93%E4%BA%8E%E8%80%85/">姓于者</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E5%A7%93%E4%BA%8E%E8%80%85/">姓于者</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/36c34667/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/36c34667/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>信息技术基数实训-焊接爱心花灯</title>
-      <link>https://xingwangzhe.fun/posts/90edeb6d/</link>
-      <guid>https://xingwangzhe.fun/posts/90edeb6d/</guid>
+      <link>https://xingwangzhe.github.io/posts/90edeb6d/</link>
+      <guid>https://xingwangzhe.github.io/posts/90edeb6d/</guid>
       <pubDate>Sat, 28 Sep 2024 12:48:54 GMT</pubDate>
       
       <description>&lt;center&gt;两个灯没亮，扣了两分:(&lt;/center&gt;
@@ -290,24 +290,24 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/">日记</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E6%97%A5%E8%AE%B0/">日记</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AE%9E%E8%AE%AD/">信息技术基础实训</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AE%9E%E8%AE%AD/">信息技术基础实训</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/90edeb6d/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/90edeb6d/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>初识Vue3,有趣</title>
-      <link>https://xingwangzhe.fun/posts/218fcad3/</link>
-      <guid>https://xingwangzhe.fun/posts/218fcad3/</guid>
+      <link>https://xingwangzhe.github.io/posts/218fcad3/</link>
+      <guid>https://xingwangzhe.github.io/posts/218fcad3/</guid>
       <pubDate>Fri, 27 Sep 2024 14:19:55 GMT</pubDate>
       
       <description>&lt;center&gt;初识前端工程&lt;/center&gt;
@@ -316,36 +316,36 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/">前端</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/">前端</category>
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/Vue3/">Vue3</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/Vue3/">Vue3</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/">第一次</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/Typescript/">Typescript</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/Vue3/">Vue3</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/218fcad3/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/Vue3/">Vue3</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/CSS/">CSS</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/HTML/">HTML</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/">第一次</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/Typescript/">Typescript</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/218fcad3/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>学了点js</title>
-      <link>https://xingwangzhe.fun/posts/fcbe0bf5/</link>
-      <guid>https://xingwangzhe.fun/posts/fcbe0bf5/</guid>
+      <link>https://xingwangzhe.github.io/posts/fcbe0bf5/</link>
+      <guid>https://xingwangzhe.github.io/posts/fcbe0bf5/</guid>
       <pubDate>Wed, 25 Sep 2024 13:05:29 GMT</pubDate>
       
       <description>&lt;center&gt;语法挺有趣的&lt;/center&gt;</description>
@@ -353,26 +353,26 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/">前端</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/">前端</category>
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/js/">js</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/js/">js</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/js/">js</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/fcbe0bf5/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/js/">js</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/fcbe0bf5/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>连不上网了？可能的DNS解决方法</title>
-      <link>https://xingwangzhe.fun/posts/58ad3c48/</link>
-      <guid>https://xingwangzhe.fun/posts/58ad3c48/</guid>
+      <link>https://xingwangzhe.github.io/posts/58ad3c48/</link>
+      <guid>https://xingwangzhe.github.io/posts/58ad3c48/</guid>
       <pubDate>Wed, 25 Sep 2024 12:42:35 GMT</pubDate>
       
       <description>&lt;center&gt;有许多人在使用代理之后，发现连不上网络了，这是其中一种解决方法&lt;center&gt;</description>
@@ -380,30 +380,30 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E6%8A%80%E6%9C%AF/">技术</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E6%8A%80%E6%9C%AF/">技术</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E9%97%AE%E9%A2%98/">问题</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E9%97%AE%E9%A2%98/">问题</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%A7%A3%E5%86%B3/">解决</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%A7%A3%E5%86%B3/">解决</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E7%BD%91%E7%BB%9C/">网络</category>
       
-      <category domain="https://xingwangzhe.fun/tags/DNS/">DNS</category>
+      <category domain="https://xingwangzhe.github.io/tags/DNS/">DNS</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/58ad3c48/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/58ad3c48/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>通过创建钢琴学习响应式网页设计</title>
-      <link>https://xingwangzhe.fun/posts/c0981903/</link>
-      <guid>https://xingwangzhe.fun/posts/c0981903/</guid>
+      <link>https://xingwangzhe.github.io/posts/c0981903/</link>
+      <guid>https://xingwangzhe.github.io/posts/c0981903/</guid>
       <pubDate>Wed, 25 Sep 2024 10:02:21 GMT</pubDate>
       
       <description>&lt;center&gt;还是比较有趣&lt;/center&gt;</description>
@@ -411,28 +411,28 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/CSS/">CSS</category>
+      <category domain="https://xingwangzhe.github.io/categories/CSS/">CSS</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
       
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
+      <category domain="https://xingwangzhe.github.io/tags/CSS/">CSS</category>
       
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
+      <category domain="https://xingwangzhe.github.io/tags/HTML/">HTML</category>
       
-      <category domain="https://xingwangzhe.fun/tags/freecodecamp/">freecodecamp</category>
+      <category domain="https://xingwangzhe.github.io/tags/freecodecamp/">freecodecamp</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/c0981903/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/c0981903/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>通过创建猫咪绘画学习中级 CSS</title>
-      <link>https://xingwangzhe.fun/posts/52b92bfc/</link>
-      <guid>https://xingwangzhe.fun/posts/52b92bfc/</guid>
+      <link>https://xingwangzhe.github.io/posts/52b92bfc/</link>
+      <guid>https://xingwangzhe.github.io/posts/52b92bfc/</guid>
       <pubDate>Wed, 25 Sep 2024 09:49:56 GMT</pubDate>
       
       <description>&lt;center&gt;哈基米还挺可爱的&lt;/center&gt;</description>
@@ -440,28 +440,28 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/CSS/">CSS</category>
+      <category domain="https://xingwangzhe.github.io/categories/CSS/">CSS</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
       
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
+      <category domain="https://xingwangzhe.github.io/tags/CSS/">CSS</category>
       
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
+      <category domain="https://xingwangzhe.github.io/tags/HTML/">HTML</category>
       
-      <category domain="https://xingwangzhe.fun/tags/freecodecamp/">freecodecamp</category>
+      <category domain="https://xingwangzhe.github.io/tags/freecodecamp/">freecodecamp</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/52b92bfc/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/52b92bfc/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>神人有感:先礼礼礼礼礼礼后兵</title>
-      <link>https://xingwangzhe.fun/posts/6af33c89/</link>
-      <guid>https://xingwangzhe.fun/posts/6af33c89/</guid>
+      <link>https://xingwangzhe.github.io/posts/6af33c89/</link>
+      <guid>https://xingwangzhe.github.io/posts/6af33c89/</guid>
       <pubDate>Mon, 23 Sep 2024 07:01:26 GMT</pubDate>
       
       <description>&lt;p&gt;ai总是那么幽默&lt;/p&gt;
@@ -470,22 +470,22 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/">胡思乱想</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/">胡思乱想</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E7%A5%9E%E4%BA%BA/">神人</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E7%A5%9E%E4%BA%BA/">神人</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/6af33c89/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/6af33c89/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>LeetCode:2. 两数相加</title>
-      <link>https://xingwangzhe.fun/posts/f899f771/</link>
-      <guid>https://xingwangzhe.fun/posts/f899f771/</guid>
+      <link>https://xingwangzhe.github.io/posts/f899f771/</link>
+      <guid>https://xingwangzhe.github.io/posts/f899f771/</guid>
       <pubDate>Sun, 22 Sep 2024 13:08:27 GMT</pubDate>
       
       <description>&lt;center&gt;两数相加&lt;center&gt;</description>
@@ -493,28 +493,28 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
       
-      <category domain="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/">LeetCode</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/LeetCode/">LeetCode</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/">LeetCode</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/f899f771/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/LeetCode/">LeetCode</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E7%AE%97%E6%B3%95%E9%A2%98/">算法题</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/f899f771/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>通过创建资产负债表学习 CSS 伪选择器</title>
-      <link>https://xingwangzhe.fun/posts/d8587a7c/</link>
-      <guid>https://xingwangzhe.fun/posts/d8587a7c/</guid>
+      <link>https://xingwangzhe.github.io/posts/d8587a7c/</link>
+      <guid>https://xingwangzhe.github.io/posts/d8587a7c/</guid>
       <pubDate>Sun, 22 Sep 2024 13:04:21 GMT</pubDate>
       
       <description>&lt;p&gt;你可以使用 CSS 伪选择器来更改特定的 HTML 元素。在本课程中，你将使用伪选择器创建资产负债表。你将学习如何在将鼠标悬停在元素上时更改其样式，并触发网页上的其他事件。&lt;/p&gt;</description>
@@ -522,30 +522,30 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/HTML/">HTML</category>
+      <category domain="https://xingwangzhe.github.io/categories/HTML/">HTML</category>
       
-      <category domain="https://xingwangzhe.fun/categories/HTML/CSS/">CSS</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/freecodecamp/">freecodecamp</category>
+      <category domain="https://xingwangzhe.github.io/categories/HTML/CSS/">CSS</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/d8587a7c/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/CSS/">CSS</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/HTML/">HTML</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/freecodecamp/">freecodecamp</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/d8587a7c/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>通过创建小测验学习无障碍</title>
-      <link>https://xingwangzhe.fun/posts/9f32bac9/</link>
-      <guid>https://xingwangzhe.fun/posts/9f32bac9/</guid>
+      <link>https://xingwangzhe.github.io/posts/9f32bac9/</link>
+      <guid>https://xingwangzhe.github.io/posts/9f32bac9/</guid>
       <pubDate>Sat, 21 Sep 2024 13:01:13 GMT</pubDate>
       
       <description>&lt;center&gt;无障碍环境正在使你的网页便于所有人使用——甚至是残疾人。
@@ -555,30 +555,30 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/HTML/">HTML</category>
+      <category domain="https://xingwangzhe.github.io/categories/HTML/">HTML</category>
       
-      <category domain="https://xingwangzhe.fun/categories/HTML/CSS/">CSS</category>
-      
-      
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/CSS/">CSS</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/HTML/">HTML</category>
-      
-      <category domain="https://xingwangzhe.fun/tags/freecodecamp/">freecodecamp</category>
+      <category domain="https://xingwangzhe.github.io/categories/HTML/CSS/">CSS</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/9f32bac9/#disqus_thread</comments>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/CSS/">CSS</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/HTML/">HTML</category>
+      
+      <category domain="https://xingwangzhe.github.io/tags/freecodecamp/">freecodecamp</category>
+      
+      
+      <comments>https://xingwangzhe.github.io/posts/9f32bac9/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>hexo压缩资源，优化访问</title>
-      <link>https://xingwangzhe.fun/posts/42cabe35/</link>
-      <guid>https://xingwangzhe.fun/posts/42cabe35/</guid>
+      <link>https://xingwangzhe.github.io/posts/42cabe35/</link>
+      <guid>https://xingwangzhe.github.io/posts/42cabe35/</guid>
       <pubDate>Sat, 21 Sep 2024 09:38:24 GMT</pubDate>
       
       <description>&lt;p&gt;&lt;a href=&quot;https://github.com/chenzhutian/hexo-all-minifier&quot;&gt;Hexo-all-minifier&lt;/a&gt;压缩资源，优化访问&lt;/p&gt;
@@ -587,15 +587,15 @@
       
       
       
-      <category domain="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">基于hexo的博客搭建教程</category>
+      <category domain="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">基于hexo的博客搭建教程</category>
       
       
-      <category domain="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/">记录</category>
       
-      <category domain="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">博客教程</category>
+      <category domain="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">博客教程</category>
       
       
-      <comments>https://xingwangzhe.fun/posts/42cabe35/#disqus_thread</comments>
+      <comments>https://xingwangzhe.github.io/posts/42cabe35/#disqus_thread</comments>
       
     </item>
     

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>姓王者的博客</title>
-  <icon>https://xingwangzhe.fun/icon.png</icon>
+  <icon>https://xingwangzhe.github.io/icon.png</icon>
   <subtitle>记录学习生活的琐事，或者技术文章:)</subtitle>
-  <link href="https://xingwangzhe.fun/atom.xml" rel="self"/>
+  <link href="https://xingwangzhe.github.io/atom.xml" rel="self"/>
   
-  <link href="https://xingwangzhe.fun/"/>
+  <link href="https://xingwangzhe.github.io/"/>
   <updated>2024-10-15T06:36:08.000Z</updated>
-  <id>https://xingwangzhe.fun/</id>
+  <id>https://xingwangzhe.github.io/</id>
   
   <author>
     <name>姓王者</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo优化网站性能记录-持续更新</title>
-    <link href="https://xingwangzhe.fun/posts/9f6ebe30/"/>
-    <id>https://xingwangzhe.fun/posts/9f6ebe30/</id>
+    <link href="https://xingwangzhe.github.io/posts/9f6ebe30/"/>
+    <id>https://xingwangzhe.github.io/posts/9f6ebe30/</id>
     <published>2024-10-15T06:36:06.000Z</published>
     <updated>2024-10-15T06:36:08.000Z</updated>
     
@@ -29,29 +29,29 @@
     
     
     
-    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
     
-    <category term="基础" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%9F%BA%E7%A1%80/"/>
+    <category term="基础" scheme="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/tags/CSS/"/>
     
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
+    <category term="HTML" scheme="https://xingwangzhe.github.io/tags/HTML/"/>
     
-    <category term="博客" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="js" scheme="https://xingwangzhe.fun/tags/js/"/>
+    <category term="js" scheme="https://xingwangzhe.github.io/tags/js/"/>
     
-    <category term="404" scheme="https://xingwangzhe.fun/tags/404/"/>
+    <category term="404" scheme="https://xingwangzhe.github.io/tags/404/"/>
     
   </entry>
   
   <entry>
     <title>计算理论-上下文无关文法</title>
-    <link href="https://xingwangzhe.fun/posts/bbbc9ff7/"/>
-    <id>https://xingwangzhe.fun/posts/bbbc9ff7/</id>
+    <link href="https://xingwangzhe.github.io/posts/bbbc9ff7/"/>
+    <id>https://xingwangzhe.github.io/posts/bbbc9ff7/</id>
     <published>2024-10-14T13:19:00.000Z</published>
     <updated>2024-10-15T13:19:14.000Z</updated>
     
@@ -60,25 +60,25 @@
     
     
     
-    <category term="课程" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/"/>
+    <category term="课程" scheme="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/"/>
     
-    <category term="计算理论" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    <category term="计算理论" scheme="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="计算理论" scheme="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    <category term="计算理论" scheme="https://xingwangzhe.github.io/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
     
-    <category term="课程" scheme="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/"/>
+    <category term="课程" scheme="https://xingwangzhe.github.io/tags/%E8%AF%BE%E7%A8%8B/"/>
     
-    <category term="学习" scheme="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://xingwangzhe.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>计算理论-有限自动机(FA)</title>
-    <link href="https://xingwangzhe.fun/posts/c94b8fa9/"/>
-    <id>https://xingwangzhe.fun/posts/c94b8fa9/</id>
+    <link href="https://xingwangzhe.github.io/posts/c94b8fa9/"/>
+    <id>https://xingwangzhe.github.io/posts/c94b8fa9/</id>
     <published>2024-10-13T13:05:08.000Z</published>
     <updated>2024-10-15T13:05:13.000Z</updated>
     
@@ -87,25 +87,25 @@
     
     
     
-    <category term="课程" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/"/>
+    <category term="课程" scheme="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/"/>
     
-    <category term="计算理论" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    <category term="计算理论" scheme="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="计算理论" scheme="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    <category term="计算理论" scheme="https://xingwangzhe.github.io/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
     
-    <category term="课程" scheme="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/"/>
+    <category term="课程" scheme="https://xingwangzhe.github.io/tags/%E8%AF%BE%E7%A8%8B/"/>
     
-    <category term="学习" scheme="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://xingwangzhe.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>计算理论-形式语言</title>
-    <link href="https://xingwangzhe.fun/posts/bccbe7bc/"/>
-    <id>https://xingwangzhe.fun/posts/bccbe7bc/</id>
+    <link href="https://xingwangzhe.github.io/posts/bccbe7bc/"/>
+    <id>https://xingwangzhe.github.io/posts/bccbe7bc/</id>
     <published>2024-10-13T05:22:45.000Z</published>
     <updated>2024-10-13T05:22:44.000Z</updated>
     
@@ -114,25 +114,25 @@
     
     
     
-    <category term="课程" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/"/>
+    <category term="课程" scheme="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/"/>
     
-    <category term="计算理论" scheme="https://xingwangzhe.fun/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    <category term="计算理论" scheme="https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="计算理论" scheme="https://xingwangzhe.fun/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
+    <category term="计算理论" scheme="https://xingwangzhe.github.io/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/"/>
     
-    <category term="课程" scheme="https://xingwangzhe.fun/tags/%E8%AF%BE%E7%A8%8B/"/>
+    <category term="课程" scheme="https://xingwangzhe.github.io/tags/%E8%AF%BE%E7%A8%8B/"/>
     
-    <category term="学习" scheme="https://xingwangzhe.fun/tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://xingwangzhe.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>开往 友链接力!</title>
-    <link href="https://xingwangzhe.fun/posts/93f836cb/"/>
-    <id>https://xingwangzhe.fun/posts/93f836cb/</id>
+    <link href="https://xingwangzhe.github.io/posts/93f836cb/"/>
+    <id>https://xingwangzhe.github.io/posts/93f836cb/</id>
     <published>2024-10-11T10:09:21.000Z</published>
     <updated>2024-10-11T10:09:23.000Z</updated>
     
@@ -142,21 +142,21 @@
     
     
     
-    <category term="基础" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E7%A1%80/"/>
+    <category term="基础" scheme="https://xingwangzhe.github.io/categories/%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    <category term="博客教程" scheme="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
-    <category term="博客" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="开往" scheme="https://xingwangzhe.fun/tags/%E5%BC%80%E5%BE%80/"/>
+    <category term="开往" scheme="https://xingwangzhe.github.io/tags/%E5%BC%80%E5%BE%80/"/>
     
   </entry>
   
   <entry>
     <title>解决国外人机验证不显示问题</title>
-    <link href="https://xingwangzhe.fun/posts/37f315ff/"/>
-    <id>https://xingwangzhe.fun/posts/37f315ff/</id>
+    <link href="https://xingwangzhe.github.io/posts/37f315ff/"/>
+    <id>https://xingwangzhe.github.io/posts/37f315ff/</id>
     <published>2024-10-08T07:21:09.000Z</published>
     <updated>2024-10-08T07:21:11.000Z</updated>
     
@@ -166,33 +166,33 @@
     
     
     
-    <category term="浏览器" scheme="https://xingwangzhe.fun/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    <category term="浏览器" scheme="https://xingwangzhe.github.io/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
     
-    <category term="recaptcha" scheme="https://xingwangzhe.fun/tags/recaptcha/"/>
+    <category term="recaptcha" scheme="https://xingwangzhe.github.io/tags/recaptcha/"/>
     
-    <category term="验证码" scheme="https://xingwangzhe.fun/tags/%E9%AA%8C%E8%AF%81%E7%A0%81/"/>
+    <category term="验证码" scheme="https://xingwangzhe.github.io/tags/%E9%AA%8C%E8%AF%81%E7%A0%81/"/>
     
-    <category term="谷歌" scheme="https://xingwangzhe.fun/tags/%E8%B0%B7%E6%AD%8C/"/>
+    <category term="谷歌" scheme="https://xingwangzhe.github.io/tags/%E8%B0%B7%E6%AD%8C/"/>
     
-    <category term="google" scheme="https://xingwangzhe.fun/tags/google/"/>
+    <category term="google" scheme="https://xingwangzhe.github.io/tags/google/"/>
     
-    <category term="问题" scheme="https://xingwangzhe.fun/tags/%E9%97%AE%E9%A2%98/"/>
+    <category term="问题" scheme="https://xingwangzhe.github.io/tags/%E9%97%AE%E9%A2%98/"/>
     
-    <category term="解决" scheme="https://xingwangzhe.fun/tags/%E8%A7%A3%E5%86%B3/"/>
+    <category term="解决" scheme="https://xingwangzhe.github.io/tags/%E8%A7%A3%E5%86%B3/"/>
     
-    <category term="网络" scheme="https://xingwangzhe.fun/tags/%E7%BD%91%E7%BB%9C/"/>
+    <category term="网络" scheme="https://xingwangzhe.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
     
-    <category term="浏览器" scheme="https://xingwangzhe.fun/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    <category term="浏览器" scheme="https://xingwangzhe.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
-    <category term="插件" scheme="https://xingwangzhe.fun/tags/%E6%8F%92%E4%BB%B6/"/>
+    <category term="插件" scheme="https://xingwangzhe.github.io/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>Vue:watch监视</title>
-    <link href="https://xingwangzhe.fun/posts/b0f770c3/"/>
-    <id>https://xingwangzhe.fun/posts/b0f770c3/</id>
+    <link href="https://xingwangzhe.github.io/posts/b0f770c3/"/>
+    <id>https://xingwangzhe.github.io/posts/b0f770c3/</id>
     <published>2024-09-30T13:19:04.000Z</published>
     <updated>2024-09-30T13:19:06.000Z</updated>
     
@@ -201,23 +201,23 @@
     
     
     
-    <category term="前端" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="Vue3" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/Vue3/"/>
+    <category term="Vue3" scheme="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/Vue3/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="Vue3" scheme="https://xingwangzhe.fun/tags/Vue3/"/>
+    <category term="Vue3" scheme="https://xingwangzhe.github.io/tags/Vue3/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>Vue:计算属性</title>
-    <link href="https://xingwangzhe.fun/posts/ffe80f36/"/>
-    <id>https://xingwangzhe.fun/posts/ffe80f36/</id>
+    <link href="https://xingwangzhe.github.io/posts/ffe80f36/"/>
+    <id>https://xingwangzhe.github.io/posts/ffe80f36/</id>
     <published>2024-09-29T10:19:17.000Z</published>
     <updated>2024-09-29T10:19:19.000Z</updated>
     
@@ -226,21 +226,21 @@
     
     
     
-    <category term="Vue3" scheme="https://xingwangzhe.fun/categories/Vue3/"/>
+    <category term="Vue3" scheme="https://xingwangzhe.github.io/categories/Vue3/"/>
     
-    <category term="基础" scheme="https://xingwangzhe.fun/categories/Vue3/%E5%9F%BA%E7%A1%80/"/>
+    <category term="基础" scheme="https://xingwangzhe.github.io/categories/Vue3/%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="Vue3" scheme="https://xingwangzhe.fun/tags/Vue3/"/>
+    <category term="Vue3" scheme="https://xingwangzhe.github.io/tags/Vue3/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>learn Markdown</title>
-    <link href="https://xingwangzhe.fun/posts/36c34667/"/>
-    <id>https://xingwangzhe.fun/posts/36c34667/</id>
+    <link href="https://xingwangzhe.github.io/posts/36c34667/"/>
+    <id>https://xingwangzhe.github.io/posts/36c34667/</id>
     <published>2024-09-29T05:13:39.000Z</published>
     <updated>2024-09-29T05:13:37.000Z</updated>
     
@@ -250,18 +250,18 @@
     
     
     
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="姓于者" scheme="https://xingwangzhe.fun/tags/%E5%A7%93%E4%BA%8E%E8%80%85/"/>
+    <category term="姓于者" scheme="https://xingwangzhe.github.io/tags/%E5%A7%93%E4%BA%8E%E8%80%85/"/>
     
   </entry>
   
   <entry>
     <title>信息技术基数实训-焊接爱心花灯</title>
-    <link href="https://xingwangzhe.fun/posts/90edeb6d/"/>
-    <id>https://xingwangzhe.fun/posts/90edeb6d/</id>
+    <link href="https://xingwangzhe.github.io/posts/90edeb6d/"/>
+    <id>https://xingwangzhe.github.io/posts/90edeb6d/</id>
     <published>2024-09-28T12:48:54.000Z</published>
     <updated>2024-09-28T12:48:55.000Z</updated>
     
@@ -271,21 +271,21 @@
     
     
     
-    <category term="日记" scheme="https://xingwangzhe.fun/categories/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://xingwangzhe.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="信息技术基础实训" scheme="https://xingwangzhe.fun/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AE%9E%E8%AE%AD/"/>
+    <category term="信息技术基础实训" scheme="https://xingwangzhe.github.io/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AE%9E%E8%AE%AD/"/>
     
   </entry>
   
   <entry>
     <title>初识Vue3,有趣</title>
-    <link href="https://xingwangzhe.fun/posts/218fcad3/"/>
-    <id>https://xingwangzhe.fun/posts/218fcad3/</id>
+    <link href="https://xingwangzhe.github.io/posts/218fcad3/"/>
+    <id>https://xingwangzhe.github.io/posts/218fcad3/</id>
     <published>2024-09-27T14:19:55.000Z</published>
     <updated>2024-09-27T14:19:53.000Z</updated>
     
@@ -295,33 +295,33 @@
     
     
     
-    <category term="前端" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="Vue3" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/Vue3/"/>
+    <category term="Vue3" scheme="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/Vue3/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Vue3" scheme="https://xingwangzhe.fun/tags/Vue3/"/>
+    <category term="Vue3" scheme="https://xingwangzhe.github.io/tags/Vue3/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/tags/CSS/"/>
     
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
+    <category term="HTML" scheme="https://xingwangzhe.github.io/tags/HTML/"/>
     
-    <category term="第一次" scheme="https://xingwangzhe.fun/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
+    <category term="第一次" scheme="https://xingwangzhe.github.io/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
     
-    <category term="Typescript" scheme="https://xingwangzhe.fun/tags/Typescript/"/>
+    <category term="Typescript" scheme="https://xingwangzhe.github.io/tags/Typescript/"/>
     
   </entry>
   
   <entry>
     <title>学了点js</title>
-    <link href="https://xingwangzhe.fun/posts/fcbe0bf5/"/>
-    <id>https://xingwangzhe.fun/posts/fcbe0bf5/</id>
+    <link href="https://xingwangzhe.github.io/posts/fcbe0bf5/"/>
+    <id>https://xingwangzhe.github.io/posts/fcbe0bf5/</id>
     <published>2024-09-25T13:05:29.000Z</published>
     <updated>2024-10-15T13:05:43.000Z</updated>
     
@@ -330,23 +330,23 @@
     
     
     
-    <category term="前端" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="js" scheme="https://xingwangzhe.fun/categories/%E5%89%8D%E7%AB%AF/js/"/>
+    <category term="js" scheme="https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/js/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="js" scheme="https://xingwangzhe.fun/tags/js/"/>
+    <category term="js" scheme="https://xingwangzhe.github.io/tags/js/"/>
     
   </entry>
   
   <entry>
     <title>连不上网了？可能的DNS解决方法</title>
-    <link href="https://xingwangzhe.fun/posts/58ad3c48/"/>
-    <id>https://xingwangzhe.fun/posts/58ad3c48/</id>
+    <link href="https://xingwangzhe.github.io/posts/58ad3c48/"/>
+    <id>https://xingwangzhe.github.io/posts/58ad3c48/</id>
     <published>2024-09-25T12:42:35.000Z</published>
     <updated>2024-09-25T12:42:37.000Z</updated>
     
@@ -355,27 +355,27 @@
     
     
     
-    <category term="技术" scheme="https://xingwangzhe.fun/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://xingwangzhe.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="问题" scheme="https://xingwangzhe.fun/tags/%E9%97%AE%E9%A2%98/"/>
+    <category term="问题" scheme="https://xingwangzhe.github.io/tags/%E9%97%AE%E9%A2%98/"/>
     
-    <category term="解决" scheme="https://xingwangzhe.fun/tags/%E8%A7%A3%E5%86%B3/"/>
+    <category term="解决" scheme="https://xingwangzhe.github.io/tags/%E8%A7%A3%E5%86%B3/"/>
     
-    <category term="网络" scheme="https://xingwangzhe.fun/tags/%E7%BD%91%E7%BB%9C/"/>
+    <category term="网络" scheme="https://xingwangzhe.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
     
-    <category term="DNS" scheme="https://xingwangzhe.fun/tags/DNS/"/>
+    <category term="DNS" scheme="https://xingwangzhe.github.io/tags/DNS/"/>
     
   </entry>
   
   <entry>
     <title>通过创建钢琴学习响应式网页设计</title>
-    <link href="https://xingwangzhe.fun/posts/c0981903/"/>
-    <id>https://xingwangzhe.fun/posts/c0981903/</id>
+    <link href="https://xingwangzhe.github.io/posts/c0981903/"/>
+    <id>https://xingwangzhe.github.io/posts/c0981903/</id>
     <published>2024-09-25T10:02:21.000Z</published>
     <updated>2024-09-25T10:02:36.077Z</updated>
     
@@ -384,25 +384,25 @@
     
     
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/categories/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/categories/CSS/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/tags/CSS/"/>
     
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
+    <category term="HTML" scheme="https://xingwangzhe.github.io/tags/HTML/"/>
     
-    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
+    <category term="freecodecamp" scheme="https://xingwangzhe.github.io/tags/freecodecamp/"/>
     
   </entry>
   
   <entry>
     <title>通过创建猫咪绘画学习中级 CSS</title>
-    <link href="https://xingwangzhe.fun/posts/52b92bfc/"/>
-    <id>https://xingwangzhe.fun/posts/52b92bfc/</id>
+    <link href="https://xingwangzhe.github.io/posts/52b92bfc/"/>
+    <id>https://xingwangzhe.github.io/posts/52b92bfc/</id>
     <published>2024-09-25T09:49:56.000Z</published>
     <updated>2024-09-25T09:49:51.000Z</updated>
     
@@ -411,25 +411,25 @@
     
     
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/categories/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/categories/CSS/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/tags/CSS/"/>
     
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
+    <category term="HTML" scheme="https://xingwangzhe.github.io/tags/HTML/"/>
     
-    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
+    <category term="freecodecamp" scheme="https://xingwangzhe.github.io/tags/freecodecamp/"/>
     
   </entry>
   
   <entry>
     <title>神人有感:先礼礼礼礼礼礼后兵</title>
-    <link href="https://xingwangzhe.fun/posts/6af33c89/"/>
-    <id>https://xingwangzhe.fun/posts/6af33c89/</id>
+    <link href="https://xingwangzhe.github.io/posts/6af33c89/"/>
+    <id>https://xingwangzhe.github.io/posts/6af33c89/</id>
     <published>2024-09-23T07:01:26.000Z</published>
     <updated>2024-09-25T07:01:52.000Z</updated>
     
@@ -439,19 +439,19 @@
     
     
     
-    <category term="胡思乱想" scheme="https://xingwangzhe.fun/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
+    <category term="胡思乱想" scheme="https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="神人" scheme="https://xingwangzhe.fun/tags/%E7%A5%9E%E4%BA%BA/"/>
+    <category term="神人" scheme="https://xingwangzhe.github.io/tags/%E7%A5%9E%E4%BA%BA/"/>
     
   </entry>
   
   <entry>
     <title>LeetCode:2. 两数相加</title>
-    <link href="https://xingwangzhe.fun/posts/f899f771/"/>
-    <id>https://xingwangzhe.fun/posts/f899f771/</id>
+    <link href="https://xingwangzhe.github.io/posts/f899f771/"/>
+    <id>https://xingwangzhe.github.io/posts/f899f771/</id>
     <published>2024-09-22T13:08:27.000Z</published>
     <updated>2024-10-15T13:08:44.000Z</updated>
     
@@ -460,25 +460,25 @@
     
     
     
-    <category term="算法题" scheme="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
+    <category term="算法题" scheme="https://xingwangzhe.github.io/categories/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
     
-    <category term="LeetCode" scheme="https://xingwangzhe.fun/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/"/>
+    <category term="LeetCode" scheme="https://xingwangzhe.github.io/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/"/>
     
     
-    <category term="LeetCode" scheme="https://xingwangzhe.fun/tags/LeetCode/"/>
+    <category term="LeetCode" scheme="https://xingwangzhe.github.io/tags/LeetCode/"/>
     
-    <category term="算法题" scheme="https://xingwangzhe.fun/tags/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
+    <category term="算法题" scheme="https://xingwangzhe.github.io/tags/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="教程" scheme="https://xingwangzhe.fun/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>通过创建资产负债表学习 CSS 伪选择器</title>
-    <link href="https://xingwangzhe.fun/posts/d8587a7c/"/>
-    <id>https://xingwangzhe.fun/posts/d8587a7c/</id>
+    <link href="https://xingwangzhe.github.io/posts/d8587a7c/"/>
+    <id>https://xingwangzhe.github.io/posts/d8587a7c/</id>
     <published>2024-09-22T13:04:21.000Z</published>
     <updated>2024-10-15T13:04:37.000Z</updated>
     
@@ -487,27 +487,27 @@
     
     
     
-    <category term="HTML" scheme="https://xingwangzhe.fun/categories/HTML/"/>
+    <category term="HTML" scheme="https://xingwangzhe.github.io/categories/HTML/"/>
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/categories/HTML/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/categories/HTML/CSS/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/tags/CSS/"/>
     
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
+    <category term="HTML" scheme="https://xingwangzhe.github.io/tags/HTML/"/>
     
-    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
+    <category term="freecodecamp" scheme="https://xingwangzhe.github.io/tags/freecodecamp/"/>
     
   </entry>
   
   <entry>
     <title>通过创建小测验学习无障碍</title>
-    <link href="https://xingwangzhe.fun/posts/9f32bac9/"/>
-    <id>https://xingwangzhe.fun/posts/9f32bac9/</id>
+    <link href="https://xingwangzhe.github.io/posts/9f32bac9/"/>
+    <id>https://xingwangzhe.github.io/posts/9f32bac9/</id>
     <published>2024-09-21T13:01:13.000Z</published>
     <updated>2024-09-21T13:01:16.000Z</updated>
     
@@ -518,27 +518,27 @@
     
     
     
-    <category term="HTML" scheme="https://xingwangzhe.fun/categories/HTML/"/>
+    <category term="HTML" scheme="https://xingwangzhe.github.io/categories/HTML/"/>
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/categories/HTML/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/categories/HTML/CSS/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="前端" scheme="https://xingwangzhe.fun/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="CSS" scheme="https://xingwangzhe.fun/tags/CSS/"/>
+    <category term="CSS" scheme="https://xingwangzhe.github.io/tags/CSS/"/>
     
-    <category term="HTML" scheme="https://xingwangzhe.fun/tags/HTML/"/>
+    <category term="HTML" scheme="https://xingwangzhe.github.io/tags/HTML/"/>
     
-    <category term="freecodecamp" scheme="https://xingwangzhe.fun/tags/freecodecamp/"/>
+    <category term="freecodecamp" scheme="https://xingwangzhe.github.io/tags/freecodecamp/"/>
     
   </entry>
   
   <entry>
     <title>hexo压缩资源，优化访问</title>
-    <link href="https://xingwangzhe.fun/posts/42cabe35/"/>
-    <id>https://xingwangzhe.fun/posts/42cabe35/</id>
+    <link href="https://xingwangzhe.github.io/posts/42cabe35/"/>
+    <id>https://xingwangzhe.github.io/posts/42cabe35/</id>
     <published>2024-09-21T09:38:24.000Z</published>
     <updated>2024-09-21T09:38:28.000Z</updated>
     
@@ -548,12 +548,12 @@
     
     
     
-    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.fun/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="记录" scheme="https://xingwangzhe.fun/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="博客教程" scheme="https://xingwangzhe.fun/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    <category term="博客教程" scheme="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
