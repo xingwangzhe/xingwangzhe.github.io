@@ -6,7 +6,7 @@
   <link href="https://xingwangzhe.github.io/atom.xml" rel="self"/>
   
   <link href="https://xingwangzhe.github.io/"/>
-  <updated>2024-10-15T06:36:08.000Z</updated>
+  <updated>2024-10-18T11:34:33.000Z</updated>
   <id>https://xingwangzhe.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>阿里云备案记录</title>
+    <link href="https://xingwangzhe.github.io/posts/62f08794/"/>
+    <id>https://xingwangzhe.github.io/posts/62f08794/</id>
+    <published>2024-10-18T11:34:31.000Z</published>
+    <updated>2024-10-18T11:34:33.000Z</updated>
+    
+    
+    <summary type="html">&lt;center&gt;国内访问过于慢了，尝试迁移到阿里云服务器，并进行备案&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="前端" scheme="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="博客教程" scheme="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="第一次" scheme="https://xingwangzhe.github.io/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
+    
+    <category term="博客" scheme="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="学习" scheme="https://xingwangzhe.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="备案" scheme="https://xingwangzhe.github.io/tags/%E5%A4%87%E6%A1%88/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo优化网站性能记录-持续更新</title>
@@ -532,28 +563,6 @@
     <category term="HTML" scheme="https://xingwangzhe.github.io/tags/HTML/"/>
     
     <category term="freecodecamp" scheme="https://xingwangzhe.github.io/tags/freecodecamp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo压缩资源，优化访问</title>
-    <link href="https://xingwangzhe.github.io/posts/42cabe35/"/>
-    <id>https://xingwangzhe.github.io/posts/42cabe35/</id>
-    <published>2024-09-21T09:38:24.000Z</published>
-    <updated>2024-09-21T09:38:28.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/chenzhutian/hexo-all-minifier&quot;&gt;Hexo-all-minifier&lt;/a&gt;压缩资源，优化访问&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;images/hexo/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="基于hexo的博客搭建教程" scheme="https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="记录" scheme="https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="博客教程" scheme="https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   

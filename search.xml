@@ -3901,4 +3901,41 @@ width:633px;
         <tag>freecodecamp</tag>
       </tags>
   </entry>
+  <entry>
+    <title>阿里云备案记录</title>
+    <url>/posts/62f08794/</url>
+    <content><![CDATA[<center>国内访问过于慢了，尝试迁移到阿里云服务器，并进行备案</center>
+<span id="more"></span>
+<h2 id="注意事项">注意事项</h2>
+<p>个人ICP备案有两个条件，一个是自己的域名，另一个就是处在境内的服务器。这里以阿里云备案为例<br>
+<img src="https://i.ibb.co/C8xdNkY/2024-10-18-194533.png" alt="2024-10-18-194533" border="0"></p>
+<p>先在阿里云处填写好备案信息，然后提交到阿里云进行审核，第一次给我打回了，我出现了三点不规范的行为</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>地址不够详细需要精确到门牌号，学校地址的话，需要精确到宿舍门牌号</p>
+</li>
+<li class="lvl-2">
+<p>拍照不规范拍照时应该着装完整，避免佩戴头饰，我就是带了耳机被打回的</p>
+</li>
+<li class="lvl-2">
+<p>网站名不规范个人网站明确表示不能出现博客字样，官方认为这可能涉及商业行为（我完全不理解，但我们只能照做）我们可以把网站改为xxx的笔记，来应对审核</p>
+</li>
+</ul>
+<p>完成后，阿里云很快就会审核好，然后很快，工信部会发来短信，这时候你需要在24小时内及时在工信部的 <a href="https://beian.miit.gov.cn/#/Integrated/index">ICP/IP地址/域名信息备案管理系统</a>进行验证</p>
+<p><img src="https://i.ibb.co/HnGfj5V/2024-10-18-195436.png" alt="none"></p>
+<p>最后该备案会移交到属地通信管理局，一般审核时间在3-20天，期间要关闭网站。我这里是辽宁省通信管理局，截至目前，仍正在审核。</p>
+]]></content>
+      <categories>
+        <category>基于hexo的博客搭建教程</category>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>博客教程</tag>
+        <tag>第一次</tag>
+        <tag>博客</tag>
+        <tag>学习</tag>
+        <tag>备案</tag>
+      </tags>
+  </entry>
 </search>

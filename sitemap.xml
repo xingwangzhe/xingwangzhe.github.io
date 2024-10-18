@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xingwangzhe.github.io/posts/62f08794/</loc>
+    
+    <lastmod>2024-10-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xingwangzhe.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/index.html</loc>
     
     <lastmod>2024-10-15</lastmod>
@@ -1381,7 +1390,7 @@
 
   <url>
     <loc>https://xingwangzhe.github.io/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1389,357 +1398,364 @@
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/LeetCode/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E7%AE%97%E6%B3%95%E9%A2%98/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/java/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/Vue3/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/CSS/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/HTML/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E6%B8%B8%E8%A7%88/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/hexo/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/live2d/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/wiki/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E6%87%92%E5%BE%97%E5%8A%A8/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/gitalk/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E5%93%88%E5%9F%BA%E7%B1%B3/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E7%88%B1%E7%8C%ABtv/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/next/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/js/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/404/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E5%85%AC%E7%9B%8A/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/freecodecamp/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E5%A7%93%E4%BA%8E%E8%80%85/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E7%AC%AC%E4%B8%80/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E6%8A%BD%E8%B1%A1/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/webpusher/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/github/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AE%9E%E8%AE%AD/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/Typescript/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E7%A5%9E%E4%BA%BA/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E5%BC%80%E5%BE%80/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/recaptcha/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E9%AA%8C%E8%AF%81%E7%A0%81/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E8%B0%B7%E6%AD%8C/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/google/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E8%A7%A3%E5%86%B3/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/Pull-requests/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E8%AF%BE%E7%A8%8B/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/tags/DNS/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/tags/%E5%A4%87%E6%A1%88/</loc>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1748,224 +1764,231 @@
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E7%AE%97%E6%B3%95%E9%A2%98/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/Vue3/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E7%AE%97%E6%B3%95%E9%A2%98/LeetCode/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/Vue3/%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/CSS/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/Vue3/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/HTML/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%BC%80%E7%AF%87%E8%87%B4%E8%B0%A2/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E8%BF%B7/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E6%B8%B8%E6%88%8F/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/github/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/gitalk/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/js/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/HTML/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E5%93%88%E5%9F%BA%E7%B1%B3%E7%88%B1%E7%8C%ABtv/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E6%97%A5%E8%AE%B0/%E8%BF%B7/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/HTML/CSS/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E8%BF%B7/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/%E5%93%88%E5%9F%BA%E7%B1%B3%E7%88%B1%E7%8C%ABtv/%E5%A4%A7%E7%9F%B3%E7%A2%8E%E8%83%B8%E5%8F%A3/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E8%AF%BE%E7%A8%8B/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/%E5%89%8D%E7%AB%AF/CSS/%E5%93%88%E5%9F%BA%E7%B1%B3%E7%88%B1%E7%8C%ABtv/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xingwangzhe.github.io/categories/CSS/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xingwangzhe.github.io/categories/%E5%9F%BA%E4%BA%8Ehexo%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
